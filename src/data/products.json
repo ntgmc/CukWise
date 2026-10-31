@@ -1,0 +1,3794 @@
+[
+  {
+    "id": "6-power",
+    "name": "6号电能块",
+    "category": "powerbank",
+    "model": "PB060",
+    "summary": "6000 mAh 小容量，适合随身应急。",
+    "series": "数字系列",
+    "tags": [
+      "轻便",
+      "通勤"
+    ],
+    "protocols": [
+      "PD 3.0",
+      "PPS",
+      "小米澎湃秒充"
+    ],
+    "capacityMah": 6000.0,
+    "maxOutputW": 55,
+    "pdOutputW": 39,
+    "inputW": 45.0,
+    "weightG": 153.0,
+    "ports": "USB-C × 2",
+    "specs": {
+      "产品尺寸": "81.3 × 45 × 28.95 mm",
+      "电量显示": "LED数显",
+      "官网目录标识": "PB062",
+      "型号说明": "官网目录链接为 PB062，规格图标注 PB060。",
+      "电池能量": "21.5 / 22.2 Wh（额定 / 典型，7.4 V）",
+      "额定容量": "3300 mAh（5 V / 3 A）",
+      "USB-C1 输出": "5 V / 3 A；9 V / 3 A；12 V / 2.5 A；15 V / 2.6 A；5–11 V / 5 A；5–20 V / 2.5 A；55 W MAX",
+      "USB-C2 输出": "5 V / 3 A；9 V / 3 A；12 V / 2.5 A；15 V / 2.6 A；5–11 V / 3 A",
+      "输入规格": "两口均支持 5 / 9 / 12 / 15 V，3 A；45 W MAX",
+      "多口总输出": "15 W（5 V / 3 A）",
+      "充电时间": "约 1.2 小时（45 W 及以上充电器）；约 2 小时（18 W）"
+    },
+    "baseProductId": null,
+    "status": "published",
+    "updatedAt": "2026-10-31",
+    "sourceUrl": "https://www.cuktech.com.cn/products/pb062.html",
+    "sourceLabel": "酷态科官网产品页及规格图",
+    "image": "images/products/pb062.webp",
+    "specImages": [
+      "images/products/specs/832b294d5c1d3701903e.webp",
+      "images/products/specs/022e1650f43808203244.webp"
+    ]
+  },
+  {
+    "id": "10-magnetic",
+    "name": "10号磁吸电能卡",
+    "category": "powerbank",
+    "model": "WPB100P",
+    "summary": "10000 mAh，支持磁吸和 55 W 双向有线快充。",
+    "series": "数字系列",
+    "tags": [
+      "磁吸",
+      "通勤"
+    ],
+    "protocols": [
+      "PD 3.0",
+      "PPS",
+      "小米澎湃秒充",
+      "BPP",
+      "EPP"
+    ],
+    "capacityMah": 10000.0,
+    "maxOutputW": 55.0,
+    "pdOutputW": 45,
+    "inputW": 55.0,
+    "weightG": 216,
+    "ports": "USB-C × 1 / 磁吸无线充 × 1",
+    "specs": {
+      "电池技术": "硅碳负极",
+      "充电模式": "OPC 放心充 2.0",
+      "产品尺寸": "106 × 71 × 17.7 mm",
+      "电量显示": "TFT彩屏",
+      "电池能量": "38.5 Wh（7.7 V，5000 mAh）",
+      "额定容量": "5800 mAh（5 V / 3 A）",
+      "输入规格": "5 V / 3 A；9 V / 3 A；15 V / 3 A；5–11 V / 5 A",
+      "USB-C 输出": "5 V / 3 A；9 V / 3 A；15 V / 3 A；5–11 V / 5 A；55 W MAX",
+      "无线输出": "15 W MAX",
+      "多口总输出": "15 W MAX",
+      "无线感应距离": "≤ 4 mm",
+      "充电时间": "约 2 小时（45 W 及以上 PD）；约 3 小时（20 W 及以上 PD）",
+      "资料备注": "官网目录重量为约 218 g，详细规格图为约 216 g；本页按规格图记录。"
+    },
+    "baseProductId": null,
+    "status": "published",
+    "updatedAt": "2026-10-31",
+    "sourceUrl": "https://www.cuktech.com.cn/products/wpb100p.html",
+    "sourceLabel": "酷态科官网产品页及规格图",
+    "image": "images/products/wpb100p.webp",
+    "specImages": [
+      "images/products/specs/1266eecc9eeb10fe6a6c.webp",
+      "images/products/specs/c72a33cf40c6307ea6d7.webp"
+    ]
+  },
+  {
+    "id": "10-power",
+    "name": "10号电能棒",
+    "category": "powerbank",
+    "model": "PB100P",
+    "summary": "10000 mAh，单口最高 120 W 输出。",
+    "series": "数字系列",
+    "tags": [
+      "通勤",
+      "高功率"
+    ],
+    "protocols": [
+      "PD 3.0",
+      "PPS",
+      "小米澎湃秒充",
+      "UFCS",
+      "QC 3.0",
+      "AFC",
+      "FCP"
+    ],
+    "capacityMah": 10000.0,
+    "maxOutputW": 150,
+    "pdOutputW": 100,
+    "inputW": 90.0,
+    "weightG": 287.5,
+    "ports": "USB-C × 1 / USB-A × 1",
+    "specs": {
+      "多口总输出": "150 W MAX",
+      "产品尺寸": "143 × 45 × 33.4 mm",
+      "电量显示": "TFT彩屏",
+      "电池能量": "35.28 / 36 Wh（额定 / 典型，14.4 V）",
+      "额定容量": "5500 mAh（5 V / 4 A）",
+      "输入规格": "5 / 9 / 12 / 15 V，3 A；20 V / 4.5 A",
+      "USB-C 输出": "5 / 9 / 12 / 15 V，3 A；20 V / 6 A；120 W MAX",
+      "USB-A 输出": "5 V / 3 A；9 V / 3 A；5–11 V / 3 A；33 W MAX",
+      "单口最大输出": "120 W MAX",
+      "充电时间": "约 1 小时（90 W 及以上）；约 2.5 小时（18 W）"
+    },
+    "baseProductId": null,
+    "status": "published",
+    "updatedAt": "2026-10-31",
+    "sourceUrl": "https://www.cuktech.com.cn/products/pb100p.html",
+    "sourceLabel": "酷态科官网产品页及规格图",
+    "image": "images/products/pb100p.webp",
+    "specImages": [
+      "images/products/specs/934684d46f81800ecaa3.webp",
+      "images/products/specs/a48ccb1f3217e8b6ba71.webp",
+      "images/products/specs/69fa52a8c80ed318e197.webp"
+    ]
+  },
+  {
+    "id": "10-mini",
+    "name": "10号电能棒 Mini",
+    "category": "powerbank",
+    "model": "PB1055",
+    "summary": "可拆卸式自带线，收纳更方便。",
+    "series": "数字系列",
+    "tags": [
+      "自带线",
+      "通勤"
+    ],
+    "protocols": [
+      "PD 3.0",
+      "PPS",
+      "小米澎湃秒充",
+      "UFCS",
+      "QC 3.0",
+      "AFC",
+      "SCP",
+      "FCP"
+    ],
+    "capacityMah": 10000.0,
+    "maxOutputW": 55.0,
+    "pdOutputW": 45,
+    "inputW": 55.0,
+    "weightG": 217.5,
+    "ports": "USB-C × 2 / USB-A × 1",
+    "specs": {
+      "线材设计": "可拆卸式自带线",
+      "产品尺寸": "90.3 × 50.46 × 33 mm",
+      "电量显示": "LED数显",
+      "电池能量": "35.28 / 36 Wh（额定 / 典型，7.2 V）",
+      "额定容量": "5600 mAh（5 V / 3 A）",
+      "输入规格": "USB-C1 / C2：5 / 9 / 12 / 15 V，3 A；5–11 V / 5 A",
+      "USB-C 输出": "两口均为 5 / 9 / 12 / 15 V，3 A；20 V / 2 A；5–20 V / 2.5 A；5–11 V / 5 A；55 W MAX",
+      "USB-A 输出": "5 V / 3 A；9 V / 3 A；12 V / 1.5 A；5–11 V / 3 A；33 W MAX",
+      "多口总输出": "20 W（5 V / 4 A）",
+      "充电时间": "约 1.5 小时（65 W 及以上）；约 2.5 小时（18 W）"
+    },
+    "baseProductId": null,
+    "status": "published",
+    "updatedAt": "2026-10-31",
+    "sourceUrl": "https://www.cuktech.com.cn/products/pb1055.html",
+    "sourceLabel": "酷态科官网产品页及规格图",
+    "image": "images/products/pb1055.webp",
+    "specImages": [
+      "images/products/specs/2e243207d80875811a3d.webp",
+      "images/products/specs/a9b328bafefa1b44fed3.webp"
+    ]
+  },
+  {
+    "id": "15-air",
+    "name": "15号移动电源 Air",
+    "category": "powerbank",
+    "model": "PB150S",
+    "summary": "15000 mAh，采用硅碳负极电池。",
+    "series": "数字系列",
+    "tags": [
+      "差旅"
+    ],
+    "protocols": [
+      "PD 3.0",
+      "PPS",
+      "小米澎湃秒充",
+      "UFCS",
+      "QC 3.0",
+      "AFC",
+      "SCP",
+      "FCP"
+    ],
+    "capacityMah": 15000.0,
+    "maxOutputW": 100,
+    "pdOutputW": 65,
+    "inputW": 100,
+    "weightG": 305,
+    "ports": "USB-C × 2 / USB-A × 1",
+    "specs": {
+      "电池技术": "硅碳负极",
+      "技术特点": "GaN 技术",
+      "产品尺寸": "132.1 × 72 × 21 mm",
+      "电量显示": "TFT彩屏",
+      "电池能量": "57.75 / 58.32 Wh（额定 / 典型，11.55 V）",
+      "额定容量": "8800 mAh（5 V / 3 A）",
+      "输入规格": "USB-C1：5 / 9 / 12 / 15 V，3 A；20 V / 5 A",
+      "USB-C1 输出": "5 / 9 / 12 / 15 V，3 A；20 V / 3.25 A；5–11 V / 6.1 A；5–20 V / 4.5 A；90 W MAX",
+      "USB-C2 输出": "5 V / 3 A；9 V / 3 A；5–11 V / 3 A；33 W MAX",
+      "USB-A 输出": "5 V / 3 A；9 V / 3 A；5–11 V / 3 A；33 W MAX",
+      "单口最大输出": "90 W MAX",
+      "多口总输出": "100 W MAX",
+      "充电时间": "约 1.5 小时（65 W 及以上）；约 4 小时（18 W）",
+      "资料备注": "官网目录输入功率为 65 W；规格图列出 20 V / 5 A 输入。本页保留规格图档位及官网充电时间。"
+    },
+    "baseProductId": null,
+    "status": "published",
+    "updatedAt": "2026-10-31",
+    "sourceUrl": "https://www.cuktech.com.cn/products/pb150s.html",
+    "sourceLabel": "酷态科官网产品页及规格图",
+    "image": "images/products/pb150s.webp",
+    "specImages": [
+      "images/products/specs/262994a000164d71ff58.webp",
+      "images/products/specs/932e02cfc8f8ceee1be2.webp"
+    ]
+  },
+  {
+    "id": "10-plus",
+    "name": "10号电能棒 Plus",
+    "category": "powerbank",
+    "model": "PB150P",
+    "summary": "15000 mAh，支持 100 W 自充。",
+    "series": "数字系列",
+    "tags": [
+      "差旅",
+      "高功率"
+    ],
+    "protocols": [
+      "PD 3.0",
+      "PPS",
+      "小米澎湃秒充",
+      "UFCS",
+      "QC 3.0",
+      "AFC",
+      "SCP",
+      "FCP"
+    ],
+    "capacityMah": 15000.0,
+    "maxOutputW": 120.0,
+    "pdOutputW": 70,
+    "inputW": 100.0,
+    "weightG": 345.0,
+    "ports": "USB-C × 2 / USB-A × 1",
+    "specs": {
+      "产品尺寸": "153.7 × 34.8 × 51 mm",
+      "电量显示": "TFT彩屏",
+      "电池能量": "52.92 / 54 Wh（额定 / 典型，10.8 V）",
+      "额定容量": "8300 mAh（5 V / 2 A）",
+      "输入规格": "USB-C1：5 / 9 / 12 / 15 V，3 A；20 V / 5 A",
+      "USB-C1 输出": "5 / 9 / 12 / 15 V，3 A；20 V / 3.5 A；5–20 V / 6 A；120 W MAX",
+      "USB-C2 输出": "5 V / 3 A；9 V / 3 A；5–11 V / 3 A；33 W MAX",
+      "USB-A 输出": "5 V / 3 A；9 V / 3 A；5–11 V / 3 A；33 W MAX",
+      "多口输出": "5 V / 4 A；9 V / 9 A，具体分配见规格图",
+      "使用温度": "5–35 ℃",
+      "充电时间": "约 1.5 小时（65 W 及以上）；约 4 小时（18 W）"
+    },
+    "baseProductId": null,
+    "status": "published",
+    "updatedAt": "2026-10-31",
+    "sourceUrl": "https://www.cuktech.com.cn/products/pb150p.html",
+    "sourceLabel": "酷态科官网产品页及规格图",
+    "image": "images/products/pb150p.webp",
+    "specImages": [
+      "images/products/specs/388f0c0534790f88f048.webp"
+    ]
+  },
+  {
+    "id": "15-power",
+    "name": "15号电能柱",
+    "category": "powerbank",
+    "model": "PB200PS",
+    "summary": "20000 mAh，单口最高 120 W，可为笔记本提供 100 W PD 输出。",
+    "series": "数字系列",
+    "tags": [
+      "差旅",
+      "笔记本"
+    ],
+    "protocols": [
+      "PD 3.0",
+      "PPS",
+      "小米澎湃秒充",
+      "UFCS",
+      "QC 3.0"
+    ],
+    "capacityMah": 20000.0,
+    "maxOutputW": 150,
+    "pdOutputW": 100,
+    "inputW": 90.0,
+    "weightG": 450.0,
+    "ports": "USB-C × 2 / USB-A × 1",
+    "specs": {
+      "多口总输出": "150 W MAX",
+      "产品尺寸": "163 × 57 × 39.9 mm",
+      "电量显示": "LED数显",
+      "电池能量": "70.56 / 72 Wh（额定 / 典型，14.4 V）",
+      "额定容量": "11000 mAh（5 V / 6 A）",
+      "输入规格": "USB-C1：5 / 9 / 12 / 15 V，3 A；20 V / 4.5 A",
+      "USB-C1 输出": "5 / 9 / 12 / 15 V，3 A；20 V / 6 A；120 W MAX",
+      "USB-C2 输出": "5 V / 3 A；9 V / 3 A；12 V / 2.5 A；5–11 V / 3 A；33 W MAX",
+      "USB-A 输出": "5 V / 3 A；9 V / 2.23 A；12 V / 1.67 A；5–11 V / 3 A；33 W MAX",
+      "单口最大输出": "120 W MAX",
+      "充电时间": "约 2 小时（100 W 及以上）；约 5 小时（18 W）"
+    },
+    "baseProductId": null,
+    "status": "published",
+    "updatedAt": "2026-10-31",
+    "sourceUrl": "https://www.cuktech.com.cn/products/pb200ps.html",
+    "sourceLabel": "酷态科官网产品页及规格图",
+    "image": "images/products/pb200ps.webp",
+    "specImages": [
+      "images/products/specs/a7ab5b49af6c29189d19.webp",
+      "images/products/specs/77690d4059298dbaa297.webp",
+      "images/products/specs/1afda7efd0c093d4c28a.webp"
+    ]
+  },
+  {
+    "id": "15-se",
+    "name": "15号电能柱 SE",
+    "category": "powerbank",
+    "model": "PB200",
+    "summary": "20000 mAh，笔记本充电最高 65 W。",
+    "series": "数字系列",
+    "tags": [
+      "差旅",
+      "笔记本"
+    ],
+    "protocols": [
+      "PD 3.0",
+      "PPS",
+      "小米澎湃秒充",
+      "UFCS",
+      "QC 3.0",
+      "AFC",
+      "SCP",
+      "FCP"
+    ],
+    "capacityMah": 20000.0,
+    "maxOutputW": 100,
+    "pdOutputW": 65,
+    "inputW": 65,
+    "weightG": 500.0,
+    "ports": "USB-C × 2 / USB-A × 1",
+    "specs": {
+      "双口总输出": "100 W MAX",
+      "产品尺寸": "152 × 44.4 × 52 mm",
+      "电量显示": "LED数显",
+      "电池能量": "72 / 73.44 Wh（额定 / 典型，14.4 V）",
+      "额定容量": "11000 mAh（5 V / 3 A）",
+      "输入规格": "USB-C1：5 / 9 / 12 / 15 V，3 A；20 V / 3.25 A",
+      "USB-C1 输出": "5 / 9 / 12 / 15 V，3 A；20 V / 3.25 A；5–11 V / 6.1 A；67 W MAX",
+      "USB-C2 输出": "5 V / 3 A；9 V / 3 A；5–11 V / 3 A；33 W MAX",
+      "USB-A 输出": "5 V / 3 A；9 V / 3 A；5–11 V / 3 A；33 W MAX",
+      "单口最大输出": "67 W MAX",
+      "多口总输出": "100 W MAX",
+      "充电时间": "约 2 小时（65 W 及以上）；约 5 小时（18 W）",
+      "资料备注": "官网目录输入功率为 67 W，规格图固定输入最高 20 V / 3.25 A（65 W）。"
+    },
+    "baseProductId": null,
+    "status": "published",
+    "updatedAt": "2026-10-31",
+    "sourceUrl": "https://www.cuktech.com.cn/products/pb200.html",
+    "sourceLabel": "酷态科官网产品页及规格图",
+    "image": "images/products/pb200.webp",
+    "specImages": [
+      "images/products/specs/18b6d3aa3007438ff211.webp",
+      "images/products/specs/cc58c1a2e089660c0730.webp",
+      "images/products/specs/2deceb05215fdfa600a5.webp"
+    ]
+  },
+  {
+    "id": "15-ultra",
+    "name": "15号电能柱 Ultra",
+    "category": "powerbank",
+    "model": "PB200U",
+    "summary": "20000 mAh，单口 PD 140 W，支持双口自充。",
+    "series": "数字系列",
+    "tags": [
+      "笔记本",
+      "高功率",
+      "差旅"
+    ],
+    "protocols": [
+      "PD 3.1",
+      "PPS",
+      "小米澎湃秒充",
+      "UFCS",
+      "QC 3.0",
+      "AFC",
+      "SCP",
+      "FCP"
+    ],
+    "capacityMah": 20000.0,
+    "maxOutputW": 210.0,
+    "pdOutputW": 140,
+    "inputW": 165,
+    "weightG": 590.0,
+    "ports": "USB-C × 2 / USB-A × 1",
+    "specs": {
+      "多口总输出": "210 W MAX",
+      "自充方式": "双口合计最高 165 W",
+      "电量显示": "TFT彩屏",
+      "产品尺寸": "152 × 44.5 × 57.1 mm",
+      "电池能量": "70.56 / 72 Wh（额定 / 典型，14.4 V）",
+      "额定容量": "12000 mAh（5 V / 4 A）",
+      "输入规格": "C1：5 / 9 / 12 / 15 V，3 A；20 / 28 V，5 A；C2：5 / 9 / 12 / 15 V，3 A；20 V / 3.25 A",
+      "单口最大输入": "C1：140 W；C2：65 W",
+      "双口总输入": "165 W（C1 100 W + C2 65 W，需两台充电器）",
+      "USB-C1 输出": "5 / 9 / 12 / 15 V，3 A；20 V / 5 A；5–20 V / 6 A；28 V / 5 A；140 W MAX",
+      "USB-C2 输出": "5 / 9 / 12 / 15 V，3 A；20 V / 3.25 A；5–11 V / 5 A；5–20 V / 4.5 A；90 W MAX",
+      "USB-A 输出": "5 V / 3 A；9 V / 3 A；5–11 V / 3 A；33 W MAX",
+      "充电时间": "约 1 小时（120 W 及以上）；约 5.5 小时（18 W）",
+      "资料备注": "官网目录尺寸末项为 58.1 mm，详细规格图为 57.1 mm；本页按规格图记录。"
+    },
+    "baseProductId": null,
+    "status": "published",
+    "updatedAt": "2026-10-31",
+    "sourceUrl": "https://www.cuktech.com.cn/products/pb200u.html",
+    "sourceLabel": "酷态科官网产品页及规格图",
+    "image": "images/products/pb200u.webp",
+    "specImages": [
+      "images/products/specs/657dc6cb03a10e26dbd8.webp",
+      "images/products/specs/39189d51f8c7fc59d3cb.webp",
+      "images/products/specs/a18187bc8ef872da9a18.webp"
+    ]
+  },
+  {
+    "id": "20-power",
+    "name": "20号电能柱",
+    "category": "powerbank",
+    "model": "P23",
+    "summary": "25000 mAh，单口 PD 140 W。",
+    "series": "数字系列",
+    "tags": [
+      "笔记本",
+      "差旅",
+      "大容量"
+    ],
+    "protocols": [
+      "PD 3.1",
+      "PPS",
+      "小米澎湃秒充",
+      "QC 3.0",
+      "AFC",
+      "FCP"
+    ],
+    "capacityMah": 25000.0,
+    "maxOutputW": 210,
+    "pdOutputW": 140,
+    "inputW": 110.0,
+    "weightG": 632.0,
+    "ports": "USB-C × 2 / USB-A × 1",
+    "specs": {
+      "多口总输出": "210 W MAX",
+      "电池能量": "89.5 / 91.3 Wh（额定 / 典型，18.25 V）",
+      "产品尺寸": "159.9 × 55.1 × 55.1 mm",
+      "电量显示": "TFT彩屏",
+      "额定容量": "13500 mAh（5 V / 6 A）",
+      "输入规格": "C1：5 / 9 / 12 / 15 V，3 A；20 V / 5.5 A；C2：5 / 9 / 12 / 15 / 20 V，3 A",
+      "USB-C1 输出": "5 / 9 / 12 / 15 V，3 A；20 V / 6 A；28 V / 5 A；140 W MAX",
+      "USB-C2 输出": "5 / 9 / 12 / 15 / 20 V，3 A；60 W MAX",
+      "USB-A 输出": "5 V / 3 A；9 V / 2.23 A；12 V / 1.67 A；5–11 V / 3 A；30 W MAX",
+      "充电时间": "约 2 小时（110 W 及以上）；约 6 小时（18 W）"
+    },
+    "baseProductId": null,
+    "status": "published",
+    "updatedAt": "2026-10-31",
+    "sourceUrl": "https://www.cuktech.com.cn/products/p23.html",
+    "sourceLabel": "酷态科官网产品页及规格图",
+    "image": "images/products/p23.webp",
+    "specImages": [
+      "images/products/specs/b00b7efb45eaa4fdaefd.webp",
+      "images/products/specs/ecd84420f8e6ea0756f5.webp",
+      "images/products/specs/a567b1c2e98c4bb3573b.webp"
+    ]
+  },
+  {
+    "id": "25-se",
+    "name": "25号电能块 SE",
+    "category": "powerbank",
+    "model": "LPB252N",
+    "summary": "25000 mAh，支持 100 W 自充。",
+    "series": "数字系列",
+    "tags": [
+      "大容量",
+      "差旅"
+    ],
+    "protocols": [
+      "PD 3.0",
+      "PPS",
+      "小米澎湃秒充",
+      "QC 3.0",
+      "AFC",
+      "SCP",
+      "FCP"
+    ],
+    "capacityMah": 25000.0,
+    "maxOutputW": 120.0,
+    "pdOutputW": 100,
+    "inputW": 100.0,
+    "weightG": 543.0,
+    "ports": "USB-C × 1 + 自带 USB-C 线 × 1 / USB-A × 1",
+    "specs": {
+      "产品尺寸": "159.9 × 80.8 × 27.3 mm",
+      "电量显示": "LED数显",
+      "电池能量": "88.2 / 90 Wh（额定 / 典型，18 V）",
+      "额定容量": "13500 mAh（5 V / 3 A）",
+      "输入规格": "USB-C 口及自带线：5 / 9 / 12 / 15 V，3 A；20 V / 5 A",
+      "USB-C 输出": "USB-C 口及自带线：5 / 9 / 12 / 15 V，3 A；20 V / 5 A；5–11 V / 6 A；5–20 V / 6 A；120 W MAX",
+      "USB-A 输出": "5 V / 3 A；9 V / 2 A；10 V / 2.25 A；22.5 W MAX",
+      "多口总输出": "20 W（5 V / 4 A）"
+    },
+    "baseProductId": null,
+    "status": "published",
+    "updatedAt": "2026-10-31",
+    "sourceUrl": "https://www.cuktech.com.cn/products/lpb252n.html",
+    "sourceLabel": "酷态科官网产品页及规格图",
+    "image": "images/products/lpb252n.webp",
+    "specImages": [
+      "images/products/specs/c43e471c3fd4eb6cf31c.webp"
+    ]
+  },
+  {
+    "id": "30-power",
+    "name": "30号电能仓",
+    "category": "powerbank",
+    "model": "P01CT",
+    "summary": "40000 mAh，适合桌面和长时间户外使用。",
+    "series": "数字系列",
+    "tags": [
+      "大容量",
+      "笔记本",
+      "桌面"
+    ],
+    "protocols": [
+      "PD 3.1",
+      "PPS",
+      "小米澎湃秒充",
+      "QC 3.0",
+      "AFC",
+      "SCP",
+      "FCP"
+    ],
+    "capacityMah": 40000.0,
+    "maxOutputW": 300,
+    "pdOutputW": 140,
+    "inputW": 140.0,
+    "weightG": 1124.0,
+    "ports": "USB-C × 2 / USB-A × 2",
+    "specs": {
+      "多口总输出": "300 W MAX",
+      "其他功能": "USB HUB",
+      "产品尺寸": "86.8 × 88.6 × 106.5 mm",
+      "电量显示": "LED数显",
+      "电池能量": "143.1 / 146 Wh（额定 / 典型）",
+      "额定容量": "22000 mAh（5 V / 6 A）",
+      "输入规格": "C1：5 / 9 / 12 / 15 V，3 A；20 V / 5 A；C2 另支持 28 V / 5 A",
+      "USB-C1 输出": "5 / 9 / 12 / 15 V，3 A；20 V / 5 A；100 W MAX",
+      "USB-C2 输出": "5 / 9 / 12 / 15 V，3 A；20 V / 5 A；28 V / 5 A；140 W MAX",
+      "USB-A1 输出": "5 V / 3 A；9 V / 2.23 A；12 V / 1.67 A；10 V / 2.25 A；22.5 W MAX",
+      "USB-A2 输出": "5 / 9 / 12 / 15 V，3 A；20 V / 6 A；120 W MAX",
+      "无线输出": "20 W MAX",
+      "充电时间": "约 2.5 小时（140 W）；约 10 小时（18 W）"
+    },
+    "baseProductId": null,
+    "status": "published",
+    "updatedAt": "2026-10-31",
+    "sourceUrl": "https://www.cuktech.com.cn/products/p01ct.html",
+    "sourceLabel": "酷态科官网产品页及规格图",
+    "image": "images/products/p01ct.webp",
+    "specImages": [
+      "images/products/specs/f5aecd85aeedd9e1a969.webp",
+      "images/products/specs/8d3b472bcedd5b7b12f5.webp",
+      "images/products/specs/7ef68602aafe6da551fd.webp",
+      "images/products/specs/5cb8c7f9bd0c103236aa.webp"
+    ]
+  },
+  {
+    "id": "energy600",
+    "name": "电能仓 600",
+    "category": "station",
+    "model": "PS600N",
+    "summary": "512 Wh 磷酸铁锂电池，支持最高 600 W 自充。",
+    "series": "数字系列",
+    "tags": [
+      "户外",
+      "大容量"
+    ],
+    "protocols": [
+      "PD 3.1",
+      "PPS",
+      "小米澎湃秒充"
+    ],
+    "capacityMah": null,
+    "maxOutputW": 1013,
+    "pdOutputW": 140,
+    "inputW": 600,
+    "weightG": 6500,
+    "ports": "AC 插座 × 2 / USB-C × 2 / USB-A × 2 / 车充口 × 1",
+    "specs": {
+      "电池能量": "512 Wh（25.6 V，20 Ah）",
+      "升维驱动": "1000 W（官网功能标称，额定交流输出为 600 W）",
+      "电池组容量": "20 Ah（25.6 V）",
+      "电池种类": "磷酸铁锂电池",
+      "产品尺寸": "255 × 180 × 246 mm",
+      "交流输出": "600 W MAX；220 V~ / 50 Hz；旁路模式 800 W MAX",
+      "车充口输出": "13 V / 10 A，130 W MAX",
+      "USB-C1 输出": "5 / 9 / 12 / 15 V，3 A；20 / 28 V，5 A；5–20 V / 6 A；140 W MAX",
+      "USB-C2 输出": "5 / 9 / 12 / 15 V，3 A；20 V / 5 A；100 W MAX",
+      "USB-A1 输出": "5 V / 3 A；9 V / 2 A；5–11 V / 3 A；33 W MAX",
+      "USB-A2 输出": "5 V / 2 A，10 W",
+      "输入规格": "AC：200–240 V~，50/60 Hz，7 A MAX；太阳能 / 直流：11–28 V / 10 A，200 W MAX；USB-C1：最高 28 V / 5 A，140 W",
+      "使用温度": "最佳工作温度 5–40 ℃；储存 −15–40 ℃"
+    },
+    "baseProductId": null,
+    "status": "published",
+    "updatedAt": "2026-10-31",
+    "sourceUrl": "https://www.cuktech.com.cn/products/ps600n.html",
+    "sourceLabel": "酷态科官网产品页及规格图",
+    "image": "images/products/ps600n.webp",
+    "specImages": [
+      "images/products/specs/9ba7dbf40b08c11d5abf.webp",
+      "images/products/specs/c0da391aaca1d7e06e0f.webp",
+      "images/products/specs/115ec980552f9d0649a6.webp"
+    ]
+  },
+  {
+    "id": "cp12-cable",
+    "name": "CP12 磁吸电能块·自带线",
+    "category": "powerbank",
+    "model": "WPB100L",
+    "summary": "磁吸与自带线结合，有线最高 22.5 W。",
+    "series": "CP 系列",
+    "tags": [
+      "磁吸",
+      "自带线",
+      "通勤"
+    ],
+    "protocols": [
+      "PD 3.0",
+      "QC 3.0",
+      "AFC",
+      "SCP",
+      "BPP",
+      "EPP"
+    ],
+    "capacityMah": 10000.0,
+    "maxOutputW": 22.5,
+    "pdOutputW": 20,
+    "inputW": 20.0,
+    "weightG": 211.0,
+    "ports": "USB-C × 1 + 自带 USB-C 线 × 1 / 磁吸无线充",
+    "specs": {
+      "产品尺寸": "108.7 × 67.9 × 19.4 mm",
+      "电量显示": "LED指示灯",
+      "电池能量": "36.5 Wh（3.65 V，10000 mAh）",
+      "额定容量": "5800 mAh（5 V / 2 A）",
+      "输入规格": "USB-C 口及自带线：5 V / 3 A；9 V / 2.22 A",
+      "USB-C 输出": "USB-C 口及自带线：5 V / 3 A；9 V / 2.22 A；10 V / 2.25 A；22.5 W MAX",
+      "无线输出": "7.5 W MAX",
+      "多口总输出": "15 W MAX（含有线 + 无线）",
+      "无线感应距离": "≤ 4 mm"
+    },
+    "baseProductId": null,
+    "status": "published",
+    "updatedAt": "2026-10-31",
+    "sourceUrl": "https://www.cuktech.com.cn/products/wpb100l.html",
+    "sourceLabel": "酷态科官网产品页及规格图",
+    "image": "images/products/wpb100l.webp",
+    "specImages": [
+      "images/products/specs/86462b01b439a484b5bb.webp",
+      "images/products/specs/b013b241de3402bcd789.webp"
+    ]
+  },
+  {
+    "id": "cp13-pocket",
+    "name": "CP13 电能块·口袋版",
+    "category": "powerbank",
+    "model": "PB100S",
+    "summary": "10000 mAh，双向最高 30 W 快充。",
+    "series": "CP 系列",
+    "tags": [
+      "通勤",
+      "轻便"
+    ],
+    "protocols": [
+      "PD 3.0",
+      "PPS",
+      "小米澎湃秒充",
+      "UFCS",
+      "QC 3.0",
+      "AFC",
+      "SCP",
+      "FCP"
+    ],
+    "capacityMah": 10000.0,
+    "maxOutputW": 33,
+    "pdOutputW": 30,
+    "inputW": 30.0,
+    "weightG": 195.0,
+    "ports": "USB-C × 1 / USB-A × 1",
+    "specs": {
+      "产品尺寸": "80 × 57.82 × 28.4 mm",
+      "电量显示": "脉冲星轨灯带",
+      "电池能量": "35.28 / 36 Wh（额定 / 典型，7.2 V）",
+      "额定容量": "5600 mAh（5 V / 3 A）",
+      "输入规格": "5 V / 3 A；9 V / 3 A；12 V / 2.5 A",
+      "USB-C 输出": "5 V / 3 A；9 V / 3 A；12 V / 2.5 A；30 W MAX",
+      "USB-A 输出": "5 V / 3 A；9 V / 3 A；12 V / 2.5 A；5–11 V / 3 A；33 W MAX",
+      "多口总输出": "15 W（5 V / 3 A）",
+      "使用温度": "5–35 ℃",
+      "资料备注": "目录标称 30 W；详细规格图 USB-A 口列出 33 W 输出，USB-C 为 30 W。"
+    },
+    "baseProductId": null,
+    "status": "published",
+    "updatedAt": "2026-10-31",
+    "sourceUrl": "https://www.cuktech.com.cn/products/pb100s.html",
+    "sourceLabel": "酷态科官网产品页及规格图",
+    "image": "images/products/pb100s.webp",
+    "specImages": [
+      "images/products/specs/45433966da814d8dc0a6.webp",
+      "images/products/specs/ad45e2c8f9029143f5c9.webp"
+    ]
+  },
+  {
+    "id": "cp12-stand",
+    "name": "CP12 磁吸电能块·支架款",
+    "category": "powerbank",
+    "model": "WPB100N",
+    "summary": "支架和磁吸无线充结合，适合随放随充。",
+    "series": "CP 系列",
+    "tags": [
+      "磁吸",
+      "桌面"
+    ],
+    "protocols": [
+      "PD 3.0",
+      "QC 3.0",
+      "AFC",
+      "SCP",
+      "BPP",
+      "EPP"
+    ],
+    "capacityMah": 10000.0,
+    "maxOutputW": 20.0,
+    "pdOutputW": 20,
+    "inputW": 20.0,
+    "weightG": 208.0,
+    "ports": "USB-C × 1 / 磁吸无线充 / POGO PIN 底座输入",
+    "specs": {
+      "支架": "支持",
+      "产品尺寸": "114.5 × 82.8 × 72.5 mm",
+      "电量显示": "LED指示灯",
+      "电池能量": "36.5 Wh（3.65 V，10000 mAh）",
+      "额定容量": "5800 mAh（5 V / 2 A）",
+      "输入规格": "USB-C：5 V / 3 A；9 V / 2.22 A；POGO PIN：5 V / 2.4 A；9 V / 2 A",
+      "USB-C 输出": "5 V / 3 A；9 V / 2.22 A；20 W MAX",
+      "无线输出": "7.5 W MAX",
+      "多口总输出": "有线 + 无线：15 W MAX",
+      "重量说明": "约 208 g，不含底座",
+      "尺寸说明": "官网给出的 114.5 × 82.8 × 72.5 mm 为带底座外形。"
+    },
+    "baseProductId": null,
+    "status": "published",
+    "updatedAt": "2026-10-31",
+    "sourceUrl": "https://www.cuktech.com.cn/products/wpb100n.html",
+    "sourceLabel": "酷态科官网产品页及规格图",
+    "image": "images/products/wpb100n.webp",
+    "specImages": [
+      "images/products/specs/94bf7cfc70ee70e59d84.webp",
+      "images/products/specs/d264e488e304b3795ba0.webp"
+    ]
+  },
+  {
+    "id": "cp13-pin",
+    "name": "CP13 电能块·Power-Pin",
+    "category": "powerbank",
+    "model": "BP01",
+    "summary": "Power-Pin 磁吸快拆接口，支持模块扩展。",
+    "series": "CP 系列",
+    "tags": [
+      "通勤",
+      "模块化"
+    ],
+    "protocols": [
+      "PD 3.0",
+      "PPS",
+      "小米澎湃秒充"
+    ],
+    "capacityMah": 10000.0,
+    "maxOutputW": 33.0,
+    "pdOutputW": 30,
+    "inputW": 27.0,
+    "weightG": 224.0,
+    "ports": "USB-C × 1 / Power-Pin × 1",
+    "specs": {
+      "扩展接口": "Power-Pin 磁吸快拆",
+      "产品尺寸": "52.8 × 104.8 × 27 mm",
+      "电量显示": "指示灯",
+      "电池能量": "35.28 / 36 Wh（额定 / 典型，7.2 V）",
+      "额定容量": "5800 mAh（5 V / 2 A）",
+      "输入规格": "5 V / 3 A；9 V / 3 A",
+      "USB-C 输出": "5 V / 3 A；9 V / 3 A；12 V / 2.5 A；5–11 V / 3 A；33 W MAX",
+      "Power-Pin 输出": "5 V / 5 A；25 W MAX",
+      "多口总输出": "20 W（5 V / 4 A）"
+    },
+    "baseProductId": null,
+    "status": "published",
+    "updatedAt": "2026-10-31",
+    "sourceUrl": "https://www.cuktech.com.cn/products/bp01.html",
+    "sourceLabel": "酷态科官网产品页及规格图",
+    "image": "images/products/bp01.webp",
+    "specImages": [
+      "images/products/specs/19f11280474b35ea14ae.webp"
+    ]
+  },
+  {
+    "id": "cp13-cable",
+    "name": "CP13 电能块·自带线",
+    "category": "powerbank",
+    "model": "LPB100",
+    "summary": "10000 mAh，自带编织线，最高 33 W 输出。",
+    "series": "CP 系列",
+    "tags": [
+      "自带线",
+      "通勤"
+    ],
+    "protocols": [
+      "PD 3.0",
+      "PPS",
+      "小米澎湃秒充",
+      "UFCS",
+      "QC 3.0",
+      "AFC",
+      "SCP",
+      "FCP"
+    ],
+    "capacityMah": 10000.0,
+    "maxOutputW": 33.0,
+    "pdOutputW": 30,
+    "inputW": 27.0,
+    "weightG": 215.0,
+    "ports": "USB-C × 1 + 自带 USB-C 线 × 1 / USB-A × 1",
+    "specs": {
+      "产品尺寸": "90 × 58.5 × 29 mm",
+      "电量显示": "脉冲星轨灯带",
+      "电池能量": "35.28 / 36 Wh（额定 / 典型，7.2 V）",
+      "额定容量": "5700 mAh（5 V / 2 A）",
+      "输入规格": "USB-C 口及自带线：5 V / 3 A；9 V / 3 A",
+      "USB-C 输出": "USB-C 口及自带线：5 V / 3 A；9 V / 3 A；12 V / 2.5 A；5–11 V / 3 A；33 W MAX",
+      "USB-A 输出": "5 V / 3 A；9 V / 3 A；12 V / 2.5 A；5–11 V / 3 A；33 W MAX",
+      "多口总输出": "20 W（5 V / 4 A）"
+    },
+    "baseProductId": null,
+    "status": "published",
+    "updatedAt": "2026-10-31",
+    "sourceUrl": "https://www.cuktech.com.cn/products/lpb100.html",
+    "sourceLabel": "酷态科官网产品页及规格图",
+    "image": "images/products/lpb100.webp",
+    "specImages": [
+      "images/products/specs/5bc5f11fdb7d3879a10f.webp",
+      "images/products/specs/792eaa43f4051fbe1e62.webp",
+      "images/products/specs/3afcfd1258305fb302e4.webp"
+    ]
+  },
+  {
+    "id": "cp24-cable",
+    "name": "CP24 电能块·自带线",
+    "category": "powerbank",
+    "model": "LPB200N",
+    "summary": "20000 mAh，输入与输出最高 40 W。",
+    "series": "CP 系列",
+    "tags": [
+      "自带线",
+      "大容量"
+    ],
+    "protocols": [
+      "PD 3.0",
+      "PPS",
+      "小米澎湃秒充",
+      "UFCS",
+      "QC 3.0",
+      "AFC",
+      "SCP",
+      "FCP"
+    ],
+    "capacityMah": 20000.0,
+    "maxOutputW": 40.0,
+    "pdOutputW": 40,
+    "inputW": 40.0,
+    "weightG": 449.0,
+    "ports": "USB-C × 1 + 自带 USB-C 线 × 1 / USB-A × 1",
+    "specs": {
+      "产品尺寸": "158.7 × 70 × 29.7 mm",
+      "电量显示": "LED数显",
+      "额定容量": "12000 mAh（5 V / 3 A）",
+      "输入规格": "USB-C 口及自带线：5 / 9 / 12 V，3 A；15 V / 2.7 A",
+      "USB-C 输出": "USB-C 口及自带线：5 / 9 / 12 V，3 A；15 V / 2.7 A；40 W MAX",
+      "USB-A 输出": "5 V / 3 A；9 V / 3 A；5–11 V / 3 A；33 W MAX",
+      "多口总输出": "20 W（5 V / 4 A）",
+      "充电时间": "约 4 小时（45 W 及以上）；约 5 小时（18 W）"
+    },
+    "baseProductId": null,
+    "status": "published",
+    "updatedAt": "2026-10-31",
+    "sourceUrl": "https://www.cuktech.com.cn/products/lpb200n.html",
+    "sourceLabel": "酷态科官网产品页及规格图",
+    "image": "images/products/lpb200n.webp",
+    "specImages": [
+      "images/products/specs/0d29c616329dcf476a79.webp",
+      "images/products/specs/7b37d8088044df88fc8d.webp"
+    ]
+  },
+  {
+    "id": "cp24-dual",
+    "name": "CP24 电能块·自带双线",
+    "category": "powerbank",
+    "model": "LPB200NL",
+    "summary": "自带双线，包含苹果 MFi 认证线材。",
+    "series": "CP 系列",
+    "tags": [
+      "自带线",
+      "大容量"
+    ],
+    "protocols": [
+      "PD 3.0",
+      "PPS",
+      "小米澎湃秒充",
+      "QC 3.0",
+      "FCP",
+      "SCP",
+      "AFC"
+    ],
+    "capacityMah": 20000.0,
+    "maxOutputW": 40.0,
+    "pdOutputW": 40,
+    "inputW": 40.0,
+    "weightG": 360,
+    "ports": "USB-C × 1 + 自带 USB-C 线 × 1 + 自带 Lightning 线 × 1 / USB-A × 1",
+    "specs": {
+      "线材": "自带双线，苹果 MFi 认证",
+      "充电模式": "放心充",
+      "产品尺寸": "125 × 72 × 31.9 mm",
+      "电量显示": "LED数显",
+      "电池能量": "73 / 74.46 Wh（额定 / 典型，7.3 V）",
+      "额定容量": "12000 mAh（5 V / 3 A）",
+      "输入规格": "USB-C 口及自带线：5 / 9 / 12 V，3 A；15 V / 2.7 A",
+      "USB-C 输出": "USB-C 口及自带线：5 / 9 / 12 V，3 A；15 V / 2.7 A；40 W MAX",
+      "Lightning 输出": "5 V / 3 A；9 V / 3 A；27 W MAX",
+      "USB-A 输出": "5 V / 2.4 A；9 V / 2 A；10 V / 2.25 A；22.5 W MAX",
+      "多口总输出": "20 W（5 V / 4 A）",
+      "充电时间": "约 4 小时（45 W 及以上）；约 5 小时（18 W）",
+      "资料备注": "官网目录重量为约 359.2 g，详细规格图为约 360 g；本页按规格图记录。"
+    },
+    "baseProductId": null,
+    "status": "published",
+    "updatedAt": "2026-10-31",
+    "sourceUrl": "https://www.cuktech.com.cn/products/lpb200nl.html",
+    "sourceLabel": "酷态科官网产品页及规格图",
+    "image": "images/products/lpb200nl.webp",
+    "specImages": [
+      "images/products/specs/7289c75cb4e42052eb01.webp",
+      "images/products/specs/201ca18013f564199137.webp",
+      "images/products/specs/849ec53d74c948085aef.webp"
+    ]
+  },
+  {
+    "id": "cp25-cable",
+    "name": "CP25 电能块·自带线",
+    "category": "powerbank",
+    "model": "PB200N",
+    "summary": "20000 mAh，自带双向快充线。",
+    "series": "CP 系列",
+    "tags": [
+      "自带线",
+      "大容量"
+    ],
+    "protocols": [
+      "PD 3.0",
+      "PPS",
+      "小米澎湃秒充",
+      "UFCS",
+      "QC 3.0",
+      "FCP",
+      "SCP",
+      "AFC"
+    ],
+    "capacityMah": 20000.0,
+    "maxOutputW": 55.0,
+    "pdOutputW": 45,
+    "inputW": 40.0,
+    "weightG": 495,
+    "ports": "USB-C × 1 + 自带 USB-C 线 × 1 / USB-A × 1",
+    "specs": {
+      "产品尺寸": "162 × 72 × 29.6 mm",
+      "电量显示": "LED数显",
+      "电池能量": "74 / 75.5 Wh（额定 / 典型，7.4 V）",
+      "额定容量": "11000 mAh（5 V / 3 A）",
+      "输入规格": "USB-C 口及自带线：5 / 9 / 12 V，3 A；15 V / 2.6 A；20 V / 2 A",
+      "USB-C 输出": "USB-C 口及自带线：5 / 9 / 12 / 15 V，3 A；20 V / 2.25 A；5–11 V / 5 A；55 W MAX",
+      "USB-A 输出": "5 V / 3 A；9 V / 3 A；12 V / 2.5 A；5–11 V / 3 A；33 W MAX",
+      "多口总输出": "15 W（5 V / 3 A）",
+      "资料备注": "官网目录重量为约 501 g，详细规格图为约 495 g；本页按规格图记录。"
+    },
+    "baseProductId": null,
+    "status": "published",
+    "updatedAt": "2026-10-31",
+    "sourceUrl": "https://www.cuktech.com.cn/products/pb200n.html",
+    "sourceLabel": "酷态科官网产品页及规格图",
+    "image": "images/products/pb200n.webp",
+    "specImages": [
+      "images/products/specs/e3896fbb241b40336012.webp",
+      "images/products/specs/62abddff5caec98f457e.webp"
+    ]
+  },
+  {
+    "id": "cp25-dual",
+    "name": "CP25 电能块·双 C 线",
+    "category": "powerbank",
+    "model": "LPB200NC",
+    "summary": "20000 mAh，自带两条 USB-C 编织线。",
+    "series": "CP 系列",
+    "tags": [
+      "自带线",
+      "大容量"
+    ],
+    "protocols": [
+      "PD 3.0",
+      "PPS",
+      "小米澎湃秒充",
+      "UFCS",
+      "QC 3.0",
+      "FCP",
+      "SCP",
+      "AFC"
+    ],
+    "capacityMah": 20000.0,
+    "maxOutputW": 55.0,
+    "pdOutputW": 45,
+    "inputW": 45.0,
+    "weightG": 385.0,
+    "ports": "USB-C × 1 + 自带 USB-C 线 × 2 / USB-A × 1",
+    "specs": {
+      "线材": "自带双 USB-C 编织线",
+      "产品尺寸": "126.8 × 73.7 × 34 mm",
+      "电量显示": "LED数显",
+      "电池能量": "74 Wh（7.4 V，10000 mAh）",
+      "额定容量": "12000 mAh（5 V / 3 A）",
+      "输入规格": "USB-C 口及两根自带线均为 5 / 9 / 12 / 15 V，3 A；20 V / 2.25 A",
+      "USB-C 输出": "三路均为 5 / 9 / 12 / 15 V，3 A；20 V / 2.25 A；5–21 V / 2.6 A；5–11 V / 5 A；55 W MAX",
+      "USB-A 输出": "5 V / 3 A；9 V / 2 A；5–11 V / 3 A；33 W MAX",
+      "多口总输出": "20 W（5 V / 4 A）",
+      "充电时间": "约 4 小时（45 W 及以上）；约 5 小时（18 W）"
+    },
+    "baseProductId": null,
+    "status": "published",
+    "updatedAt": "2026-10-31",
+    "sourceUrl": "https://www.cuktech.com.cn/products/lpb200nc.html",
+    "sourceLabel": "酷态科官网产品页及规格图",
+    "image": "images/products/lpb200nc.webp",
+    "specImages": [
+      "images/products/specs/402950d0a66b3483279b.webp",
+      "images/products/specs/f705781b1520018358db.webp"
+    ]
+  },
+  {
+    "id": "charger-65",
+    "name": "65W 氮化镓充电器",
+    "category": "charger",
+    "model": "AD653C",
+    "summary": "2C1A 接口，支持最高 65 W 输出。",
+    "series": "数字系列",
+    "tags": [
+      "通勤"
+    ],
+    "protocols": [
+      "PD",
+      "QC",
+      "AFC",
+      "FCP",
+      "SCP",
+      "PPS",
+      "小米澎湃秒充"
+    ],
+    "capacityMah": null,
+    "maxOutputW": 65.0,
+    "pdOutputW": 65,
+    "inputW": null,
+    "weightG": null,
+    "ports": "USB-C × 2 / USB-A × 1",
+    "specs": {
+      "产品尺寸": "53 × 28 × 53.9 mm",
+      "输入规格": "200–240 V~ / 50–60 Hz / 1.8 A；110–130 V~ / 50–60 Hz / 1.8 A",
+      "USB-C1 输出": "5 V / 3 A；9 V / 3 A；11 V / 5 A；12 V / 3 A；15 V / 3 A；20 V / 3.25 A；65 W MAX",
+      "USB-C2 输出": "5 V / 3 A；9 V / 3 A；11 V / 3 A；12 V / 2.5 A；33 W MAX",
+      "USB-A 输出": "5 V / 3 A；9 V / 2 A；10 V / 2.25 A；12 V / 1.5 A；22.5 W MAX",
+      "多口输出": "高压输入下 C1 + C2：45 W + 20 W；C2 + A：20 W；三口：45 W + 15 W",
+      "使用温度": "0–35 ℃",
+      "尺寸说明": "不含折叠插脚"
+    },
+    "baseProductId": null,
+    "status": "published",
+    "updatedAt": "2026-10-31",
+    "sourceUrl": "https://www.cuktech.com.cn/products/ad653c.html",
+    "sourceLabel": "酷态科官网产品页及规格图",
+    "image": "images/products/ad653c.webp",
+    "specImages": [
+      "images/products/specs/d27987c4f46e264126c6.webp",
+      "images/products/specs/5ed2c4d086acba7cd2dd.webp"
+    ]
+  },
+  {
+    "id": "6-card-air",
+    "name": "6号氮化镓电能卡片 Air",
+    "category": "charger",
+    "model": "AD902S",
+    "summary": "薄型机身，最高 90 W 输出。",
+    "series": "数字系列",
+    "tags": [
+      "轻便",
+      "通勤"
+    ],
+    "protocols": [
+      "PD 3.0",
+      "AVS",
+      "UFCS",
+      "FCP",
+      "SCP",
+      "PPS",
+      "小米澎湃秒充",
+      "DCP"
+    ],
+    "capacityMah": null,
+    "maxOutputW": 90.0,
+    "pdOutputW": 65,
+    "inputW": null,
+    "weightG": null,
+    "ports": "USB-C × 2",
+    "specs": {
+      "快充技术": "ADC 2.0",
+      "产品尺寸": "77.3 × 42 × 14.3 mm",
+      "输入规格": "200–240 V~ / 50–60 Hz / 1.8 A；100–130 V~ / 50–60 Hz / 1.8 A",
+      "USB-C1 输出": "5 V / 3 A；9 V / 3 A；15 V / 3 A；20 V / 3.25 A；5–11 V / 5 A；5–20 V / 4.5 A；90 W MAX",
+      "USB-C2 输出": "5 V / 3 A；9 V / 2.22 A；10 V / 2.25 A；22.5 W MAX",
+      "多口输出": "200–240 V：45 W + 20 W；100–130 V：25 W + 20 W",
+      "低压输入输出上限": "100–130 V 输入时 C1 最高 45 W"
+    },
+    "baseProductId": null,
+    "status": "published",
+    "updatedAt": "2026-10-31",
+    "sourceUrl": "https://www.cuktech.com.cn/products/ad902s.html",
+    "sourceLabel": "酷态科官网产品页及规格图",
+    "image": "images/products/ad902s.webp",
+    "specImages": [
+      "images/products/specs/b6b52c33565824553e20.webp",
+      "images/products/specs/89b42c419eca7bff9b7c.webp"
+    ]
+  },
+  {
+    "id": "6-screen",
+    "name": "6号屏显充 Ultra",
+    "category": "charger",
+    "model": "AD653U",
+    "summary": "最高 100 W 输出，配备功率显示。",
+    "series": "数字系列",
+    "tags": [
+      "桌面",
+      "屏显"
+    ],
+    "protocols": [
+      "PD 3.0",
+      "AVS",
+      "QC 3.0",
+      "UFCS",
+      "PPS",
+      "小米澎湃秒充",
+      "DCP"
+    ],
+    "capacityMah": null,
+    "maxOutputW": 100.0,
+    "pdOutputW": 100,
+    "inputW": null,
+    "weightG": null,
+    "ports": "USB-C × 2 / USB-A × 1",
+    "specs": {
+      "充电模式": "OPC 放心充 2.0",
+      "机型识别": "官方标注支持 iPhone 15–17",
+      "产品尺寸": "36.5 × 47.5 × 64 mm",
+      "屏幕尺寸": "0.96英寸",
+      "输入规格": "100–240 V~ / 50–60 Hz / 2 A；100 W 档需 200–240 V 输入",
+      "USB-C 输出": "两口均支持 5 / 9 / 12 / 15 V，3 A；11 V / 5 A；20 V / 3.25 A；65 W；200–240 V 另支持 11 V / 6.1 A、20 V / 5 A，100 W MAX",
+      "USB-A 输出": "5 V / 3 A；9 V / 2 A；12 V / 1.5 A；11 V / 3 A；33 W MAX",
+      "多口输出": "200–240 V：C1 + C2 / A 为 67 W + 22 W；三口 67 W + 15 W；低压输入分别为 45 W + 22 W、45 W + 15 W",
+      "低压输入输出上限": "USB-C 单口最高 65 W"
+    },
+    "baseProductId": null,
+    "status": "published",
+    "updatedAt": "2026-10-31",
+    "sourceUrl": "https://www.cuktech.com.cn/products/ad653u.html",
+    "sourceLabel": "酷态科官网产品页及规格图",
+    "image": "images/products/ad653u.webp",
+    "specImages": [
+      "images/products/specs/c3d23b5b45f948111876.webp",
+      "images/products/specs/b976f788097a1a2701cf.webp",
+      "images/products/specs/b73c9bca763e8939f62c.webp"
+    ]
+  },
+  {
+    "id": "6-card",
+    "name": "6号氮化镓电能卡片",
+    "category": "charger",
+    "model": "AD652S",
+    "summary": "65 W 薄型充电器，支持多口插拔不断连。",
+    "series": "数字系列",
+    "tags": [
+      "轻便",
+      "通勤"
+    ],
+    "protocols": [
+      "PD 3.0",
+      "QC 3.0",
+      "AFC",
+      "FCP",
+      "SCP",
+      "PPS",
+      "小米澎湃秒充",
+      "DCP"
+    ],
+    "capacityMah": null,
+    "maxOutputW": 65.0,
+    "pdOutputW": 65,
+    "inputW": null,
+    "weightG": 82,
+    "ports": "USB-C × 2",
+    "specs": {
+      "插拔行为": "官方标注多口插拔不断连",
+      "产品尺寸": "77.3 × 42 × 14.3 mm",
+      "输入规格": "200–240 V~ / 50–60 Hz / 1.8 A；100–130 V~ / 50–60 Hz / 1.8 A",
+      "USB-C1 输出": "5 / 9 / 12 / 15 V，3 A；20 V / 3.25 A；5–11 V / 5 A；5–20 V / 3.25 A；65 W MAX",
+      "USB-C2 输出": "5 V / 3 A；9 V / 2.22 A；10 V / 2.25 A；22.5 W MAX",
+      "多口输出": "200–240 V：45 W + 20 W；100–130 V：25 W + 20 W",
+      "低压输入输出上限": "100–130 V 输入时 C1 最高 45 W"
+    },
+    "baseProductId": null,
+    "status": "published",
+    "updatedAt": "2026-10-31",
+    "sourceUrl": "https://www.cuktech.com.cn/products/ad652s.html",
+    "sourceLabel": "酷态科官网产品页及规格图",
+    "image": "images/products/ad652s.webp",
+    "specImages": [
+      "images/products/specs/ec4c75d0732befe560d9.webp",
+      "images/products/specs/6c5b30bff3b8eca4abb3.webp"
+    ]
+  },
+  {
+    "id": "6-mini",
+    "name": "6号充电器 Mini",
+    "category": "charger",
+    "model": "AD653",
+    "summary": "小体积设计，最高 90 W 输出。",
+    "series": "数字系列",
+    "tags": [
+      "轻便",
+      "通勤"
+    ],
+    "protocols": [
+      "PD",
+      "QC",
+      "AFC",
+      "FCP",
+      "SCP",
+      "PPS",
+      "小米澎湃秒充",
+      "DCP"
+    ],
+    "capacityMah": null,
+    "maxOutputW": 90.0,
+    "pdOutputW": 90,
+    "inputW": null,
+    "weightG": null,
+    "ports": "USB-C × 2 / USB-A × 1",
+    "specs": {
+      "快充技术": "ADC 2.0",
+      "产品尺寸": "32 × 41 × 60 mm",
+      "输入规格": "100–240 V~ / 50–60 Hz / 1.8 A；90 W 档需 200–240 V 输入",
+      "USB-C 输出": "两口均为 5 / 9 / 12 / 15 V，3 A；11 V / 5 A；20 V / 3.25 A；65 W；200–240 V 另支持 11 V / 6.1 A、20 V / 4.5 A，90 W MAX",
+      "USB-A 输出": "5 V / 3 A；9 V / 2 A；12 V / 1.5 A；10 V / 2.25 A；22.5 W MAX",
+      "多口输出": "C1 + C2：45 W + 20 W；C1 + A：45 W + 22.5 W；C2 + A：20 W；三口：45 W + 15 W",
+      "低压输入输出上限": "USB-C 单口最高 65 W"
+    },
+    "baseProductId": null,
+    "status": "published",
+    "updatedAt": "2026-10-31",
+    "sourceUrl": "https://www.cuktech.com.cn/products/ad653.html",
+    "sourceLabel": "酷态科官网产品页及规格图",
+    "image": "images/products/ad653.webp",
+    "specImages": [
+      "images/products/specs/013768359594033cd226.webp",
+      "images/products/specs/de0c03d732332c4208fc.webp"
+    ]
+  },
+  {
+    "id": "10-charger-mini",
+    "name": "10号氮化镓充电器 Mini",
+    "category": "charger",
+    "model": "AD1203P",
+    "summary": "最高 120 W，支持动态功率分配。",
+    "series": "数字系列",
+    "tags": [
+      "差旅",
+      "高功率"
+    ],
+    "protocols": [
+      "PD 3.0",
+      "PPS",
+      "小米澎湃秒充",
+      "UFCS",
+      "QC 3.0",
+      "AFC",
+      "FCP",
+      "SCP"
+    ],
+    "capacityMah": null,
+    "maxOutputW": 120.0,
+    "pdOutputW": 100,
+    "inputW": null,
+    "weightG": null,
+    "ports": "USB-C × 2 / USB-A × 1",
+    "specs": {
+      "快充技术": "ADC 2.1 全时动态功率分配",
+      "产品尺寸": "44.5 × 39 × 60 mm",
+      "输入规格": "100–240 V~ / 50–60 Hz / 1.7 A；120 W 档需 200–240 V 输入",
+      "USB-C 输出": "两口均为 5 / 9 / 12 / 15 V，3 A；11 V / 6.1 A；20 V / 5 A，100 W；200–240 V 另支持 20 V / 6 A，120 W MAX",
+      "USB-A 输出": "5 V / 3 A；9 V / 2 A；12 V / 1.5 A；11 V / 3 A；33 W MAX",
+      "多口输出": "200–240 V：C1 + C2 为 67 W + 55 W；C1 / C2 + A 为 90 W + 22.5 W；三口 45 W + 45 W + 22.5 W；低压输入分配见规格图",
+      "低压输入输出上限": "USB-C 单口最高 100 W"
+    },
+    "baseProductId": null,
+    "status": "published",
+    "updatedAt": "2026-10-31",
+    "sourceUrl": "https://www.cuktech.com.cn/products/ad1203p.html",
+    "sourceLabel": "酷态科官网产品页及规格图",
+    "image": "images/products/ad1203p.webp",
+    "specImages": [
+      "images/products/specs/61f5aa4a5c6bbe8838c3.webp",
+      "images/products/specs/8612b34d66f01659bbbb.webp",
+      "images/products/specs/139d44ef4619eae49990.webp"
+    ]
+  },
+  {
+    "id": "10-charger-se",
+    "name": "10号氮化镓充电器 SE",
+    "category": "charger",
+    "model": "AD1003",
+    "summary": "2C1A 接口，支持最高 120 W 输出。",
+    "series": "数字系列",
+    "tags": [
+      "桌面",
+      "高功率"
+    ],
+    "protocols": [
+      "PD 3.0",
+      "QC 3.0",
+      "AFC",
+      "FCP",
+      "SCP",
+      "UFCS",
+      "PPS",
+      "小米澎湃秒充",
+      "DCP"
+    ],
+    "capacityMah": null,
+    "maxOutputW": 120.0,
+    "pdOutputW": 100,
+    "inputW": null,
+    "weightG": 214,
+    "ports": "USB-C × 2 / USB-A × 1",
+    "specs": {
+      "插拔行为": "官方标注多口插拔不断连",
+      "产品尺寸": "73 × 57 × 32 mm",
+      "输入规格": "100–240 V~ / 50–60 Hz / 1.7 A；120 W 档需 200–240 V 输入",
+      "USB-C 输出": "两口均为 5 / 9 / 12 / 15 V，3 A；11 V / 6.1 A；20 V / 5 A，100 W；200–240 V 另支持 20 V / 6 A，120 W MAX",
+      "USB-A 输出": "5 V / 3 A；9 V / 2 A；12 V / 1.5 A；11 V / 3 A；33 W MAX",
+      "多口输出": "C1 + C2：67 W + 33 W；C1 / C2 + A：67 W + 22.5 W；三口：45 W + 33 W + 18 W"
+    },
+    "baseProductId": null,
+    "status": "published",
+    "updatedAt": "2026-10-31",
+    "sourceUrl": "https://www.cuktech.com.cn/products/ad1003.html",
+    "sourceLabel": "酷态科官网产品页及规格图",
+    "image": "images/products/ad1003.webp",
+    "specImages": [
+      "images/products/specs/778939e5a4e112fd8adb.webp",
+      "images/products/specs/fc720fabbd92976d2bee.webp"
+    ]
+  },
+  {
+    "id": "10-charger-ultra",
+    "name": "10号氮化镓充电器 Ultra",
+    "category": "charger",
+    "model": "AD1204U",
+    "summary": "屏幕显示充电状态，可接入米家。",
+    "series": "数字系列",
+    "tags": [
+      "桌面",
+      "屏显"
+    ],
+    "protocols": [
+      "PD 3.0",
+      "PPS",
+      "小米澎湃秒充",
+      "UFCS",
+      "QC 3.0",
+      "AFC",
+      "FCP",
+      "SCP"
+    ],
+    "capacityMah": null,
+    "maxOutputW": 120.0,
+    "pdOutputW": 100,
+    "inputW": null,
+    "weightG": 236,
+    "ports": "USB-C × 3 / USB-A × 1",
+    "specs": {
+      "充电策略": "4 重策略组合",
+      "产品尺寸": "67 × 76 × 33 mm",
+      "屏幕尺寸": "1.57 英寸",
+      "输入规格": "100–130 V~ / 50–60 Hz / 1.7 A；200–240 V~ / 50–60 Hz / 1.7 A",
+      "USB-C1 / C2 输出": "5 / 9 / 12 / 15 V，3 A；20 V / 5 A；11 V / 6 A，100 W；200–240 V 另支持 20 V / 6 A，120 W MAX",
+      "USB-C3 输出": "5 V / 3 A；9 V / 3 A；12 V / 2.5 A；15 V / 2 A；11 V / 4 A；44 W MAX",
+      "USB-A 输出": "5 V / 3 A；9 V / 2 A；12 V / 1.5 A；11 V / 3 A；33 W MAX",
+      "多口总输出": "200–240 V：120 W；100–130 V：110 W",
+      "连接功能": "米家 App"
+    },
+    "baseProductId": null,
+    "status": "published",
+    "updatedAt": "2026-10-31",
+    "sourceUrl": "https://www.cuktech.com.cn/products/ad1204u.html",
+    "sourceLabel": "酷态科官网产品页及规格图",
+    "image": "images/products/ad1204u.webp",
+    "specImages": [
+      "images/products/specs/67539671dbe7727b890c.webp",
+      "images/products/specs/1626c8fab80b4695877b.webp"
+    ]
+  },
+  {
+    "id": "15-charger",
+    "name": "15号氮化镓充电器",
+    "category": "charger",
+    "model": "AD1404U",
+    "summary": "PD 3.1 140 W，3C1A 四口配置。",
+    "series": "数字系列",
+    "tags": [
+      "笔记本",
+      "桌面",
+      "高功率"
+    ],
+    "protocols": [
+      "PD 3.0",
+      "PPS",
+      "小米澎湃秒充",
+      "UFCS",
+      "QC 3.0",
+      "AFC",
+      "FCP",
+      "SCP"
+    ],
+    "capacityMah": null,
+    "maxOutputW": 140.0,
+    "pdOutputW": 140,
+    "inputW": null,
+    "weightG": 330,
+    "ports": "USB-C × 3 / USB-A × 1",
+    "specs": {
+      "产品尺寸": "79.9 × 65 × 32 mm",
+      "输入规格": "110–240 V~ / 50–60 Hz / 2 A",
+      "USB-C1 / C2 输出": "5 / 9 / 12 / 15 V，3 A；11 V / 6.1 A；20 V / 6 A；28 V / 5 A；140 W MAX",
+      "USB-C3 / USB-A 输出": "5 V / 2.4 A；9 V / 2 A；12 V / 1.5 A；11 V / 3 A；33 W MAX",
+      "多口输出": "C1 + C2：100 W + 33 W 或 65 W + 45 W；C3 + A：20 W；其余分配见规格图"
+    },
+    "baseProductId": null,
+    "status": "published",
+    "updatedAt": "2026-10-31",
+    "sourceUrl": "https://www.cuktech.com.cn/products/ad1404u.html",
+    "sourceLabel": "酷态科官网产品页及规格图",
+    "image": "images/products/ad1404u.webp",
+    "specImages": [
+      "images/products/specs/784f0de46b0840a25d5c.webp",
+      "images/products/specs/edbe6c4e9a36744927ae.webp"
+    ]
+  },
+  {
+    "id": "30-desktop",
+    "name": "30号桌面充 Ultra",
+    "category": "charger",
+    "model": "TA3005U",
+    "summary": "最高 300 W 桌面供电，支持动态功率调节。",
+    "series": "数字系列",
+    "tags": [
+      "桌面",
+      "笔记本",
+      "多设备"
+    ],
+    "protocols": [
+      "PD 3.1",
+      "PPS",
+      "小米澎湃秒充"
+    ],
+    "capacityMah": null,
+    "maxOutputW": 300,
+    "pdOutputW": 140,
+    "inputW": null,
+    "weightG": 650,
+    "ports": "DC × 1 / USB-C × 3 / USB-A × 1",
+    "specs": {
+      "功率调节": "智能动态分配",
+      "输入规格": "100–240 V~ / 50–60 Hz / 4.4–2.5 A；中国规格 200–240 V~ / 50–60 Hz / 2.5 A MAX",
+      "DC 输出": "20 V / 15 A；300 W MAX",
+      "USB-C1 / C2 输出": "5 / 9 / 12 / 15 V，3 A；20 V / 5 A；28 V / 5 A；11 V / 6.1 A；20 V / 6 A；140 W MAX",
+      "USB-C3 输出": "5 V / 3 A；9 V / 3 A；12 V / 2.5 A；15 V / 2 A；11 V / 4 A；44 W MAX",
+      "USB-A 输出": "5 V / 3 A；9 V / 2 A；12 V / 1.5 A；10 V / 2.25 A；22.5 W MAX",
+      "多口总输出": "300 W MAX",
+      "产品尺寸": "43 × 85 × 108 mm",
+      "重量说明": "约 650 g，不含底座",
+      "屏幕尺寸": "1.83 英寸 IPS 屏"
+    },
+    "baseProductId": null,
+    "status": "published",
+    "updatedAt": "2026-10-31",
+    "sourceUrl": "https://www.cuktech.com.cn/products/ta3005u.html",
+    "sourceLabel": "酷态科官网产品页及规格图",
+    "image": "images/products/ta3005u.webp",
+    "specImages": [
+      "images/products/specs/c6b160190184c84c792b.webp",
+      "images/products/specs/f73f5aaa5299eeec6354.webp"
+    ]
+  },
+  {
+    "id": "15-station",
+    "name": "15号超级电能站",
+    "category": "charger",
+    "model": "TA1406U",
+    "summary": "支持六台设备同时充电，最高 140 W。",
+    "series": "数字系列",
+    "tags": [
+      "桌面",
+      "多设备"
+    ],
+    "protocols": [
+      "PD 3.1",
+      "PPS",
+      "小米澎湃秒充"
+    ],
+    "capacityMah": null,
+    "maxOutputW": 140,
+    "pdOutputW": 140,
+    "inputW": null,
+    "weightG": null,
+    "ports": "自带 USB-C 线 × 1 / USB-C × 2 / USB-A × 1 / 磁吸无线充 × 1 / 耳机无线充 × 1",
+    "specs": {
+      "同时连接": "最多 6 台设备",
+      "输入规格": "100–240 V~ / 50–60 Hz / 2 A",
+      "USB-C1 自带线输出": "9 / 12 / 15 V，3 A；20 V / 5 A；20 V / 6 A；120 W MAX",
+      "USB-C2 输出": "9 / 12 / 15 V，3 A；20 V / 5 A；20 V / 6 A；28 V / 5 A；140 W MAX",
+      "USB-C3 输出": "5 V / 3 A；9 V / 3 A；11 V / 3 A；12 V / 2.5 A；33 W MAX",
+      "USB-A 输出": "5 V / 2.4 A；9 V / 2 A；10 V / 2.25 A；12 V / 1.5 A；22.5 W MAX",
+      "无线输出": "磁吸位 15 W MAX（iPhone 7.5 W）；耳机位 5 W MAX",
+      "多口总输出": "140 W MAX",
+      "产品尺寸": "130.5 × 67.9 × 91.5 mm",
+      "无线感应距离": "≤ 4 mm",
+      "屏幕尺寸": "1.83 英寸 TFT 屏",
+      "官网目录标识": "TA1406"
+    },
+    "baseProductId": null,
+    "status": "published",
+    "updatedAt": "2026-10-31",
+    "sourceUrl": "https://www.cuktech.com.cn/products/ta1406.html",
+    "sourceLabel": "酷态科官网产品页及规格图",
+    "image": "images/products/ta1406.webp",
+    "specImages": [
+      "images/products/specs/55959672bf030ce1cee0.webp",
+      "images/products/specs/d23cd7726b7974f7c5df.webp",
+      "images/products/specs/6479f64b6e8d46032e58.webp"
+    ]
+  },
+  {
+    "id": "10-base",
+    "name": "10号电能基站",
+    "category": "charger",
+    "model": "TA1208",
+    "summary": "交流插座与 USB 集成，支持米家连接。",
+    "series": "数字系列",
+    "tags": [
+      "桌面",
+      "多设备",
+      "屏显"
+    ],
+    "protocols": [
+      "PD",
+      "PPS",
+      "小米澎湃秒充"
+    ],
+    "capacityMah": null,
+    "maxOutputW": 120,
+    "pdOutputW": 100,
+    "inputW": null,
+    "weightG": null,
+    "ports": "AC 插座 × 4 / USB-C × 3 / USB-A × 1 / POGO PIN 屏幕供电",
+    "specs": {
+      "输入规格": "USB 模块：200–240 V~ / 50–60 Hz / 2 A",
+      "交流额定参数": "250 V~，10 A，2500 W MAX",
+      "USB-C1 / C2 输出": "5 V / 3 A；9 V / 3 A；11 V / 6 A；12 V / 3 A；15 V / 3 A；20 V / 6 A；120 W MAX",
+      "USB-C3 / USB-A 输出": "5 V / 3 A；15 W MAX",
+      "POGO PIN 输出": "21.5 V / 5.58 A；120 W MAX",
+      "多口总输出": "USB 模块 110 W MAX",
+      "产品尺寸": "底座：95 × 119.1 × 36.5 mm；屏幕：84 × 55.7 × 66.5 mm",
+      "电源线长度": "全长约 1.5 m",
+      "屏幕尺寸": "2.8 英寸",
+      "连接功能": "米家 Wi-Fi / 蓝牙"
+    },
+    "baseProductId": null,
+    "status": "published",
+    "updatedAt": "2026-10-31",
+    "sourceUrl": "https://www.cuktech.com.cn/products/ta1208.html",
+    "sourceLabel": "酷态科官网产品页及规格图",
+    "image": "images/products/ta1208.webp",
+    "specImages": [
+      "images/products/specs/416f0347320bf50c7e53.webp",
+      "images/products/specs/c616419ab9940857a629.webp"
+    ]
+  },
+  {
+    "id": "car10",
+    "name": "10号车充·伸缩线",
+    "category": "car",
+    "model": "CC903P",
+    "summary": "自带约 70 cm 伸缩线，支持电压与功率显示。",
+    "series": "数字系列",
+    "tags": [
+      "车载",
+      "自带线"
+    ],
+    "protocols": [
+      "PD 3.0",
+      "PPS",
+      "小米澎湃秒充",
+      "QC 3.0",
+      "AFC",
+      "SCP",
+      "FCP"
+    ],
+    "capacityMah": null,
+    "maxOutputW": 100,
+    "pdOutputW": 65,
+    "inputW": null,
+    "weightG": null,
+    "ports": "自带伸缩 USB-C 线 × 1 / USB-C × 1 / USB-A × 1",
+    "specs": {
+      "自带线长度": "约 0.7 m",
+      "显示功能": "车辆电压 / 充电功率",
+      "产品尺寸": "96 × 55 × 30 mm",
+      "输入规格": "12–24 V / 9.5 A",
+      "USB-C 伸缩线输出": "5 / 9 / 12 / 15 V，3 A；20 V / 3.25 A；5–11 V / 5 A；5–20 V / 4.5 A；90 W MAX",
+      "USB-C 输出": "5 V / 3 A；9 V / 3 A；5–11 V / 3 A；33 W MAX",
+      "USB-A 输出": "5 V / 3 A；9 V / 2 A；5–11 V / 3 A；33 W MAX",
+      "多口总输出": "100 W MAX；伸缩线 80 W + 其他接口共享 20 W",
+      "资料备注": "官网目录尺寸末项为 50 mm，详细规格图为 30 mm；本页按规格图记录。"
+    },
+    "baseProductId": null,
+    "status": "published",
+    "updatedAt": "2026-10-31",
+    "sourceUrl": "https://www.cuktech.com.cn/products/cc903p.html",
+    "sourceLabel": "酷态科官网产品页及规格图",
+    "image": "images/products/cc903p.webp",
+    "specImages": [
+      "images/products/specs/c8801094fb02a47843ad.webp",
+      "images/products/specs/c6ef7a16c83eceb1c842.webp"
+    ]
+  },
+  {
+    "id": "car10-magnetic",
+    "name": "10号车载磁吸无线充·伸缩线",
+    "category": "car",
+    "model": "WCJ153",
+    "summary": "支持磁吸有线充与无线充。",
+    "series": "数字系列",
+    "tags": [
+      "车载",
+      "磁吸"
+    ],
+    "protocols": [
+      "PD",
+      "PPS",
+      "UFCS",
+      "QC",
+      "FCP",
+      "SCP",
+      "小米澎湃秒充"
+    ],
+    "capacityMah": null,
+    "maxOutputW": 100,
+    "pdOutputW": 65,
+    "inputW": null,
+    "weightG": null,
+    "ports": "自带伸缩 USB-C 线 × 1 / 磁吸无线充 × 1 / 配套车充 USB-A × 1",
+    "specs": {
+      "三口总输出": "100 W MAX",
+      "自带线长度": "约 0.7 m",
+      "产品尺寸": "80 × 59 × 42 mm",
+      "输入规格": "主机：DC 12–24 V / 9.5 A；配套车充：12–24 V / 10 A",
+      "USB-C 伸缩线输出": "5 / 9 / 12 / 15 V，3 A；20 V / 3.25 A；5–11 V / 5 A；5–20 V / 4.5 A；90 W MAX",
+      "无线输出": "15 W MAX",
+      "多口输出": "主机有线 + 无线：90 W MAX；配套车充 USB-A：5 V / 2 A（10 W）",
+      "配套 DC 线长度": "约 1.2 m"
+    },
+    "baseProductId": null,
+    "status": "published",
+    "updatedAt": "2026-10-31",
+    "sourceUrl": "https://www.cuktech.com.cn/products/wcj153.html",
+    "sourceLabel": "酷态科官网产品页及规格图",
+    "image": "images/products/wcj153.webp",
+    "specImages": [
+      "images/products/specs/6bc219623d10e5eb188d.webp"
+    ]
+  },
+  {
+    "id": "car6",
+    "name": "6号车充·伸缩线",
+    "category": "car",
+    "model": "CC652",
+    "summary": "自带约 70 cm 伸缩线，双口最高 77 W。",
+    "series": "数字系列",
+    "tags": [
+      "车载",
+      "自带线"
+    ],
+    "protocols": [
+      "PD 3.0",
+      "AVS",
+      "QC 3.0",
+      "AFC",
+      "FCP",
+      "SCP",
+      "PPS",
+      "小米澎湃秒充",
+      "DCP"
+    ],
+    "capacityMah": null,
+    "maxOutputW": 77,
+    "pdOutputW": 65,
+    "inputW": null,
+    "weightG": null,
+    "ports": "自带伸缩 USB-C 线 × 1 / USB-A × 1",
+    "specs": {
+      "双口总输出": "77 W MAX",
+      "自带线长度": "约 0.7 m",
+      "显示功能": "车辆电压 / 充电功率",
+      "产品尺寸": "96.5 × 54.5 × 30 mm",
+      "屏幕尺寸": "0.77英寸",
+      "输入规格": "12–24 V / 9.5 A",
+      "USB-C 伸缩线输出": "5 / 9 / 12 / 15 V，3 A；20 V / 3.25 A；5–11 V / 5 A；5–20 V / 3.25 A；65 W MAX",
+      "USB-A 输出": "5 V / 2.4 A；12 W MAX",
+      "多口总输出": "77 W（65 W + 12 W）",
+      "资料备注": "官网目录接口数量与详细规格图不同；本页按规格图记录为伸缩 USB-C 线 + USB-A。"
+    },
+    "baseProductId": null,
+    "status": "published",
+    "updatedAt": "2026-10-31",
+    "sourceUrl": "https://www.cuktech.com.cn/products/cc652.html",
+    "sourceLabel": "酷态科官网产品页及规格图",
+    "image": "images/products/cc652.webp",
+    "specImages": [
+      "images/products/specs/d07c28d1dc8afb08a59a.webp"
+    ]
+  },
+  {
+    "id": "10-fusion",
+    "name": "10号充电器二合一 Fusion",
+    "category": "charger",
+    "model": "BA652U",
+    "summary": "充电器与移动电源结合，支持双擎模式。",
+    "series": "数字系列",
+    "tags": [
+      "差旅",
+      "二合一"
+    ],
+    "protocols": [
+      "PD 3.0",
+      "AVS",
+      "UFCS",
+      "AFC",
+      "FCP",
+      "SCP",
+      "PPS",
+      "小米澎湃秒充",
+      "DCP"
+    ],
+    "capacityMah": 9000,
+    "maxOutputW": 134,
+    "pdOutputW": 65,
+    "inputW": 45,
+    "weightG": null,
+    "ports": "USB-C × 2",
+    "specs": {
+      "多口总输出": "134 W MAX",
+      "工作模式": "充电器 / 移动电源 / 双擎",
+      "产品尺寸": "116.3 × 45.4 × 45.9 mm",
+      "屏幕尺寸": "1.3英寸",
+      "输入规格": "AC：110–240 V~ / 50–60 Hz / 1.8 A；高功率档需 200–240 V；USB-C：5 / 9 / 12 / 15 V，3 A，45 W MAX",
+      "充电器模式输出": "C1 / C2：最高 65 W PD；200–240 V 支持 67 W 小米快充；双口 45 W + 22 W",
+      "充电宝模式输出": "单口最高 20 V / 4.5 A，90 W MAX",
+      "Turbo 模式输出": "单口 20 V / 6 A，120 W MAX；双口 65 W + 67 W 或 67 W + 67 W，需 200–240 V 输入",
+      "电池能量": "32.2 / 33.3 Wh（额定 / 典型，11.1 V）",
+      "额定容量": "5150 mAh（5 V / 3 A）",
+      "充电时间": "约 1.5 小时（充电器无输出时）"
+    },
+    "baseProductId": null,
+    "status": "published",
+    "updatedAt": "2026-10-31",
+    "sourceUrl": "https://www.cuktech.com.cn/products/ba652u.html",
+    "sourceLabel": "酷态科官网产品页及规格图",
+    "image": "images/products/ba652u.webp",
+    "specImages": [
+      "images/products/specs/0ff7f47ed8650de060ce.webp",
+      "images/products/specs/b8b660ddd38498b35316.webp"
+    ]
+  },
+  {
+    "id": "charger-30-ac",
+    "name": "30W 氮化镓充电器·AC30S",
+    "category": "charger",
+    "model": "AC30S",
+    "summary": "30 W 输出，配备折叠插脚。",
+    "series": "数字系列",
+    "tags": [
+      "轻便",
+      "通勤"
+    ],
+    "protocols": [
+      "PD 3.0",
+      "QC 3.0",
+      "AFC",
+      "FCP",
+      "SCP",
+      "PPS",
+      "小米澎湃秒充"
+    ],
+    "capacityMah": null,
+    "maxOutputW": 30.0,
+    "pdOutputW": 30,
+    "inputW": null,
+    "weightG": null,
+    "ports": "USB-C × 1",
+    "specs": {
+      "插脚": "90° 可折叠",
+      "产品尺寸": "31 × 31 × 38 mm",
+      "输入规格": "100–240 V~ / 50–60 Hz / 0.8 A",
+      "USB-C 输出": "5 V / 3 A；9 V / 3 A；12 V / 2.5 A；15 V / 2 A；20 V / 1.5 A；30 W MAX",
+      "使用温度": "0–40 ℃"
+    },
+    "baseProductId": null,
+    "status": "published",
+    "updatedAt": "2026-10-31",
+    "sourceUrl": "https://www.cuktech.com.cn/products/ac30s.html",
+    "sourceLabel": "酷态科官网产品页及规格图",
+    "image": "images/products/ac30s.webp",
+    "specImages": [
+      "images/products/specs/979c632f7e5b0c2f5f7b.webp"
+    ]
+  },
+  {
+    "id": "charger-30-a18",
+    "name": "30W 氮化镓充电器·A18C",
+    "category": "charger",
+    "model": "A18C",
+    "summary": "30 W 输出，适合日常手机补能。",
+    "series": "数字系列",
+    "tags": [
+      "轻便",
+      "通勤"
+    ],
+    "protocols": [
+      "PD 3.0",
+      "QC 3.0",
+      "AFC",
+      "FCP",
+      "SCP",
+      "PPS"
+    ],
+    "capacityMah": null,
+    "maxOutputW": 30.0,
+    "pdOutputW": 30,
+    "inputW": null,
+    "weightG": null,
+    "ports": "USB-C × 1",
+    "specs": {
+      "产品尺寸": "40 × 26 × 63.1 mm",
+      "输入规格": "100–240 V~ / 50–60 Hz / 0.8 A",
+      "USB-C 输出": "5 V / 3 A；9 V / 3 A；12 V / 2.5 A；PPS 5–11 V / 3 A；30 W MAX",
+      "使用温度": "0–40 ℃",
+      "尺寸说明": "含插脚",
+      "执行标准": "GB 17625.1-2022；GB 4943.1-2022；GB/T 9254.1-2021"
+    },
+    "baseProductId": null,
+    "status": "published",
+    "updatedAt": "2026-10-31",
+    "sourceUrl": "https://www.cuktech.com.cn/products/a18c.html",
+    "sourceLabel": "酷态科官网产品页及规格图",
+    "image": "images/products/a18c.webp",
+    "specImages": [
+      "images/products/specs/e9c197b43048d3ce2d58.webp"
+    ]
+  },
+  {
+    "id": "cp3",
+    "name": "CP3 氮化镓充电器",
+    "category": "charger",
+    "model": "AC301",
+    "summary": "面向手机日常快充的小型充电器。",
+    "series": "CP 系列",
+    "tags": [
+      "轻便",
+      "通勤"
+    ],
+    "protocols": [
+      "PD 3.0",
+      "PPS",
+      "QC 3.0",
+      "AFC",
+      "FCP",
+      "SCP"
+    ],
+    "capacityMah": null,
+    "maxOutputW": 40.0,
+    "pdOutputW": 40,
+    "inputW": null,
+    "weightG": null,
+    "ports": "USB-C × 1",
+    "specs": {
+      "官方机型说明": "iPhone 17 全系最高 40 W",
+      "产品尺寸": "32 × 32 × 39 mm",
+      "输入规格": "100–240 V~ / 50–60 Hz / 1 A",
+      "USB-C 输出": "5 V / 3 A；9 V / 3 A；12 V / 2.5 A；15 V / 2.66 A；20 V / 2 A；40 W MAX"
+    },
+    "baseProductId": null,
+    "status": "published",
+    "updatedAt": "2026-10-31",
+    "sourceUrl": "https://www.cuktech.com.cn/products/ac301.html",
+    "sourceLabel": "酷态科官网产品页及规格图",
+    "image": "images/products/ac301.webp",
+    "specImages": [
+      "images/products/specs/2a533049c539d5afc8be.webp",
+      "images/products/specs/da007e5ef0ab71c86b26.webp"
+    ]
+  },
+  {
+    "id": "cp6-retract",
+    "name": "CP6 氮化镓充电器·伸缩线",
+    "category": "charger",
+    "model": "AD653W",
+    "summary": "自带约 0.7 米伸缩线，三口同充。",
+    "series": "CP 系列",
+    "tags": [
+      "自带线",
+      "通勤"
+    ],
+    "protocols": [
+      "PD 3.0",
+      "PPS",
+      "小米澎湃秒充",
+      "QC 3.0",
+      "AFC",
+      "SCP",
+      "FCP"
+    ],
+    "capacityMah": null,
+    "maxOutputW": 67.0,
+    "pdOutputW": 65,
+    "inputW": null,
+    "weightG": null,
+    "ports": "自带伸缩 USB-C 线 × 1 / USB-C × 1 / USB-A × 1",
+    "specs": {
+      "自带线长度": "约 0.7 m",
+      "产品尺寸": "52.5 × 51 × 50.75 mm",
+      "输入规格": "100–240 V~ / 50–60 Hz / 1.8 A",
+      "USB-C 伸缩线输出": "5 / 9 / 12 / 15 V，3 A；11 V / 5 A；20 V / 3.25 A；65 W MAX",
+      "USB-C 输出": "5 / 9 / 12 / 15 V，3 A；11 V / 6.1 A；20 V / 3.25 A；67 W MAX",
+      "USB-A 输出": "5 V / 3 A；9 V / 2 A；10 V / 2.25 A；12 V / 1.5 A；22.5 W MAX",
+      "多口输出": "伸缩线 + C：45 W + 20 W；伸缩线 + A：45 W + 18 W；C + A：20 W；三口：45 W + 15 W"
+    },
+    "baseProductId": null,
+    "status": "published",
+    "updatedAt": "2026-10-31",
+    "sourceUrl": "https://www.cuktech.com.cn/products/ad653w.html",
+    "sourceLabel": "酷态科官网产品页及规格图",
+    "image": "images/products/ad653w.webp",
+    "specImages": [
+      "images/products/specs/0f286e911483518fbdaa.webp"
+    ]
+  },
+  {
+    "id": "cp6-mini",
+    "name": "CP6 电能充 Mini",
+    "category": "charger",
+    "model": "AC452",
+    "summary": "最高 67 W，小体积便携设计。",
+    "series": "CP 系列",
+    "tags": [
+      "轻便",
+      "通勤"
+    ],
+    "protocols": [
+      "PD 3.0",
+      "AVS",
+      "UFCS",
+      "PPS",
+      "小米澎湃秒充",
+      "DCP"
+    ],
+    "capacityMah": null,
+    "maxOutputW": 67.0,
+    "pdOutputW": 65,
+    "inputW": null,
+    "weightG": null,
+    "ports": "USB-C × 2",
+    "specs": {
+      "产品尺寸": "36 × 36 × 50.5 mm",
+      "输入规格": "100–240 V~ / 50–60 Hz / 1.7 A；67 W 档需 200–240 V 输入",
+      "USB-C 输出": "5 / 9 / 12 / 15 V，3 A；11 V / 4.1 A；20 V / 3 A；60 W；200–240 V 另支持 11 V / 6.1 A、20 V / 3.25 A，67 W MAX",
+      "多口输出": "33 W + 10 W",
+      "低压输入输出上限": "单口最高 60 W"
+    },
+    "baseProductId": null,
+    "status": "published",
+    "updatedAt": "2026-10-31",
+    "sourceUrl": "https://www.cuktech.com.cn/products/ac452.html",
+    "sourceLabel": "酷态科官网产品页及规格图",
+    "image": "images/products/ac452.webp",
+    "specImages": [
+      "images/products/specs/d2fcb097142e39d9cd46.webp",
+      "images/products/specs/5b6dee7c4fe495626ad6.webp"
+    ]
+  },
+  {
+    "id": "cp16",
+    "name": "CP16 二合一电能块",
+    "category": "charger",
+    "model": "BA651",
+    "summary": "充电宝与充电器二合一，支持小米 67 W 快充。",
+    "series": "CP 系列",
+    "tags": [
+      "二合一",
+      "差旅"
+    ],
+    "protocols": [
+      "PD",
+      "QC",
+      "AFC",
+      "FCP",
+      "SCP",
+      "PPS",
+      "小米澎湃秒充",
+      "DCP",
+      "Apple 2.4A"
+    ],
+    "capacityMah": 5000,
+    "maxOutputW": 67.0,
+    "pdOutputW": 65,
+    "inputW": null,
+    "weightG": null,
+    "ports": "USB-C × 2 / USB-A × 1",
+    "specs": {
+      "快充技术": "ADC 2.0",
+      "产品尺寸": "80 × 61.5 × 33.5 mm",
+      "输入规格": "110–240 V~ / 50–60 Hz / 1.8 A",
+      "充电器模式输出": "C1：67 W MAX（20 V / 3.25 A，11 V / 6.1 A）；C2：22 W MAX；A：22.5 W MAX",
+      "充电宝模式输出": "C1 / C2：5 V / 3 A、9 V / 2 A、11 V / 2 A，22 W MAX；A：22.5 W MAX；双口或三口：15 W",
+      "多口输出": "充电器模式 C1 + C2 / A：45 W + 18 W；三口：45 W + 15 W",
+      "电池能量": "17.64 / 18 Wh（额定 / 典型，3.6 V）",
+      "额定容量": "2800 mAh（5 V / 2.4 A）"
+    },
+    "baseProductId": null,
+    "status": "published",
+    "updatedAt": "2026-10-31",
+    "sourceUrl": "https://www.cuktech.com.cn/products/ba651.html",
+    "sourceLabel": "酷态科官网产品页及规格图",
+    "image": "images/products/ba651.webp",
+    "specImages": [
+      "images/products/specs/a3b87598154f8da472ac.webp",
+      "images/products/specs/194fcad5dce112044499.webp",
+      "images/products/specs/5d06c931fd106d047023.webp"
+    ]
+  },
+  {
+    "id": "fan-outdoor",
+    "name": "CP 户外风扇",
+    "category": "fan",
+    "model": "BF01",
+    "summary": "手持风扇，适合外出使用。",
+    "series": "CP 系列",
+    "tags": [
+      "户外"
+    ],
+    "protocols": [],
+    "capacityMah": null,
+    "maxOutputW": null,
+    "pdOutputW": null,
+    "inputW": 15,
+    "weightG": 56.9,
+    "ports": "USB-A 输入",
+    "specs": {
+      "产品尺寸": "60 × 33.6 × 100.7 mm",
+      "输入规格": "5 V / 3 A",
+      "风速档位": "3 档",
+      "电机转速": "38000 转 / 分钟",
+      "风面面积": "31415 mm²",
+      "供电方式": "外接 USB 电源"
+    },
+    "baseProductId": null,
+    "status": "published",
+    "updatedAt": "2026-10-31",
+    "sourceUrl": "https://www.cuktech.com.cn/products/bf01.html",
+    "sourceLabel": "酷态科官网产品页及规格图",
+    "image": "images/products/bf01.webp",
+    "specImages": [
+      "images/products/specs/9808af0dc60d572560e7.webp"
+    ]
+  },
+  {
+    "id": "fan-desk",
+    "name": "CP 桌面模块风扇",
+    "category": "fan",
+    "model": "BF03",
+    "summary": "可放置于桌面的模块风扇。",
+    "series": "CP 系列",
+    "tags": [
+      "桌面",
+      "模块化"
+    ],
+    "protocols": [],
+    "capacityMah": null,
+    "maxOutputW": null,
+    "pdOutputW": null,
+    "inputW": 10,
+    "weightG": null,
+    "ports": "Power-Pin / USB-C 输入",
+    "specs": {
+      "产品尺寸": "171 × 158 × 286 mm",
+      "输入规格": "5 V / 2 A",
+      "供电方式": "USB-C 有线供电 / Power-Pin 移动电源供电",
+      "控制方式": "旋钮单击开关，旋转调速；双击启动 3 小时定时"
+    },
+    "baseProductId": null,
+    "status": "published",
+    "updatedAt": "2026-10-31",
+    "sourceUrl": "https://www.cuktech.com.cn/products/bf03.html",
+    "sourceLabel": "酷态科官网产品页及规格图",
+    "image": "images/products/bf03.webp",
+    "specImages": [
+      "images/products/specs/861011484f9a049534c5.webp"
+    ]
+  },
+  {
+    "id": "fan-plus-clip",
+    "name": "CP 模块风扇 Plus·夹式延长线套装",
+    "category": "fan",
+    "model": "BF02 + BC01",
+    "summary": "模块风扇搭配夹式延长线。",
+    "series": "CP 系列",
+    "tags": [
+      "桌面",
+      "模块化"
+    ],
+    "protocols": [],
+    "capacityMah": null,
+    "maxOutputW": null,
+    "pdOutputW": null,
+    "inputW": 27,
+    "weightG": null,
+    "ports": "风扇：Power-Pin；夹式延长线：USB-C 输入",
+    "specs": {
+      "产品尺寸": "风扇部分：74 × 44 × 57.6 mm",
+      "输入规格": "风扇：5 V / 5 A、9 V / 3 A；BC01 夹式延长线：9 V / 3 A",
+      "风速档位": "3 档 + BOOST 档",
+      "套装内容": "BF02 风扇 + BC01 Power-Pin 夹式延长线",
+      "摆放方式": "夹式 / 立式"
+    },
+    "baseProductId": null,
+    "status": "published",
+    "updatedAt": "2026-10-31",
+    "sourceUrl": "https://www.cuktech.com.cn/products/bf02-2-1.html",
+    "sourceLabel": "酷态科官网产品页及规格图",
+    "image": "images/products/bf02-2-1.webp",
+    "specImages": [
+      "images/products/specs/138f44fae48e94391a1d.webp"
+    ]
+  },
+  {
+    "id": "fan-plus-power",
+    "name": "CP 模块风扇 Plus·移动电源套装",
+    "category": "fan",
+    "model": "BF02 + BP01",
+    "summary": "模块风扇搭配移动电源供电。",
+    "series": "CP 系列",
+    "tags": [
+      "户外",
+      "模块化"
+    ],
+    "protocols": [],
+    "capacityMah": 10000,
+    "maxOutputW": null,
+    "pdOutputW": null,
+    "inputW": 27,
+    "weightG": 310,
+    "ports": "移动电源：USB-C 输入 / Power-Pin 供电",
+    "specs": {
+      "产品尺寸": "风扇部分：74 × 44 × 57.6 mm",
+      "输入规格": "套装移动电源：5 V / 3 A、9 V / 3 A",
+      "风速档位": "3 档 + BOOST 档",
+      "套装内容": "BF02 风扇 + BP01 移动电源",
+      "重量说明": "约 310 g，含移动电源及风扇",
+      "续航": "最长约 37 小时（官网标称）"
+    },
+    "baseProductId": null,
+    "status": "published",
+    "updatedAt": "2026-10-31",
+    "sourceUrl": "https://www.cuktech.com.cn/products/bf02.html",
+    "sourceLabel": "酷态科官网产品页及规格图",
+    "image": "images/products/bf02.webp",
+    "specImages": [
+      "images/products/specs/34ff4f195ea9f65c2daa.webp"
+    ]
+  },
+  {
+    "id": "cable-ultra",
+    "name": "10号一分二智转线 Ultra",
+    "category": "cable",
+    "model": "C2C615U",
+    "summary": "一分二线材，面向多设备充电。",
+    "series": "数字系列",
+    "tags": [
+      "多设备"
+    ],
+    "protocols": [],
+    "capacityMah": null,
+    "maxOutputW": 140,
+    "pdOutputW": null,
+    "inputW": 140,
+    "weightG": null,
+    "ports": "USB-C 输入 × 1 / USB-C 输出 × 2",
+    "specs": {
+      "线长": "约 1.5 m（主线约 1 m，分线约 0.4 m）",
+      "线材材质": "TPE",
+      "产品颜色": "黑色",
+      "数据传输": "C1 口 480 Mbps",
+      "屏幕": "0.96 英寸 TFT 彩屏",
+      "连接功能": "米家 App",
+      "协议转换": "ADC；AVS 动态快充 60 W MAX",
+      "多口输出": "140 W 输入：112 W + 25 W；100 W：70 W + 30 W；65 W：45 W + 20 W；其余分配见规格图"
+    },
+    "baseProductId": null,
+    "status": "published",
+    "updatedAt": "2026-10-31",
+    "sourceUrl": "https://www.cuktech.com.cn/products/c2c615u.html",
+    "sourceLabel": "酷态科官网产品页及规格图",
+    "image": "images/products/c2c615u.webp",
+    "specImages": [
+      "images/products/specs/4b835b441c107db1e591.webp",
+      "images/products/specs/fc4dd180eff79927b114.webp"
+    ]
+  },
+  {
+    "id": "cable-plus",
+    "name": "10号一分二智转线 Plus",
+    "category": "cable",
+    "model": "C2C615",
+    "summary": "一分二接口设计，方便随身收纳。",
+    "series": "数字系列",
+    "tags": [
+      "多设备"
+    ],
+    "protocols": [],
+    "capacityMah": null,
+    "maxOutputW": 140,
+    "pdOutputW": null,
+    "inputW": 140,
+    "weightG": null,
+    "ports": "USB-C 输入 × 1 / USB-C 输出 × 2",
+    "specs": {
+      "线长": "约 1.5 m",
+      "产品颜色": "黑色",
+      "数据传输": "C1 口 480 Mbps",
+      "协议转换": "ADC 自适应协议转换",
+      "车机互联": "不支持 CarPlay、HiCar 等车载互联功能",
+      "多口输出": "140 W 输入：112 W + 25 W；100 W：70 W + 30 W；65 W：45 W + 20 W；其余分配见规格图"
+    },
+    "baseProductId": null,
+    "status": "published",
+    "updatedAt": "2026-10-31",
+    "sourceUrl": "https://www.cuktech.com.cn/products/c2c615.html",
+    "sourceLabel": "酷态科官网产品页及规格图",
+    "image": "images/products/c2c615.webp",
+    "specImages": [
+      "images/products/specs/27cece006e3ce5d36783.webp",
+      "images/products/specs/bad50aa0c7a875a965c8.webp"
+    ]
+  },
+  {
+    "id": "cable-dual",
+    "name": "10号电能线·一拖二",
+    "category": "cable",
+    "model": "C2C515",
+    "summary": "一拖二 USB-C 线材。",
+    "series": "数字系列",
+    "tags": [
+      "多设备"
+    ],
+    "protocols": [],
+    "capacityMah": null,
+    "maxOutputW": 100,
+    "pdOutputW": null,
+    "inputW": 100,
+    "weightG": null,
+    "ports": "USB-C 输入 × 1 / USB-C 输出 × 2",
+    "specs": {
+      "线长": "主线约 90 cm，分线约 40 cm",
+      "产品颜色": "黑色",
+      "协议转换": "ADC 自适应协议转换",
+      "多口输出": "100 W 输入：70 W + 30 W；65 W：45 W + 20 W；45 W：25 W + 20 W；30 W：10 W + 10 W"
+    },
+    "baseProductId": null,
+    "status": "published",
+    "updatedAt": "2026-10-31",
+    "sourceUrl": "https://www.cuktech.com.cn/products/c2c515.html",
+    "sourceLabel": "酷态科官网产品页及规格图",
+    "image": "images/products/c2c515.webp",
+    "specImages": [
+      "images/products/specs/5b7dd0a6e71e5c29186f.webp",
+      "images/products/specs/bd05ea0d35c625623a0c.webp"
+    ]
+  },
+  {
+    "id": "cable-oled",
+    "name": "6号编织数显电能线·OLED",
+    "category": "cable",
+    "model": "CTC615P / CTC620P",
+    "summary": "编织线身，OLED 显示充电状态。",
+    "series": "数字系列",
+    "tags": [
+      "屏显"
+    ],
+    "protocols": [],
+    "capacityMah": null,
+    "maxOutputW": 240,
+    "pdOutputW": null,
+    "inputW": null,
+    "weightG": null,
+    "ports": "USB-C 转 USB-C",
+    "specs": {
+      "显示方式": "OLED 功率显示",
+      "线长": "CTC615P：约 1.5 m；CTC620P：约 2 m",
+      "接口类型": "USB-C 转 USB-C",
+      "产品颜色": "黑色",
+      "线材材质": "48 锭编织"
+    },
+    "baseProductId": null,
+    "status": "published",
+    "updatedAt": "2026-10-31",
+    "sourceUrl": "https://www.cuktech.com.cn/products/ctc615p-620p.html",
+    "sourceLabel": "酷态科官网产品页及规格图",
+    "image": "images/products/ctc615p-620p.webp",
+    "specImages": [
+      "images/products/specs/ef85a839cf85fce8c0af.webp"
+    ]
+  },
+  {
+    "id": "cable-100",
+    "name": "100W 快充数据线·1 m",
+    "category": "cable",
+    "model": "KLC-5499",
+    "summary": "USB-C to USB-C，长度 1 米。",
+    "series": "数字系列",
+    "tags": [],
+    "protocols": [],
+    "capacityMah": null,
+    "maxOutputW": 100,
+    "pdOutputW": null,
+    "inputW": null,
+    "weightG": null,
+    "ports": "USB-C → USB-C",
+    "specs": {
+      "线长": "1 m",
+      "接口类型": "USB-C 转 USB-C",
+      "线材材质": "TPE",
+      "产品颜色": "白色",
+      "数据传输": "官网标称 40 MB/s"
+    },
+    "baseProductId": null,
+    "status": "published",
+    "updatedAt": "2026-10-31",
+    "sourceUrl": "https://www.cuktech.com.cn/products/klc5499.html",
+    "sourceLabel": "酷态科官网产品页及规格图",
+    "image": "images/products/klc5499.webp",
+    "specImages": [
+      "images/products/specs/3e3455487c5a4df50e23.webp",
+      "images/products/specs/8088be5a48d74fc5f068.webp"
+    ]
+  },
+  {
+    "id": "cable-mag15",
+    "name": "CP 240W 磁吸编织快充线·1.5 m",
+    "category": "cable",
+    "model": "CMC615",
+    "summary": "240 W 充电能力，磁吸编织设计。",
+    "series": "CP 系列",
+    "tags": [
+      "磁吸"
+    ],
+    "protocols": [],
+    "capacityMah": null,
+    "maxOutputW": 240,
+    "pdOutputW": null,
+    "inputW": null,
+    "weightG": null,
+    "ports": "USB-C → USB-C",
+    "specs": {
+      "线长": "约 1.5 m",
+      "接口类型": "USB-C 转 USB-C",
+      "产品颜色": "黑色 / 银色",
+      "收纳方式": "磁吸",
+      "芯片": "E-Marker"
+    },
+    "baseProductId": null,
+    "status": "published",
+    "updatedAt": "2026-10-31",
+    "sourceUrl": "https://www.cuktech.com.cn/products/cmc615.html",
+    "sourceLabel": "酷态科官网产品页及规格图",
+    "image": "images/products/cmc615.webp",
+    "specImages": [
+      "images/products/specs/154e50ebeb233e7c0377.webp"
+    ]
+  },
+  {
+    "id": "cable-mag10",
+    "name": "CP 240W 磁吸编织快充线·1 m",
+    "category": "cable",
+    "model": "CMC610",
+    "summary": "240 W 充电能力，长度 1 米。",
+    "series": "CP 系列",
+    "tags": [
+      "磁吸"
+    ],
+    "protocols": [],
+    "capacityMah": null,
+    "maxOutputW": 240,
+    "pdOutputW": null,
+    "inputW": null,
+    "weightG": null,
+    "ports": "USB-C → USB-C",
+    "specs": {
+      "线长": "约 1 m",
+      "接口类型": "USB-C 转 USB-C",
+      "产品颜色": "黑色 / 银色",
+      "收纳方式": "磁吸",
+      "芯片": "E-Marker"
+    },
+    "baseProductId": null,
+    "status": "published",
+    "updatedAt": "2026-10-31",
+    "sourceUrl": "https://www.cuktech.com.cn/products/cmc610.html",
+    "sourceLabel": "酷态科官网产品页及规格图",
+    "image": "images/products/cmc610.webp",
+    "specImages": [
+      "images/products/specs/154e50ebeb233e7c0377.webp"
+    ]
+  },
+  {
+    "id": "cable-3a05",
+    "name": "3A 快充数据线·0.5 m",
+    "category": "cable",
+    "model": "CTC305N",
+    "summary": "USB-C to USB-C 充电线。",
+    "series": "数字系列",
+    "tags": [],
+    "protocols": [],
+    "capacityMah": null,
+    "maxOutputW": null,
+    "pdOutputW": null,
+    "inputW": null,
+    "weightG": null,
+    "ports": "USB-C 转 USB-C",
+    "specs": {
+      "线长": "0.5 m",
+      "接口类型": "USB-C 转 USB-C",
+      "最大电流": "3 A",
+      "线材材质": "TPE",
+      "产品颜色": "白色",
+      "车机互联": "CarLife"
+    },
+    "baseProductId": null,
+    "status": "published",
+    "updatedAt": "2026-10-31",
+    "sourceUrl": "https://www.cuktech.com.cn/products/ctc305n.html",
+    "sourceLabel": "酷态科官网产品页及规格图",
+    "image": "images/products/ctc305n.webp",
+    "specImages": [
+      "images/products/specs/1d8b122429ec94785318.webp"
+    ]
+  },
+  {
+    "id": "cable-3a15",
+    "name": "3A 快充数据线·1.5 m",
+    "category": "cable",
+    "model": "CTC315N",
+    "summary": "USB-C to USB-C 充电线。",
+    "series": "数字系列",
+    "tags": [],
+    "protocols": [],
+    "capacityMah": null,
+    "maxOutputW": null,
+    "pdOutputW": null,
+    "inputW": null,
+    "weightG": null,
+    "ports": "USB-C 转 USB-C",
+    "specs": {
+      "线长": "1.5 m",
+      "接口类型": "USB-C 转 USB-C",
+      "最大电流": "3 A",
+      "线材材质": "TPE",
+      "产品颜色": "白色",
+      "车机互联": "CarLife"
+    },
+    "baseProductId": null,
+    "status": "published",
+    "updatedAt": "2026-10-31",
+    "sourceUrl": "https://www.cuktech.com.cn/products/ctc315n.html",
+    "sourceLabel": "酷态科官网产品页及规格图",
+    "image": "images/products/ctc315n.webp",
+    "specImages": [
+      "images/products/specs/1d8b122429ec94785318.webp"
+    ]
+  },
+  {
+    "id": "cable-3a-braid",
+    "name": "3A 编织快充线·1.5 m",
+    "category": "cable",
+    "model": "CTC315P",
+    "summary": "USB-C to USB-C 充电线。",
+    "series": "数字系列",
+    "tags": [],
+    "protocols": [],
+    "capacityMah": null,
+    "maxOutputW": null,
+    "pdOutputW": null,
+    "inputW": null,
+    "weightG": null,
+    "ports": "USB-C 转 USB-C",
+    "specs": {
+      "线长": "约 1.5 m",
+      "接口类型": "USB-C 转 USB-C",
+      "最大电流": "3 A",
+      "线材材质": "双色尼龙编织",
+      "车机互联": "CarLife"
+    },
+    "baseProductId": null,
+    "status": "published",
+    "updatedAt": "2026-10-31",
+    "sourceUrl": "https://www.cuktech.com.cn/products/ctc315p.html",
+    "sourceLabel": "酷态科官网产品页及规格图",
+    "image": "images/products/ctc315p.webp",
+    "specImages": [
+      "images/products/specs/6ee9fb4518faf0ac5bfd.webp"
+    ]
+  },
+  {
+    "id": "cable-6a",
+    "name": "CP 编织快充 6A 线",
+    "category": "cable",
+    "model": "CTC615S",
+    "summary": "USB-C to USB-C 充电线。",
+    "series": "CP 系列",
+    "tags": [],
+    "protocols": [],
+    "capacityMah": null,
+    "maxOutputW": 240,
+    "pdOutputW": null,
+    "inputW": null,
+    "weightG": null,
+    "ports": "USB-C → USB-C",
+    "specs": {
+      "线长": "约 15 cm",
+      "接口类型": "USB-C 转 USB-C",
+      "最大电流": "6 A",
+      "线材材质": "编织",
+      "收纳方式": "磁吸端口",
+      "数据传输": "480 Mbps"
+    },
+    "baseProductId": null,
+    "status": "published",
+    "updatedAt": "2026-10-31",
+    "sourceUrl": "https://www.cuktech.com.cn/products/ctc615s.html",
+    "sourceLabel": "酷态科官网产品页及规格图",
+    "image": "images/products/ctc615s.webp",
+    "specImages": [
+      "images/products/specs/6963e837c7ed922d0345.webp"
+    ]
+  },
+  {
+    "id": "cable-6a-lanyard",
+    "name": "CP 挂绳式编织 6A 线",
+    "category": "cable",
+    "model": "CTC620S",
+    "summary": "USB-C to USB-C 充电线。",
+    "series": "CP 系列",
+    "tags": [],
+    "protocols": [],
+    "capacityMah": null,
+    "maxOutputW": 240,
+    "pdOutputW": null,
+    "inputW": null,
+    "weightG": null,
+    "ports": "USB-C → USB-C",
+    "specs": {
+      "线长": "约 20 cm",
+      "接口类型": "USB-C 转 USB-C",
+      "最大电流": "6 A",
+      "产品颜色": "黑色",
+      "线材材质": "48 锭编织",
+      "收纳方式": "挂绳式"
+    },
+    "baseProductId": null,
+    "status": "published",
+    "updatedAt": "2026-10-31",
+    "sourceUrl": "https://www.cuktech.com.cn/products/ctc620s.html",
+    "sourceLabel": "酷态科官网产品页及规格图",
+    "image": "images/products/ctc620s.webp",
+    "specImages": [
+      "images/products/specs/faec6ec0cfb0e3ea6523.webp"
+    ]
+  },
+  {
+    "id": "cable-silicone",
+    "name": "亲肤硅胶编织线·1.5 m",
+    "category": "cable",
+    "model": "CTC615U",
+    "summary": "USB-C to USB-C 充电线。",
+    "series": "数字系列",
+    "tags": [],
+    "protocols": [],
+    "capacityMah": null,
+    "maxOutputW": 240,
+    "pdOutputW": null,
+    "inputW": null,
+    "weightG": null,
+    "ports": "USB-C → USB-C",
+    "specs": {
+      "线长": "约 1.5 m",
+      "接口类型": "USB-C 转 USB-C",
+      "最大电流": "6 A",
+      "线材材质": "液态硅胶 + 48 锭编织",
+      "同系列线长": "CTC605U：0.5 m；CTC610U：1 m；CTC615U：1.5 m；CTC620U：2 m",
+      "车机互联": "CarPlay"
+    },
+    "baseProductId": null,
+    "status": "published",
+    "updatedAt": "2026-10-31",
+    "sourceUrl": "https://www.cuktech.com.cn/products/ctc615u.html",
+    "sourceLabel": "酷态科官网产品页及规格图",
+    "image": "images/products/ctc615u.webp",
+    "specImages": [
+      "images/products/specs/8ca142d3602fd8a7fc9b.webp"
+    ]
+  },
+  {
+    "id": "cable-rainbow",
+    "name": "CP 编织 6A 彩虹线·1.5 m",
+    "category": "cable",
+    "model": "CTC615W",
+    "summary": "USB-C to USB-C 充电线。",
+    "series": "CP 系列",
+    "tags": [],
+    "protocols": [],
+    "capacityMah": null,
+    "maxOutputW": 240,
+    "pdOutputW": null,
+    "inputW": null,
+    "weightG": null,
+    "ports": "USB-C → USB-C",
+    "specs": {
+      "线长": "约 1.5 m",
+      "接口类型": "USB-C 转 USB-C",
+      "最大电流": "6 A",
+      "线材材质": "48 锭编织"
+    },
+    "baseProductId": null,
+    "status": "published",
+    "updatedAt": "2026-10-31",
+    "sourceUrl": "https://www.cuktech.com.cn/products/ctc615w.html",
+    "sourceLabel": "酷态科官网产品页及规格图",
+    "image": "images/products/ctc615w.webp",
+    "specImages": [
+      "images/products/specs/211813170b39f96161ad.webp"
+    ]
+  },
+  {
+    "id": "cable-oled-mag",
+    "name": "6号编织数显电能线·磁吸 OLED",
+    "category": "cable",
+    "model": "CMC615P",
+    "summary": "磁吸编织线身，配备 OLED 数显。",
+    "series": "数字系列",
+    "tags": [
+      "磁吸",
+      "屏显"
+    ],
+    "protocols": [],
+    "capacityMah": null,
+    "maxOutputW": 240,
+    "pdOutputW": null,
+    "inputW": null,
+    "weightG": null,
+    "ports": "USB-C 转 USB-C",
+    "specs": {
+      "线长": "约 1.5 m",
+      "接口类型": "USB-C 转 USB-C",
+      "产品颜色": "黑色",
+      "显示方式": "OLED 功率显示",
+      "线材材质": "48 锭编织",
+      "收纳方式": "磁吸"
+    },
+    "baseProductId": null,
+    "status": "published",
+    "updatedAt": "2026-10-31",
+    "sourceUrl": "https://www.cuktech.com.cn/products/cmc615p.html",
+    "sourceLabel": "酷态科官网产品页及规格图",
+    "image": "images/products/cmc615p.webp",
+    "specImages": [
+      "images/products/specs/bad056a63fdfe930768f.webp"
+    ]
+  },
+  {
+    "id": "cable-240",
+    "name": "240W 快充数据线·1.5 m",
+    "category": "cable",
+    "model": "CTC615N",
+    "summary": "1.5 米双 USB-C 线，支持 240 W 充电和 480 Mbps 数据传输。",
+    "series": "CP 系列",
+    "tags": [
+      "高功率"
+    ],
+    "protocols": [
+      "PD 3.1",
+      "小米澎湃秒充"
+    ],
+    "capacityMah": null,
+    "maxOutputW": 240,
+    "pdOutputW": null,
+    "inputW": null,
+    "weightG": null,
+    "ports": "USB-C 转 USB-C",
+    "specs": {
+      "线长": "1.5 m",
+      "接口类型": "USB-C 转 USB-C",
+      "最大电流": "6 A",
+      "最大电压": "48 V",
+      "数据传输": "480 Mbps",
+      "线材材质": "TPE",
+      "产品颜色": "黑色",
+      "车机互联": "CarPlay / HiCar / CarLife"
+    },
+    "baseProductId": null,
+    "status": "published",
+    "sourceUrl": "https://www.cuktech.com.cn/products/ctc615n.html",
+    "sourceLabel": "酷态科官网产品页及规格图",
+    "updatedAt": "2026-10-31",
+    "image": "images/products/ctc615n.webp",
+    "specImages": [
+      "images/products/specs/12b275ea7d0a355f00c6.webp"
+    ]
+  },
+  {
+    "id": "cable-240-braid",
+    "name": "240W 编织快充数据线·1.5 m",
+    "category": "cable",
+    "model": "CTC515P",
+    "summary": "1.5 米尼龙编织线，支持 240 W 充电和 480 Mbps 数据传输。",
+    "series": "CP 系列",
+    "tags": [
+      "编织",
+      "高功率"
+    ],
+    "protocols": [
+      "PD 3.1"
+    ],
+    "capacityMah": null,
+    "maxOutputW": 240,
+    "pdOutputW": null,
+    "inputW": null,
+    "weightG": null,
+    "ports": "USB-C 转 USB-C",
+    "specs": {
+      "线长": "约 1.5 m",
+      "接口类型": "USB-C 转 USB-C",
+      "最大电流": "5 A",
+      "最大电压": "48 V",
+      "数据传输": "480 Mbps",
+      "线材材质": "尼龙编织",
+      "同系列线长": "CTC515P：1.5 m；CTC520P：2 m"
+    },
+    "baseProductId": null,
+    "status": "published",
+    "sourceUrl": "https://www.cuktech.com.cn/products/ctc515p.html",
+    "sourceLabel": "酷态科官网产品页及规格图",
+    "updatedAt": "2026-10-31",
+    "image": "images/products/ctc515p.webp",
+    "specImages": [
+      "images/products/specs/89ffceb035641473fb5a.webp",
+      "images/products/specs/7dad389712e9f2f33035.webp"
+    ]
+  },
+  {
+    "id": "cable-100-15",
+    "name": "100W 快充数据线·1.5 m",
+    "category": "cable",
+    "model": "CTC515N",
+    "summary": "1.5 米双 USB-C 线，支持 100 W 充电和 480 Mbps 数据传输。",
+    "series": "CP 系列",
+    "tags": [
+      "通用"
+    ],
+    "protocols": [
+      "PD",
+      "QC"
+    ],
+    "capacityMah": null,
+    "maxOutputW": 100,
+    "pdOutputW": null,
+    "inputW": null,
+    "weightG": null,
+    "ports": "USB-C 转 USB-C",
+    "specs": {
+      "线长": "1.5 m",
+      "接口类型": "USB-C 转 USB-C",
+      "最大电流": "5 A",
+      "数据传输": "480 Mbps",
+      "线材材质": "TPE",
+      "产品颜色": "白色"
+    },
+    "baseProductId": null,
+    "status": "published",
+    "sourceUrl": "https://www.cuktech.com.cn/products/ctc515n.html",
+    "sourceLabel": "酷态科官网产品页及规格图",
+    "updatedAt": "2026-10-31",
+    "image": "images/products/ctc515n.webp",
+    "specImages": [
+      "images/products/specs/8ed385a8c79bb2f485c1.webp"
+    ]
+  },
+  {
+    "id": "cable-lightning",
+    "name": "苹果 MFi 认证快充线·1 m",
+    "category": "cable",
+    "model": "KLC-5497 / AL870",
+    "summary": "USB-C to Lightning，长度 1 米。",
+    "series": "数字系列",
+    "tags": [],
+    "protocols": [],
+    "capacityMah": null,
+    "maxOutputW": null,
+    "pdOutputW": null,
+    "inputW": null,
+    "weightG": null,
+    "ports": "USB-C 转 Lightning",
+    "specs": {
+      "线长": "约 1 m",
+      "认证": "Apple MFi",
+      "接口类型": "USB-C 转 Lightning",
+      "数据传输": "480 Mbps",
+      "产品颜色": "白色",
+      "线材材质": "TPE"
+    },
+    "baseProductId": null,
+    "status": "published",
+    "updatedAt": "2026-10-31",
+    "sourceUrl": "https://www.cuktech.com.cn/products/klc-5497-al870.html",
+    "sourceLabel": "酷态科官网产品页及规格图",
+    "image": "images/products/klc-5497-al870.webp",
+    "specImages": [
+      "images/products/specs/042d8cfa32140bcba50d.webp"
+    ]
+  },
+  {
+    "id": "lightning-adapter",
+    "name": "CP 苹果转接头",
+    "category": "accessory",
+    "model": "CTL301",
+    "summary": "用于 Lightning 接口设备的转接配件。",
+    "series": "CP 系列",
+    "tags": [],
+    "protocols": [],
+    "capacityMah": null,
+    "maxOutputW": null,
+    "pdOutputW": null,
+    "inputW": null,
+    "weightG": null,
+    "ports": "USB-C 转 Lightning",
+    "specs": {
+      "接口类型": "USB-C 转 Lightning",
+      "认证": "Apple MFi",
+      "产品颜色": "曜石黑 / 银滩白 / 沙滩粉",
+      "外壳材质": "铝合金"
+    },
+    "baseProductId": null,
+    "status": "published",
+    "updatedAt": "2026-10-31",
+    "sourceUrl": "https://www.cuktech.com.cn/products/ctl301.html",
+    "sourceLabel": "酷态科官网产品页及规格图",
+    "image": "images/products/ctl301.webp",
+    "specImages": [
+      "images/products/specs/c348700d3e0790c4e1f7.webp"
+    ]
+  },
+  {
+    "id": "rainbow-kit",
+    "name": "CP 编织 6A 彩虹线·苹果转接头套装",
+    "category": "cable",
+    "model": "CTC615W + CTL301",
+    "summary": "彩虹编织线搭配苹果转接头。",
+    "series": "CP 系列",
+    "tags": [],
+    "protocols": [],
+    "capacityMah": null,
+    "maxOutputW": 240,
+    "pdOutputW": null,
+    "inputW": null,
+    "weightG": null,
+    "ports": "USB-C 转 USB-C / Lightning 转接头",
+    "specs": {
+      "线长": "约 1.5 m",
+      "接口类型": "USB-C 转 USB-C，附 Lightning 转接头",
+      "套装内容": "CTC615W 编织 6 A 彩虹线 + CTL301 苹果转接头",
+      "认证": "转接头通过 Apple MFi 认证",
+      "功率说明": "线材最高 240 W；Lightning 转接后的功率取决于转接头与设备。"
+    },
+    "baseProductId": null,
+    "status": "published",
+    "updatedAt": "2026-10-31",
+    "sourceUrl": "https://www.cuktech.com.cn/products/ctc615w-ctl301.html",
+    "sourceLabel": "酷态科官网产品页及规格图",
+    "image": "images/products/ctc615w-ctl301.webp",
+    "specImages": [
+      "images/products/specs/5a8be0620264020531ae.webp"
+    ]
+  },
+  {
+    "id": "cable-atoc",
+    "name": "3A 快充数据线·1 m",
+    "category": "cable",
+    "model": "CTC310N",
+    "summary": "双 USB-C 接口，1 米线长，支持 3 A 充电及数据传输。",
+    "series": "数字系列",
+    "tags": [
+      "通用",
+      "1 米"
+    ],
+    "protocols": [],
+    "capacityMah": null,
+    "maxOutputW": null,
+    "pdOutputW": null,
+    "inputW": null,
+    "weightG": null,
+    "ports": "USB-C 转 USB-C",
+    "specs": {
+      "线长": "1 m",
+      "接口类型": "USB-C 转 USB-C",
+      "最大电流": "3 A",
+      "线材材质": "TPE",
+      "产品颜色": "白色",
+      "车机互联": "CarLife"
+    },
+    "baseProductId": null,
+    "status": "published",
+    "updatedAt": "2026-10-31",
+    "sourceUrl": "https://www.cuktech.com.cn/products/ctc310n.html",
+    "sourceLabel": "酷态科官网产品页及规格图",
+    "image": "images/products/ctc310n.webp",
+    "specImages": [
+      "images/products/specs/1d8b122429ec94785318.webp"
+    ]
+  },
+  {
+    "id": "lamp",
+    "name": "CP 柔光随身灯",
+    "category": "accessory",
+    "model": "AL003",
+    "summary": "随身照明配件。",
+    "series": "CP 系列",
+    "tags": [],
+    "protocols": [],
+    "capacityMah": null,
+    "maxOutputW": null,
+    "pdOutputW": null,
+    "inputW": 2.5,
+    "weightG": null,
+    "ports": "USB-A 输入",
+    "specs": {
+      "产品尺寸": "199 × 17 × 9 mm",
+      "输入规格": "5 V",
+      "额定功率": "2.5 W MAX",
+      "光通量": "135 lm MAX",
+      "亮度调节": "5 档",
+      "结构": "可弯折灯身"
+    },
+    "baseProductId": null,
+    "status": "published",
+    "updatedAt": "2026-10-31",
+    "sourceUrl": "https://www.cuktech.com.cn/products/al003.html",
+    "sourceLabel": "酷态科官网产品页及规格图",
+    "image": "images/products/al003.webp",
+    "specImages": [
+      "images/products/specs/6afa6d733bcde969697b.webp",
+      "images/products/specs/84c9aecc54fab9677f81.webp"
+    ]
+  },
+  {
+    "id": "battery-button",
+    "name": "纽扣电池·5 粒装",
+    "category": "accessory",
+    "model": "CR2032",
+    "summary": "纽扣电池五粒装。",
+    "series": "电池",
+    "tags": [],
+    "protocols": [],
+    "capacityMah": null,
+    "maxOutputW": null,
+    "pdOutputW": null,
+    "inputW": null,
+    "weightG": null,
+    "ports": "不适用",
+    "specs": {
+      "电池种类": "纽扣锂电池",
+      "额定电压": "3 V",
+      "产品尺寸": "直径 20 mm，厚度 3.2 mm",
+      "包装数量": "5 粒",
+      "环保信息": "无汞、无镉"
+    },
+    "baseProductId": null,
+    "status": "published",
+    "updatedAt": "2026-10-31",
+    "sourceUrl": "https://www.cuktech.com.cn/products/cr2032.html",
+    "sourceLabel": "酷态科官网产品页及规格图",
+    "image": "images/products/cr2032.webp",
+    "specImages": [
+      "images/products/specs/7097bdd5e7ad716e2331.webp",
+      "images/products/specs/2f0bdf112c79b2094679.webp"
+    ]
+  },
+  {
+    "id": "battery-aa",
+    "name": "5号碱性电池·10 粒装",
+    "category": "accessory",
+    "model": "5 号（AA）",
+    "summary": "5号碱性电池普通版。",
+    "series": "电池",
+    "tags": [],
+    "protocols": [],
+    "capacityMah": null,
+    "maxOutputW": null,
+    "pdOutputW": null,
+    "inputW": null,
+    "weightG": null,
+    "ports": "不适用",
+    "specs": {
+      "官网目录标识": "B06",
+      "电池种类": "碱性电池",
+      "额定电压": "1.5 V",
+      "包装数量": "10 粒，含收纳盒",
+      "保质期": "7 年",
+      "含汞量": "无汞",
+      "执行标准": "GB/T 8897.2"
+    },
+    "baseProductId": null,
+    "status": "published",
+    "updatedAt": "2026-10-31",
+    "sourceUrl": "https://www.cuktech.com.cn/products/b06.html",
+    "sourceLabel": "酷态科官网产品页及规格图",
+    "image": "images/products/b06.webp",
+    "specImages": [
+      "images/products/specs/e023f2ba67ff2c41994c.webp"
+    ]
+  },
+  {
+    "id": "battery-aaa",
+    "name": "7号碱性电池·10 粒装",
+    "category": "accessory",
+    "model": "7 号（AAA）",
+    "summary": "7号碱性电池普通版。",
+    "series": "电池",
+    "tags": [],
+    "protocols": [],
+    "capacityMah": null,
+    "maxOutputW": null,
+    "pdOutputW": null,
+    "inputW": null,
+    "weightG": null,
+    "ports": "不适用",
+    "specs": {
+      "官网目录标识": "B07",
+      "电池种类": "碱性电池",
+      "额定电压": "1.5 V",
+      "包装数量": "10 粒，含收纳盒",
+      "保质期": "7 年",
+      "含汞量": "无汞",
+      "执行标准": "GB/T 8897.2"
+    },
+    "baseProductId": null,
+    "status": "published",
+    "updatedAt": "2026-10-31",
+    "sourceUrl": "https://www.cuktech.com.cn/products/b07.html",
+    "sourceLabel": "酷态科官网产品页及规格图",
+    "image": "images/products/b07.webp",
+    "specImages": [
+      "images/products/specs/5b90701a3567211b7171.webp"
+    ]
+  },
+  {
+    "id": "10-charger-mini-2026",
+    "name": "10号充电器 Mini·2026 新年版",
+    "category": "charger",
+    "model": "AD1203P",
+    "summary": "限定外观版本，可与标准款分别对比。",
+    "series": "限定产品",
+    "tags": [
+      "限定版"
+    ],
+    "protocols": [
+      "PD 3.0",
+      "PPS",
+      "小米澎湃秒充",
+      "UFCS",
+      "QC 3.0",
+      "AFC",
+      "FCP",
+      "SCP"
+    ],
+    "capacityMah": null,
+    "maxOutputW": 120.0,
+    "pdOutputW": 100,
+    "inputW": null,
+    "weightG": null,
+    "ports": "USB-C × 2 / USB-A × 1",
+    "specs": {
+      "产品尺寸": "44.5 × 39 × 60 mm",
+      "输入规格": "100–240 V~ / 50–60 Hz / 1.7 A；120 W 档需 200–240 V 输入",
+      "USB-C 输出": "两口均为 5 / 9 / 12 / 15 V，3 A；11 V / 6.1 A；20 V / 5 A，100 W；200–240 V 另支持 20 V / 6 A，120 W MAX",
+      "USB-A 输出": "5 V / 3 A；9 V / 2 A；12 V / 1.5 A；11 V / 3 A；33 W MAX",
+      "多口输出": "200–240 V：C1 + C2 为 67 W + 55 W；C1 / C2 + A 为 90 W + 22.5 W；三口 45 W + 45 W + 22.5 W；低压输入分配见规格图",
+      "低压输入输出上限": "USB-C 单口最高 100 W",
+      "版本": "2026 新年版",
+      "官网目录标识": "AD1203PNY"
+    },
+    "baseProductId": "10-charger-mini",
+    "status": "published",
+    "updatedAt": "2026-10-31",
+    "sourceUrl": "https://www.cuktech.com.cn/products/ad1203pny.html",
+    "sourceLabel": "酷态科官网产品页及规格图",
+    "image": "images/products/ad1203pny.webp",
+    "specImages": [
+      "images/products/specs/c2d5879d555c0240a738.webp",
+      "images/products/specs/60ce6890baff9709bdc2.webp",
+      "images/products/specs/6a0604ae30795985d058.webp"
+    ]
+  },
+  {
+    "id": "10-charger-ultra-2026",
+    "name": "10号充电器 Ultra·2026 新年版",
+    "category": "charger",
+    "model": "AD1204U",
+    "summary": "限定外观版本，可与标准款分别对比。",
+    "series": "限定产品",
+    "tags": [
+      "限定版"
+    ],
+    "protocols": [
+      "PD 3.0",
+      "PPS",
+      "小米澎湃秒充",
+      "UFCS",
+      "QC 3.0",
+      "AFC",
+      "FCP",
+      "SCP"
+    ],
+    "capacityMah": null,
+    "maxOutputW": 120.0,
+    "pdOutputW": 100,
+    "inputW": null,
+    "weightG": null,
+    "ports": "USB-C × 3 / USB-A × 1",
+    "specs": {
+      "产品尺寸": "67 × 76 × 33 mm",
+      "屏幕尺寸": "1.57 英寸",
+      "输入规格": "100–130 V~ / 50–60 Hz / 1.7 A；200–240 V~ / 50–60 Hz / 1.7 A",
+      "USB-C1 / C2 输出": "5 / 9 / 12 / 15 V，3 A；20 V / 5 A；11 V / 6 A，100 W；200–240 V 另支持 20 V / 6 A，120 W MAX",
+      "USB-C3 输出": "5 V / 3 A；9 V / 3 A；12 V / 2.5 A；15 V / 2 A；11 V / 4 A；44 W MAX",
+      "USB-A 输出": "5 V / 3 A；9 V / 2 A；12 V / 1.5 A；11 V / 3 A；33 W MAX",
+      "多口总输出": "200–240 V：120 W；100–130 V：110 W",
+      "连接功能": "米家 App",
+      "版本": "2026 新年版",
+      "官网目录标识": "AD1204UNY"
+    },
+    "baseProductId": "10-charger-ultra",
+    "status": "published",
+    "updatedAt": "2026-10-31",
+    "sourceUrl": "https://www.cuktech.com.cn/products/ad1204uny.html",
+    "sourceLabel": "酷态科官网产品页及规格图",
+    "image": "images/products/ad1204uny.webp",
+    "specImages": [
+      "images/products/specs/0f769e24b9baaf10233d.webp",
+      "images/products/specs/8a79f267609c9350348f.webp"
+    ]
+  },
+  {
+    "id": "6-card-2026",
+    "name": "6号电能卡片·2026 新年版",
+    "category": "charger",
+    "model": "AD652S",
+    "summary": "限定外观版本，可与标准款分别对比。",
+    "series": "限定产品",
+    "tags": [
+      "限定版"
+    ],
+    "protocols": [
+      "PD 3.0",
+      "QC 3.0",
+      "AFC",
+      "FCP",
+      "SCP",
+      "PPS",
+      "小米澎湃秒充",
+      "DCP"
+    ],
+    "capacityMah": null,
+    "maxOutputW": 65.0,
+    "pdOutputW": 65,
+    "inputW": null,
+    "weightG": null,
+    "ports": "USB-C × 2",
+    "specs": {
+      "产品尺寸": "77.3 × 42 × 14.3 mm",
+      "输入规格": "200–240 V~ / 50–60 Hz / 1.8 A；100–130 V~ / 50–60 Hz / 1.8 A",
+      "USB-C1 输出": "5 / 9 / 12 / 15 V，3 A；20 V / 3.25 A；5–11 V / 5 A；5–20 V / 3.25 A；65 W MAX",
+      "USB-C2 输出": "5 V / 3 A；9 V / 2.22 A；10 V / 2.25 A；22.5 W MAX",
+      "多口输出": "200–240 V：45 W + 20 W；100–130 V：25 W + 20 W",
+      "低压输入输出上限": "100–130 V 输入时 C1 最高 45 W",
+      "版本": "2026 新年版",
+      "使用温度": "0–40 ℃",
+      "官网目录标识": "AD652SNY"
+    },
+    "baseProductId": "6-card",
+    "status": "published",
+    "updatedAt": "2026-10-31",
+    "sourceUrl": "https://www.cuktech.com.cn/products/ad652sny.html",
+    "sourceLabel": "酷态科官网产品页及规格图",
+    "image": "images/products/ad652sny.webp",
+    "specImages": [
+      "images/products/specs/b6392ee65c8c23980651.webp",
+      "images/products/specs/83e939faa06052afa171.webp",
+      "images/products/specs/7cc85bd7eac83f7f3f5a.webp"
+    ]
+  },
+  {
+    "id": "6-card-2025",
+    "name": "6号电能卡片·2025 新年版",
+    "category": "charger",
+    "model": "AD652S",
+    "summary": "限定外观版本，可与标准款分别对比。",
+    "series": "限定产品",
+    "tags": [
+      "限定版"
+    ],
+    "protocols": [
+      "PD 3.0",
+      "QC 3.0",
+      "AFC",
+      "FCP",
+      "SCP",
+      "PPS",
+      "小米澎湃秒充",
+      "DCP"
+    ],
+    "capacityMah": null,
+    "maxOutputW": 65.0,
+    "pdOutputW": 65,
+    "inputW": null,
+    "weightG": null,
+    "ports": "USB-C × 2",
+    "specs": {
+      "产品尺寸": "77.3 × 42 × 14.3 mm",
+      "输入规格": "200–240 V~ / 50–60 Hz / 1.8 A；100–130 V~ / 50–60 Hz / 1.8 A",
+      "USB-C1 输出": "5 / 9 / 12 / 15 V，3 A；20 V / 3.25 A；5–11 V / 5 A；5–20 V / 3.25 A；65 W MAX",
+      "USB-C2 输出": "5 V / 3 A；9 V / 2.22 A；10 V / 2.25 A；22.5 W MAX",
+      "多口输出": "200–240 V：45 W + 20 W；100–130 V：25 W + 20 W",
+      "低压输入输出上限": "100–130 V 输入时 C1 最高 45 W",
+      "版本": "2025 新年版",
+      "使用温度": "0–40 ℃",
+      "官网目录标识": "AD652SNY-2025"
+    },
+    "baseProductId": "6-card",
+    "status": "published",
+    "updatedAt": "2026-10-31",
+    "sourceUrl": "https://www.cuktech.com.cn/products/ad652sny-2025.html",
+    "sourceLabel": "酷态科官网产品页及规格图",
+    "image": "images/products/ad652sny-2025.webp",
+    "specImages": [
+      "images/products/specs/8b17a9607bc85a49dab8.webp"
+    ]
+  },
+  {
+    "id": "10-plus-2025",
+    "name": "10号电能棒 Plus·2025 新年版",
+    "category": "powerbank",
+    "model": "PB150P",
+    "summary": "限定外观版本，可与标准款分别对比。",
+    "series": "限定产品",
+    "tags": [
+      "限定版"
+    ],
+    "protocols": [
+      "PD 3.0",
+      "PPS",
+      "小米澎湃秒充",
+      "UFCS",
+      "QC 3.0",
+      "AFC",
+      "SCP",
+      "FCP"
+    ],
+    "capacityMah": 15000.0,
+    "maxOutputW": 120.0,
+    "pdOutputW": 70,
+    "inputW": 100.0,
+    "weightG": null,
+    "ports": "USB-C × 2 / USB-A × 1",
+    "specs": {
+      "产品尺寸": "153.7 × 34.8 × 51 mm",
+      "电量显示": "TFT彩屏",
+      "电池能量": "52.92 / 54 Wh（额定 / 典型，10.8 V）",
+      "额定容量": "8300 mAh（5 V / 2 A）",
+      "输入规格": "USB-C1：5 / 9 / 12 / 15 V，3 A；20 V / 5 A",
+      "USB-C1 输出": "5 / 9 / 12 / 15 V，3 A；20 V / 3.5 A；5–20 V / 6 A；120 W MAX",
+      "USB-C2 输出": "5 V / 3 A；9 V / 3 A；5–11 V / 3 A；33 W MAX",
+      "USB-A 输出": "5 V / 3 A；9 V / 3 A；5–11 V / 3 A；33 W MAX",
+      "多口输出": "5 V / 4 A；9 V / 9 A，具体分配见规格图",
+      "使用温度": "5–35 ℃",
+      "充电时间": "约 1.5 小时（65 W 及以上）；约 4 小时（18 W）",
+      "版本": "2025 新年版",
+      "官网目录标识": "PB150P-NY"
+    },
+    "baseProductId": "10-plus",
+    "status": "published",
+    "updatedAt": "2026-10-31",
+    "sourceUrl": "https://www.cuktech.com.cn/products/pb150p-ny.html",
+    "sourceLabel": "酷态科官网产品页及规格图",
+    "image": "images/products/pb150p-ny.webp",
+    "specImages": [
+      "images/products/specs/094a1bee6ce16212d0fa.webp",
+      "images/products/specs/4dccbff14e39967650f8.webp"
+    ]
+  },
+  {
+    "id": "15-ultra-2025",
+    "name": "15号电能柱 Ultra·2025 新年版",
+    "category": "powerbank",
+    "model": "PB200U",
+    "summary": "限定外观版本，可与标准款分别对比。",
+    "series": "限定产品",
+    "tags": [
+      "限定版"
+    ],
+    "protocols": [
+      "PD 3.1",
+      "PPS",
+      "小米澎湃秒充",
+      "UFCS",
+      "QC 3.0",
+      "AFC",
+      "SCP",
+      "FCP"
+    ],
+    "capacityMah": 20000.0,
+    "maxOutputW": 210.0,
+    "pdOutputW": 140,
+    "inputW": 165,
+    "weightG": null,
+    "ports": "USB-C × 2 / USB-A × 1",
+    "specs": {
+      "产品尺寸": "152 × 44.5 × 57.1 mm",
+      "电量显示": "TFT彩屏",
+      "电池能量": "70.56 / 72 Wh（额定 / 典型，14.4 V）",
+      "额定容量": "12000 mAh（5 V / 4 A）",
+      "输入规格": "C1：5 / 9 / 12 / 15 V，3 A；20 / 28 V，5 A；C2：5 / 9 / 12 / 15 V，3 A；20 V / 3.25 A",
+      "单口最大输入": "C1：140 W；C2：65 W",
+      "双口总输入": "165 W（C1 100 W + C2 65 W，需两台充电器）",
+      "USB-C1 输出": "5 / 9 / 12 / 15 V，3 A；20 V / 5 A；5–20 V / 6 A；28 V / 5 A；140 W MAX",
+      "USB-C2 输出": "5 / 9 / 12 / 15 V，3 A；20 V / 3.25 A；5–11 V / 5 A；5–20 V / 4.5 A；90 W MAX",
+      "USB-A 输出": "5 V / 3 A；9 V / 3 A；5–11 V / 3 A；33 W MAX",
+      "多口总输出": "210 W MAX",
+      "充电时间": "约 1 小时（120 W 及以上）；约 5.5 小时（18 W）",
+      "版本": "2025 新年版",
+      "使用温度": "5–35 ℃",
+      "官网目录标识": "PB200UNY"
+    },
+    "baseProductId": "15-ultra",
+    "status": "published",
+    "updatedAt": "2026-10-31",
+    "sourceUrl": "https://www.cuktech.com.cn/products/pb200uny.html",
+    "sourceLabel": "酷态科官网产品页及规格图",
+    "image": "images/products/pb200uny.webp",
+    "specImages": [
+      "images/products/specs/822d9246ce43251ec20c.webp",
+      "images/products/specs/35f37ffa9d49a013c4b7.webp"
+    ]
+  },
+  {
+    "id": "10-power-2024",
+    "name": "10号电能棒·2024 新年版",
+    "category": "powerbank",
+    "model": "PB100P",
+    "summary": "限定外观版本，可与标准款分别对比。",
+    "series": "限定产品",
+    "tags": [
+      "限定版"
+    ],
+    "protocols": [
+      "PD 3.0",
+      "PPS",
+      "小米澎湃秒充",
+      "UFCS",
+      "QC 3.0",
+      "AFC",
+      "FCP"
+    ],
+    "capacityMah": 10000.0,
+    "maxOutputW": 150,
+    "pdOutputW": 100,
+    "inputW": 90.0,
+    "weightG": 287.5,
+    "ports": "USB-C × 1 / USB-A × 1",
+    "specs": {
+      "产品尺寸": "143 × 45 × 33.4 mm",
+      "电量显示": "TFT彩屏",
+      "电池能量": "35.28 / 36 Wh（额定 / 典型，14.4 V）",
+      "额定容量": "5500 mAh（5 V / 4 A）",
+      "输入规格": "5 / 9 / 12 / 15 V，3 A；20 V / 4.5 A",
+      "USB-C 输出": "5 / 9 / 12 / 15 V，3 A；20 V / 6 A；120 W MAX",
+      "USB-A 输出": "5 V / 3 A；9 V / 3 A；5–11 V / 3 A；33 W MAX",
+      "单口最大输出": "120 W MAX",
+      "多口总输出": "150 W MAX",
+      "充电时间": "约 1 小时（90 W 及以上）；约 2.5 小时（18 W）",
+      "版本": "2024 新年版",
+      "官网目录标识": "PB100PNY"
+    },
+    "baseProductId": "10-power",
+    "status": "published",
+    "updatedAt": "2026-10-31",
+    "sourceUrl": "https://www.cuktech.com.cn/products/pb100pny.html",
+    "sourceLabel": "酷态科官网产品页及规格图",
+    "image": "images/products/pb100pny.webp",
+    "specImages": [
+      "images/products/specs/934684d46f81800ecaa3.webp",
+      "images/products/specs/a48ccb1f3217e8b6ba71.webp",
+      "images/products/specs/69fa52a8c80ed318e197.webp"
+    ]
+  },
+  {
+    "id": "6-card-2024",
+    "name": "6号电能卡片·2024 新年版",
+    "category": "charger",
+    "model": "AC65B2",
+    "summary": "限定外观版本，可与标准款分别对比。",
+    "series": "限定产品",
+    "tags": [
+      "限定版"
+    ],
+    "protocols": [
+      "PD"
+    ],
+    "capacityMah": null,
+    "maxOutputW": 65,
+    "pdOutputW": 65,
+    "inputW": null,
+    "weightG": null,
+    "ports": "USB-C × 2",
+    "specs": {
+      "版本": "2024 新年版",
+      "产品尺寸": "77.3 × 42 × 14.3 mm（不含插脚）",
+      "输入规格": "200–240 V~ / 50–60 Hz / 1.5 A；100–130 V~ / 50–60 Hz / 1.8 A",
+      "USB-C1 输出": "5 / 9 / 12 / 15 V，3 A；20 V / 3.25 A；65 W MAX；低压输入时最高 45 W",
+      "USB-C2 输出": "5 V / 3 A；9 V / 2.25 A；20 W MAX",
+      "多口输出": "高压输入：C1 最高 45 W + C2 最高 10 W，其他档位见规格图",
+      "使用温度": "0–35 ℃",
+      "官网目录标识": "AC65B2-NY"
+    },
+    "baseProductId": "6-card",
+    "status": "published",
+    "updatedAt": "2026-10-31",
+    "sourceUrl": "https://www.cuktech.com.cn/products/ac65b2-ny.html",
+    "sourceLabel": "酷态科官网产品页及规格图",
+    "image": "images/products/ac65b2-ny.webp",
+    "specImages": [
+      "images/products/specs/b87a7d9283497b9ff3f2.webp",
+      "images/products/specs/23be02414033de837a29.webp"
+    ]
+  },
+  {
+    "id": "10-mini-threebody",
+    "name": "10号电能棒 Mini·三体版",
+    "category": "powerbank",
+    "model": "PB1055",
+    "summary": "限定外观版本，可与标准款分别对比。",
+    "series": "限定产品",
+    "tags": [
+      "限定版"
+    ],
+    "protocols": [
+      "PD 3.0",
+      "PPS",
+      "小米澎湃秒充",
+      "UFCS",
+      "QC 3.0",
+      "AFC",
+      "SCP",
+      "FCP"
+    ],
+    "capacityMah": 10000.0,
+    "maxOutputW": 55.0,
+    "pdOutputW": 45,
+    "inputW": 55.0,
+    "weightG": null,
+    "ports": "USB-C × 2 / USB-A × 1",
+    "specs": {
+      "产品尺寸": "90.3 × 50.46 × 33 mm",
+      "电量显示": "LED数显",
+      "电池能量": "35.28 / 36 Wh（额定 / 典型，7.2 V）",
+      "额定容量": "5600 mAh（5 V / 3 A）",
+      "输入规格": "USB-C1 / C2：5 / 9 / 12 / 15 V，3 A；5–11 V / 5 A",
+      "USB-C 输出": "两口均为 5 / 9 / 12 / 15 V，3 A；20 V / 2 A；5–20 V / 2.5 A；5–11 V / 5 A；55 W MAX",
+      "USB-A 输出": "5 V / 3 A；9 V / 3 A；12 V / 1.5 A；5–11 V / 3 A；33 W MAX",
+      "多口总输出": "20 W（5 V / 4 A）",
+      "充电时间": "约 1.5 小时（65 W 及以上）；约 2.5 小时（18 W）",
+      "版本": "三体版",
+      "使用温度": "5–35 ℃",
+      "官网目录标识": "PB1055-ST"
+    },
+    "baseProductId": "10-mini",
+    "status": "published",
+    "updatedAt": "2026-10-31",
+    "sourceUrl": "https://www.cuktech.com.cn/products/pb1055-st.html",
+    "sourceLabel": "酷态科官网产品页及规格图",
+    "image": "images/products/pb1055-st.webp",
+    "specImages": [
+      "images/products/specs/6b38ce1b83303c339378.webp",
+      "images/products/specs/83e7c89d221b22e776bf.webp"
+    ]
+  },
+  {
+    "id": "10-charger-threebody",
+    "name": "10号充电器 Mini·三体版",
+    "category": "charger",
+    "model": "AD1203P",
+    "summary": "限定外观版本，可与标准款分别对比。",
+    "series": "限定产品",
+    "tags": [
+      "限定版"
+    ],
+    "protocols": [
+      "PD 3.0",
+      "PPS",
+      "小米澎湃秒充",
+      "UFCS",
+      "QC 3.0",
+      "AFC",
+      "FCP",
+      "SCP"
+    ],
+    "capacityMah": null,
+    "maxOutputW": 120.0,
+    "pdOutputW": 100,
+    "inputW": null,
+    "weightG": null,
+    "ports": "USB-C × 2 / USB-A × 1",
+    "specs": {
+      "产品尺寸": "44.5 × 39 × 60 mm",
+      "输入规格": "100–240 V~ / 50–60 Hz / 1.7 A；120 W 档需 200–240 V 输入",
+      "USB-C 输出": "两口均为 5 / 9 / 12 / 15 V，3 A；11 V / 6.1 A；20 V / 5 A，100 W；200–240 V 另支持 20 V / 6 A，120 W MAX",
+      "USB-A 输出": "5 V / 3 A；9 V / 2 A；12 V / 1.5 A；11 V / 3 A；33 W MAX",
+      "多口输出": "200–240 V：C1 + C2 为 67 W + 55 W；C1 / C2 + A 为 90 W + 22.5 W；三口 45 W + 45 W + 22.5 W；低压输入分配见规格图",
+      "低压输入输出上限": "USB-C 单口最高 100 W",
+      "版本": "三体版",
+      "官网目录标识": "AD1203P-ST"
+    },
+    "baseProductId": "10-charger-mini",
+    "status": "published",
+    "updatedAt": "2026-10-31",
+    "sourceUrl": "https://www.cuktech.com.cn/products/ad1203p-st.html",
+    "sourceLabel": "酷态科官网产品页及规格图",
+    "image": "images/products/ad1203p-st.webp",
+    "specImages": [
+      "images/products/specs/17bc8a99eaaa22357e92.webp",
+      "images/products/specs/bd97ea1218bdd67f6809.webp",
+      "images/products/specs/1d092229ef398d7270c1.webp"
+    ]
+  },
+  {
+    "id": "6-card-threebody",
+    "name": "6号电能卡片·三体版",
+    "category": "charger",
+    "model": "AD652S",
+    "summary": "限定外观版本，可与标准款分别对比。",
+    "series": "限定产品",
+    "tags": [
+      "限定版"
+    ],
+    "protocols": [
+      "PD 3.0",
+      "QC 3.0",
+      "AFC",
+      "FCP",
+      "SCP",
+      "PPS",
+      "小米澎湃秒充",
+      "DCP"
+    ],
+    "capacityMah": null,
+    "maxOutputW": 65.0,
+    "pdOutputW": 65,
+    "inputW": null,
+    "weightG": null,
+    "ports": "USB-C × 2",
+    "specs": {
+      "产品尺寸": "77.3 × 42 × 14.3 mm",
+      "输入规格": "200–240 V~ / 50–60 Hz / 1.8 A；100–130 V~ / 50–60 Hz / 1.8 A",
+      "USB-C1 输出": "5 / 9 / 12 / 15 V，3 A；20 V / 3.25 A；5–11 V / 5 A；5–20 V / 3.25 A；65 W MAX",
+      "USB-C2 输出": "5 V / 3 A；9 V / 2.22 A；10 V / 2.25 A；22.5 W MAX",
+      "多口输出": "200–240 V：45 W + 20 W；100–130 V：25 W + 20 W",
+      "低压输入输出上限": "100–130 V 输入时 C1 最高 45 W",
+      "版本": "三体版",
+      "官网目录标识": "AD652S-ST"
+    },
+    "baseProductId": "6-card",
+    "status": "published",
+    "updatedAt": "2026-10-31",
+    "sourceUrl": "https://www.cuktech.com.cn/products/ad652s-st.html",
+    "sourceLabel": "酷态科官网产品页及规格图",
+    "image": "images/products/ad652s-st.webp",
+    "specImages": [
+      "images/products/specs/96fe720d7a5ecc92f079.webp",
+      "images/products/specs/9591c74841b29afc04ef.webp"
+    ]
+  },
+  {
+    "id": "6-power-threebody",
+    "name": "6号电能块·三体版",
+    "category": "powerbank",
+    "model": "PB060",
+    "summary": "限定外观版本，可与标准款分别对比。",
+    "series": "限定产品",
+    "tags": [
+      "限定版"
+    ],
+    "protocols": [
+      "PD 3.0",
+      "PPS",
+      "小米澎湃秒充"
+    ],
+    "capacityMah": 6000.0,
+    "maxOutputW": 55,
+    "pdOutputW": 39,
+    "inputW": 45.0,
+    "weightG": null,
+    "ports": "USB-C × 2",
+    "specs": {
+      "产品尺寸": "81.3 × 45 × 28.95 mm",
+      "电量显示": "LED数显",
+      "电池能量": "21.5 / 22.2 Wh（额定 / 典型，7.4 V）",
+      "额定容量": "3300 mAh（5 V / 3 A）",
+      "USB-C1 输出": "5 V / 3 A；9 V / 3 A；12 V / 2.5 A；15 V / 2.6 A；5–11 V / 5 A；5–20 V / 2.5 A；55 W MAX",
+      "USB-C2 输出": "5 V / 3 A；9 V / 3 A；12 V / 2.5 A；15 V / 2.6 A；5–11 V / 3 A",
+      "输入规格": "两口均支持 5 / 9 / 12 / 15 V，3 A；45 W MAX",
+      "多口总输出": "15 W（5 V / 3 A）",
+      "充电时间": "约 1.2 小时（45 W 及以上充电器）；约 2 小时（18 W）",
+      "版本": "三体版",
+      "官网目录标识": "PB062-ST",
+      "型号说明": "官网目录链接为 PB062-ST，规格图标注 PB060。",
+      "使用温度": "5–35 ℃"
+    },
+    "baseProductId": "6-power",
+    "status": "published",
+    "updatedAt": "2026-10-31",
+    "sourceUrl": "https://www.cuktech.com.cn/products/pb062-st.html",
+    "sourceLabel": "酷态科官网产品页及规格图",
+    "image": "images/products/pb062-st.webp",
+    "specImages": [
+      "images/products/specs/e17a74db48490c3b5f2f.webp",
+      "images/products/specs/4709fee91bc2acad62ea.webp"
+    ]
+  },
+  {
+    "id": "10-power-threebody",
+    "name": "10号电能棒·三体版",
+    "category": "powerbank",
+    "model": "PB100P",
+    "summary": "限定外观版本，可与标准款分别对比。",
+    "series": "限定产品",
+    "tags": [
+      "限定版"
+    ],
+    "protocols": [
+      "PD 3.0",
+      "PPS",
+      "小米澎湃秒充",
+      "UFCS",
+      "QC 3.0",
+      "AFC",
+      "FCP"
+    ],
+    "capacityMah": 10000.0,
+    "maxOutputW": 150,
+    "pdOutputW": 100,
+    "inputW": 90.0,
+    "weightG": null,
+    "ports": "USB-C × 1 / USB-A × 1",
+    "specs": {
+      "产品尺寸": "143 × 45 × 33.4 mm",
+      "电量显示": "TFT彩屏",
+      "电池能量": "35.28 / 36 Wh（额定 / 典型，14.4 V）",
+      "额定容量": "5500 mAh（5 V / 4 A）",
+      "输入规格": "5 / 9 / 12 / 15 V，3 A；20 V / 4.5 A",
+      "USB-C 输出": "5 / 9 / 12 / 15 V，3 A；20 V / 6 A；120 W MAX",
+      "USB-A 输出": "5 V / 3 A；9 V / 3 A；5–11 V / 3 A；33 W MAX",
+      "单口最大输出": "120 W MAX",
+      "多口总输出": "150 W MAX",
+      "充电时间": "约 1 小时（90 W 及以上）；约 2.5 小时（18 W）",
+      "版本": "三体版",
+      "使用温度": "5–35 ℃",
+      "官网目录标识": "PB100PST"
+    },
+    "baseProductId": "10-power",
+    "status": "published",
+    "updatedAt": "2026-10-31",
+    "sourceUrl": "https://www.cuktech.com.cn/products/pb100pst.html",
+    "sourceLabel": "酷态科官网产品页及规格图",
+    "image": "images/products/pb100pst.webp",
+    "specImages": [
+      "images/products/specs/71067155a2c31b9795dc.webp",
+      "images/products/specs/ea050525441e21c02e13.webp",
+      "images/products/specs/3e1287a1e496f803f7ca.webp"
+    ]
+  }
+]

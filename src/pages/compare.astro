@@ -1,0 +1,11 @@
+---
+import Layout from "../layouts/Layout.astro";
+import { PageHeading } from "../components/ui";
+import { CompareWorkbench } from "../components/compare-workbench";
+import { getProducts } from "../data/catalog";
+---
+<Layout title="参数对比">
+  <PageHeading title="差别，放在一起看" description="自由选择产品和参数，隐藏相同项，也可以把这份对比分享出去。" />
+  <CompareWorkbench products={getProducts()} client:load />
+  <noscript><p class="inline-note">启用 JavaScript 后，可选择产品并自定义对比参数。</p></noscript>
+</Layout>

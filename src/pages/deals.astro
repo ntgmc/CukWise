@@ -1,0 +1,10 @@
+---
+import Layout from "../layouts/Layout.astro";
+import { PageHeading } from "../components/ui";
+import { DealExplorer } from "../components/deal-explorer";
+import { getProducts, getPrices } from "../data/catalog";
+---
+<Layout title="好价记录">
+  <PageHeading title="多少钱入手，心里有数" description="看日期、看渠道，也看优惠条件。找到适合自己的入手时机。" />
+  <DealExplorer products={getProducts()} prices={getPrices()} client:load />
+</Layout>

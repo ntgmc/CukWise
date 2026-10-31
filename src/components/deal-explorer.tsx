@@ -1,0 +1,15 @@
+import Link from "./link";
+import {useState} from "react";
+import {ArrowUpRight,Tag} from "lucide-react";
+import {categories,dateLabel,eligibilityLabels,isCurrentDeal,money,type Product,type PriceRecord} from "@/lib/domain";
+import {sourceHref} from "@/lib/paths";
+import {ProductArt} from "./product-art";
+import {EmptyState} from "./ui";
+export function DealExplorer({products,prices}:{products:Product[];prices:PriceRecord[]}) {
+  const [scope,setScope]=useState("all");const [category,setCategory]=useState("all");const [eligibility,setEligibility]=useState("all");
+  const filtered=prices.filter(p=>{const product=products.find(v=>v.id===p.productId);return (category==="all"||category===product?.category)&&(eligibility==="all"||eligibility===p.eligibility)&&(scope==="all"||scope==="current"&&isCurrentDeal(p)||scope==="history"&&p.kind==="deal"&&!isCurrentDeal(p)||scope==="reference"&&p.kind==="reference");});
+  return <><div className="filter-tabs" role="group" aria-label="价格记录类型">{[["all","全部记录"],["current","当前好价"],["history","历史好价"],["reference","参考报价"]].map(([key,label])=><button key={key} className={scope===key?"active":""} onClick={()=>setScope(key)}>{label}</button>)}</div><div className="deal-filter-row"><label>产品分类<select value={category} onChange={e=>setCategory(e.target.value)}><option value="all">全部分类</option>{Object.entries(categories).map(([key,label])=><option key={key} value={key}>{label}</option>)}</select></label><label>适用条件<select value={eligibility} onChange={e=>setEligibility(e.target.value)}><option value="all">全部条件</option>{Object.entries(eligibilityLabels).map(([key,label])=><option key={key} value={key}>{label}</option>)}</select></label><span className="muted" aria-live="polite">{filtered.length} 条记录</span></div>{filtered.length?<div className="deal-list">{filtered.map(price=>{const p=products.find(p=>p.id===price.productId);return <article className="deal-card" key={price.id}>
+    {p?<Link href={`/products/${p.id}`} className="deal-art"><ProductArt product={p} small/></Link>:<div className="deal-art" aria-label="截图商品，型号待确认"><Tag className="product-art" viewBox="-24 -24 72 72"/></div>}
+    <div className="deal-main"><div className="deal-badges"><span className={`badge ${isCurrentDeal(price)?"badge-green":""}`}>{price.kind==="reference"?"参考报价":isCurrentDeal(price)?"好价":"历史好价"}</span>{!p&&<span className="badge">型号待确认</span>}<span>收录于 {dateLabel(price.recordedAt)}</span></div><h2>{p?<Link href={`/products/${p.id}`}>{p.name}</Link>:price.productName}</h2><p>{price.conditions}</p><div className="deal-platform"><Tag size={14}/>{price.platform} · {price.store}<span>{eligibilityLabels[price.eligibility]}</span></div></div><div className="deal-value"><strong>¥{money(price.amountCents)}</strong><a className="button" href={sourceHref(price.sourceUrl)} target="_blank" rel="noreferrer">查看来源<ArrowUpRight size={15}/></a></div>
+  </article>;})}</div>:<EmptyState title="这个分类的好价还在整理" description="可以查看其他分类，或先了解产品参数。" href="/products" label="浏览产品库"/>}</>;
+}

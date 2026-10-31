@@ -1,0 +1,11 @@
+---
+import Layout from "../../layouts/Layout.astro";
+import { PageHeading } from "../../components/ui";
+import { ProductExplorer } from "../../components/product-explorer";
+import { getProducts, getPrices } from "../../data/catalog";
+---
+<Layout title="产品库">
+  <PageHeading title="找到适合你的那一款" description="按品类、用途和参数查找，Mini、SE、Ultra 和限定版本都各有档案。" />
+  <ProductExplorer products={getProducts()} prices={getPrices()} client:load />
+  <noscript><p class="inline-note">启用 JavaScript 后，可筛选产品、收藏和加入对比。</p></noscript>
+</Layout>

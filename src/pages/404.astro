@@ -1,0 +1,7 @@
+---
+import Layout from "../layouts/Layout.astro";
+import { withBase } from "../lib/paths";
+---
+<Layout title="页面未找到" noindex>
+  <div class="not-found"><h1>这页暂时找不到</h1><p>地址可能有误，也可以回到产品库重新查找。</p><a class="button button-dark" href={withBase("/products")}>返回产品库</a></div>
+</Layout>

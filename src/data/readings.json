@@ -1,0 +1,30 @@
+[
+  {
+    "id": "guide-blocks",
+    "productIds": [
+      "cp13-pocket",
+      "cp12-cable",
+      "cp12-stand",
+      "cp13-cable",
+      "cp25-cable"
+    ],
+    "title": "电能块怎么选？六款产品的区别与使用场景",
+    "description": "从接口、磁吸、自带线和容量出发，整理电能块系列的定位。",
+    "author": "什么值得买 · 原文作者",
+    "date": "2024-11-10",
+    "url": "https://post.smzdm.com/p/aklovx94/"
+  },
+  {
+    "id": "guide-pd",
+    "productIds": [
+      "15-ultra",
+      "20-power",
+      "30-power"
+    ],
+    "title": "三款 PD 3.1 移动电源，分别适合谁",
+    "description": "充电头网评测室对 15 号 Ultra、20 号与 30 号的选购整理。",
+    "author": "充电头网评测室",
+    "date": "2025-03-07",
+    "url": "https://post.smzdm.com/p/avd29334/"
+  }
+]

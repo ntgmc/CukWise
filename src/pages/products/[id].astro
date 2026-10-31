@@ -1,0 +1,12 @@
+---
+import Layout from "../../layouts/Layout.astro";
+import ProductDetails from "../../components/product-details";
+import { getProducts } from "../../data/catalog";
+export function getStaticPaths() {
+  return getProducts().map(product => ({ params: { id: product.id }, props: { product } }));
+}
+const { product } = Astro.props;
+---
+<Layout title={product.name} description={product.summary}>
+  <ProductDetails product={product} client:load />
+</Layout>

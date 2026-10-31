@@ -1,0 +1,11 @@
+---
+import Layout from "../layouts/Layout.astro";
+import { PageHeading } from "../components/ui";
+import { RecommendationForm } from "../components/recommendation-form";
+import { getProducts, getPrices } from "../data/catalog";
+---
+<Layout title="帮我选">
+  <PageHeading title="从你的设备开始选" description="告诉我们平时怎么用，一起缩小选择范围。" />
+  <RecommendationForm products={getProducts()} prices={getPrices()} client:load />
+  <noscript><p class="inline-note">启用 JavaScript 后，可根据设备和用途匹配产品。</p></noscript>
+</Layout>
