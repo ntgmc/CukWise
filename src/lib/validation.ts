@@ -1,4 +1,5 @@
 import { categories, type PriceRecord, type Product } from "./domain";
+import { retiredSpecificationNames } from "./specifications";
 
 export class InputError extends Error {}
 export function object(value: unknown): Record<string, unknown> {
@@ -39,7 +40,11 @@ export function validateProduct(value: unknown): Product {
   if (!/^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(id)) throw new InputError("产品标识请使用小写英文、数字和短横线。");
   const specs = object(v.specs);
   if (Object.keys(specs).length > 80) throw new InputError("详细参数最多填写 80 项。");
-  const parsedSpecs = Object.fromEntries(Object.entries(specs).map(([k,val])=>[text(k,"参数名称",50),text(val,"参数内容",500)]));
+  const parsedSpecs = Object.fromEntries(Object.entries(specs).map(([k,val])=>{
+    const key = text(k,"参数名称",50);
+    if (retiredSpecificationNames.has(key)) throw new InputError(`参数“${key}”已停用，请使用统一字段；USB 接口分别填写，其他字段见维护说明。`);
+    return [key,text(val,"参数内容",500)];
+  }));
   const strings = (value: unknown, label: string, max: number) => {
     if (!Array.isArray(value) || value.length > max) throw new InputError(`${label}数量过多。`);
     return [...new Set(value.map(v=>text(v,label,50)))];

@@ -86,9 +86,9 @@ test("deals need no expiry, while explicit expiry, archive and future dates stil
   for(const changes of [{expiresAt:"2020-02-01"},{archived:true},{kind:"reference" as const},{recordedAt:"2099-01-01"}]) assert.equal(isCurrentDeal(price(changes),"2026-10-31"),false);
 });
 test("comparison includes the union of custom parameters and preserves unknown values", () => {
-  const a={...products[0],specs:{"线长":"1 m"}};const b={...products[1],specs:{"电池技术":"硅碳负极"}};
+  const a={...products[0],specs:{"线材长度":"数据线：1 m"}};const b={...products[1],specs:{"电池技术":"硅碳负极"}};
   const rows=compareRows([a,b]);
-  assert.deepEqual(rows.find(r=>r.key==="extra:线长")?.values,["1 m","—"]);
+  assert.deepEqual(rows.find(r=>r.key==="extra:线材长度")?.values,["数据线：1 m","—"]);
   assert.deepEqual(rows.find(r=>r.key==="extra:电池技术")?.values,["—","硅碳负极"]);
 });
 test("catalog keeps port power, editions and cable ratings distinct", () => {

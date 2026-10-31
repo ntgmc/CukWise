@@ -312,6 +312,10 @@ legend { margin-bottom: var(--space-sm); font-size: var(--text-sm); }
 .comparison-table tr > :first-child { min-width: 105px; width: 130px; position: sticky; inset-inline-start: 0; background: var(--color-paper); color: var(--color-ink-2); z-index: var(--z-base); }
 .comparison-table thead th { background: var(--color-surface); color: var(--color-ink); vertical-align: bottom; }
 .comparison-table .different-row td { background: var(--color-accent-soft); color: var(--color-ink); }
+.comparison-note { margin-block: var(--space-sm); color: var(--color-muted); font-size: var(--text-xs); }
+.comparison-table .comparison-group th { position: static; padding-block: var(--space-sm); background: var(--color-paper-2); color: var(--color-ink); font-weight: 600; }
+.comparison-group span { display: block; position: sticky; inset-inline-start: var(--space-md); width: max-content; }
+.comparison-table td { vertical-align: top; }
 .comparison-table tr:last-child > * { border-bottom: 0; }
 .compare-product-head { position: relative; min-width: 140px; }
 .compare-product-head .product-art { height: 140px; }

@@ -97,12 +97,48 @@ test("query filters, direct compare links, custom fields and clearing work", asy
   expect(await page.locator(".comparison-table tbody tr").count()).toBeLessThan(before);
   await page.getByText("自定义参数", { exact: true }).click();
   await page.getByLabel("产品型号", { exact: true }).uncheck();
-  await expect(page.locator(".comparison-table tbody")).not.toContainText("产品型号");
+  await expect(page.locator(".comparison-table").getByRole("rowheader",{name:"产品型号",exact:true})).toHaveCount(0);
   await page.getByRole("button", { name: "复制对比链接" }).click();
   await expect(page.getByRole("button", { name: "链接已复制" })).toBeVisible();
   expect(await page.evaluate(() => navigator.clipboard.readText())).toContain(`${base}/compare/?ids=6-power%2C15-ultra`);
   await page.getByRole("button", { name: "清空对比", exact: true }).click();
   await expect(page.locator(".comparison-table")).toHaveCount(0);
+});
+
+test("comparison aligns canonical fields, groups and built-in cables", async ({ page }) => {
+  const errors:string[]=[];page.on("pageerror",error=>errors.push(error.message));
+  await page.goto(route("compare/?ids=10-plus,20-power,25-se"));
+  await expect(page.locator(".compare-product-head")).toHaveCount(3);
+  const row=(label:string)=>page.locator(".comparison-table tr").filter({has:page.getByRole("rowheader",{name:label,exact:true})});
+  await expect(row("USB-C1 输出").locator("td")).toHaveCount(3);
+  await expect(row("USB-C1 输出").locator("td")).toHaveText([/120 W MAX/,/140 W MAX/,/120 W MAX/]);
+  await expect(row("USB-C2 输出").locator("td")).toHaveText([/33 W MAX/,/60 W MAX/,"—"]);
+  await expect(row("自带 USB-C 线输出").locator("td")).toHaveText(["—","—",/120 W MAX/]);
+  await expect(row("USB-A1 输出")).toHaveCount(1);
+  await expect(row("多口输出").locator("td")).toHaveText([/分配与条件/,/总功率：210 W/,/总功率：20 W/]);
+  await expect(page.getByRole("rowheader",{name:"USB-C 输出",exact:true})).toHaveCount(0);
+  await expect(page.getByRole("rowheader",{name:"多口总输出",exact:true})).toHaveCount(0);
+  await expect(page.locator(".comparison-group")).toContainText(["基本信息","容量与功率","接口与协议","输入与输出","尺寸与线材","显示与功能","使用与资料"]);
+  await page.getByText("自定义参数",{exact:true}).click();
+  await page.getByLabel("USB-C1 输出",{exact:true}).uncheck();
+  await expect(row("USB-C1 输出")).toHaveCount(0);
+  await page.getByLabel("USB-C1 输出",{exact:true}).check();
+  await page.getByText("自定义参数",{exact:true}).click();
+  const before=await page.locator(".comparison-table tbody tr:not(.comparison-group)").count();
+  await page.getByLabel("只看不同项").check();
+  expect(await page.locator(".comparison-table tbody tr:not(.comparison-group)").count()).toBeLessThan(before);
+  await expect(row("USB-C1 输出")).toHaveCount(1);
+  await page.setViewportSize({width:375,height:900});
+  const scroll=page.locator(".compare-scroll");
+  await scroll.evaluate(element=>{element.scrollLeft=element.scrollWidth;});
+  const groupLabel=await page.locator(".comparison-group").getByText("输入与输出",{exact:true}).boundingBox();
+  const frame=await scroll.boundingBox();
+  expect(groupLabel!.x).toBeGreaterThanOrEqual(frame!.x);
+  expect(groupLabel!.x+groupLabel!.width).toBeLessThanOrEqual(frame!.x+frame!.width);
+  await page.goto(route("products/25-se/"));
+  await expect(page.locator(".spec-list dt").filter({hasText:/^USB-C1 输出$/})).toHaveCount(1);
+  await expect(page.locator(".spec-list dt").filter({hasText:/^自带 USB-C 线输出$/})).toHaveCount(1);
+  expect(errors).toEqual([]);
 });
 
 test("recommendations are local and deals without expiry stay separate from references", async ({ page }) => {

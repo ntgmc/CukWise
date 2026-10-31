@@ -1,3 +1,5 @@
+import { specificationGroups } from "./specifications";
+
 export const categories = {
   powerbank: "移动电源", charger: "充电器", cable: "数据线", car: "车载充电", fan: "风扇", accessory: "配件与电池", station: "户外电源"
 } as const;
@@ -44,10 +46,10 @@ export function referencePrice(prices: PriceRecord[], productId: string) {
     .sort((a, b) => b.recordedAt.localeCompare(a.recordedAt) || a.amountCents - b.amountCents)[0];
 }
 export const baseSpecs = [
-  ["model", "产品型号", "基本信息"], ["category", "产品分类", "基本信息"], ["series", "产品系列", "基本信息"],
-  ["capacityMah", "电池容量", "容量与功率"], ["maxOutputW", "标称最大输出", "容量与功率"],
-  ["pdOutputW", "单口 PD 固定档输出", "容量与功率"], ["inputW", "标称最大输入", "容量与功率"],
-  ["ports", "接口配置", "接口与协议"], ["protocols", "快充协议", "接口与协议"], ["weightG", "产品重量", "尺寸与其他"]
+  ["model", "产品型号"], ["category", "产品分类"], ["series", "产品系列"],
+  ["capacityMah", "电池容量"], ["maxOutputW", "标称最大输出"],
+  ["pdOutputW", "单口 PD 固定档输出"], ["inputW", "标称最大输入"],
+  ["ports", "接口配置"], ["protocols", "快充协议"], ["weightG", "产品重量"]
 ] as const;
 export function specValue(product: Product, key: string): string {
   if (key === "category") return categories[product.category];
@@ -69,8 +71,15 @@ export function specValue(product: Product, key: string): string {
 }
 export function compareRows(products: Product[]) {
   const extraKeys = [...new Set(products.flatMap(p => Object.keys(p.specs)))];
-  return [
-    ...baseSpecs.map(([key, label, group]) => ({ key, label, group, values: products.map(p => specValue(p, key)) })),
-    ...extraKeys.map(key => ({ key: `extra:${key}`, label: key, group: "详细参数", values: products.map(p => p.specs[key] || "—") }))
-  ];
+  const fields = new Map<string, { key: string; label: string; values: string[] }>([
+    ...baseSpecs.map(([key, label]) => [key, { key, label, values: products.map(p => specValue(p, key)) }] as const),
+    ...extraKeys.map(key => [key, { key: `extra:${key}`, label: key, values: products.map(p => p.specs[key] || "—") }] as const)
+  ]);
+  const rows = specificationGroups.flatMap(({ label: group, keys }) => keys.flatMap(key => {
+    const row = fields.get(key);
+    if (!row) return [];
+    fields.delete(key);
+    return [{ ...row, group }];
+  }));
+  return [...rows, ...[...fields.values()].sort((a, b) => a.key.localeCompare(b.key, "zh-CN")).map(row => ({ ...row, group: "其他参数" }))];
 }
