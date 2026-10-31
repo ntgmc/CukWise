@@ -31,7 +31,7 @@ const products = getProducts();
   </head>
   <body>
     <Header products={products} path={Astro.url.pathname} client:load />
-    <main id="main" class="container main-content"><slot /></main>
+    <main id="main" tabindex="-1" class="container main-content"><slot /></main>
     <footer class="site-footer container">
       <div class="footer-brand"><a href={withBase("/")} aria-label="CukWise 首页"><Brand /></a><p>选好充电装备，从了解它开始。</p></div>
       <div class="footer-links"><a href={withBase("/about")}>关于本站</a><a href={withBase("/privacy")}>隐私说明</a><a href={withBase("/insights")}>选购资料</a></div>

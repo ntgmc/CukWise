@@ -10,7 +10,7 @@
     ],
     "title": "电能块怎么选？六款产品的区别与使用场景",
     "description": "从接口、磁吸、自带线和容量出发，整理电能块系列的定位。",
-    "author": "什么值得买 · 原文作者",
+    "author": "什么值得买 · 风中阁",
     "date": "2024-11-10",
     "url": "https://post.smzdm.com/p/aklovx94/"
   },
@@ -26,5 +26,510 @@
     "author": "充电头网评测室",
     "date": "2025-03-07",
     "url": "https://post.smzdm.com/p/avd29334/"
+  },
+  {
+    "id": "cdt-1774004237628",
+    "productIds": [
+      "6-screen"
+    ],
+    "title": "识别iPhone精准快充！酷态科6号屏显充Ultra评测",
+    "description": "测试屏显识别、接口协议、手机与笔记本兼容性；注意固定 PD 档与 100 W 宣传功率的区别。",
+    "author": "充电头网 · 刘",
+    "date": "2026-03-20",
+    "url": "https://www.chongdiantou.com/archives/1774004237628.html",
+    "kind": "review"
+  },
+  {
+    "id": "cdt-1769649734024",
+    "productIds": [
+      "6-mini"
+    ],
+    "title": "拆解报告：CUKTECH酷态科6号超级电能充mini AD653",
+    "description": "核对 AD653 的裸机重量、双 C 口 PDO 与拆解结构；小米 90 W 和固定 PD 65 W 分别记录。",
+    "author": "充电头网 · 捣蛋猫",
+    "date": "2026-01-29",
+    "url": "https://www.chongdiantou.com/archives/1769649734024.html",
+    "kind": "teardown"
+  },
+  {
+    "id": "cdt-1786432277862",
+    "productIds": [
+      "6-card-air"
+    ],
+    "title": "拆解报告：酷态科6号电能卡片Air",
+    "description": "核对 AD902S 的卡片厚度、约 81 g 裸机重量，以及 C1 / C2 的不同输出档位。",
+    "author": "充电头网 · yanhui",
+    "date": "2026-08-11",
+    "url": "https://www.chongdiantou.com/archives/1786432277862.html",
+    "kind": "teardown"
+  },
+  {
+    "id": "cdt-1754564028577",
+    "productIds": [
+      "10-charger-mini"
+    ],
+    "title": "拆解报告：CUKTECH酷态科10号超级电能充mini AD1203P",
+    "description": "AD1203P 约 182 g，双 C 口固定 PD 100 W；拆解与协议读取适合核对版本和接口。",
+    "author": "充电头网 · 充电一姐",
+    "date": "2025-08-07",
+    "url": "https://www.chongdiantou.com/archives/1754564028577.html",
+    "kind": "teardown"
+  },
+  {
+    "id": "cdt-348289",
+    "productIds": [
+      "charger-65"
+    ],
+    "title": "拆解报告：CUKTECH酷态科65W 2C1A氮化镓充电器AD653C",
+    "description": "AD653C 约 121 g，记录主 C 口 65 W 与副口功率；购买时需区分外观相似的 Mini 款。",
+    "author": "充电头网 · 五姐",
+    "date": "2024-07-11",
+    "url": "https://www.chongdiantou.com/archives/348289.html",
+    "kind": "teardown"
+  },
+  {
+    "id": "cdt-1765181729850",
+    "productIds": [
+      "25-se"
+    ],
+    "title": "仅售179元！自带线、大容量、多协议都配齐了，酷态科25号超级电能块SE评测",
+    "description": "自带线与 C 口的兼容性、自充时间和多口输出测试；单口高功率不能直接用于多设备同时充电。",
+    "author": "充电头网 · 二姐",
+    "date": "2025-12-08",
+    "url": "https://www.chongdiantou.com/archives/1765181729850.html",
+    "kind": "review"
+  },
+  {
+    "id": "cdt-1763540675511",
+    "productIds": [
+      "10-magnetic"
+    ],
+    "title": "黑科技拉满！OPC放心充 2.0+TFT万象屏，酷态科10号磁吸电能卡评测",
+    "description": "测试 WPB100P 的有线快充、磁吸无线、双路使用和自充；无线功率还取决于接收设备。",
+    "author": "充电头网 · 五姐",
+    "date": "2025-11-18",
+    "url": "https://www.chongdiantou.com/archives/1763540675511.html",
+    "kind": "review"
+  },
+  {
+    "id": "cdt-1762328231041",
+    "productIds": [
+      "10-fusion"
+    ],
+    "title": "充电效率拉满！Turbo 模式加持，酷态科10号电能充二合一Fusion评测",
+    "description": "BA652U 的充电器、移动电源、Turbo 三种模式分别测试，含约 334 g 裸机重量和双口分配。",
+    "author": "充电头网 · 五姐",
+    "date": "2025-11-04",
+    "url": "https://www.chongdiantou.com/archives/1762328231041.html",
+    "kind": "review"
+  },
+  {
+    "id": "cdt-1762251017143",
+    "productIds": [
+      "15-station"
+    ],
+    "title": "六设备齐充！还支持120W澎湃秒充+PD3.2 SPR AVS， 酷态科 15号超级电能站评测",
+    "description": "核对六设备接口、伸缩线与 C2 的功率差别；含桌面使用、协议设置及多口测试。",
+    "author": "充电头网 · 二姐",
+    "date": "2025-11-04",
+    "url": "https://www.chongdiantou.com/archives/1762251017143.html",
+    "kind": "review"
+  },
+  {
+    "id": "cdt-1754911338777",
+    "productIds": [
+      "cp6-retract"
+    ],
+    "title": "酷态科CP6电能充充电器评测：拉一拉随心出线，支持小米67W澎湃秒充！",
+    "description": "AD653W 伸缩线约 0.7 m，测试两路 USB-C、USB-A 与多口功率，含苹果及小米机型。",
+    "author": "充电头网 · 刘",
+    "date": "2025-08-11",
+    "url": "https://www.chongdiantou.com/archives/1754911338777.html",
+    "kind": "review"
+  },
+  {
+    "id": "cdt-1753233350544",
+    "productIds": [
+      "cp24-dual"
+    ],
+    "title": "酷态科CP24自带双线充电宝评测：MFi认证+3C认证，内置亿纬锂能电芯，自带双线更便携",
+    "description": "USB-C 与 Lightning 自带双线，测试接口分配、自充及手机兼容性；适合新旧 iPhone 混用。",
+    "author": "充电头网 · 五姐",
+    "date": "2025-07-23",
+    "url": "https://www.chongdiantou.com/archives/1753233350544.html",
+    "kind": "review"
+  },
+  {
+    "id": "cdt-1752836683508",
+    "productIds": [
+      "15-air"
+    ],
+    "title": "搭载新一代碳硅负极电池，兼容90W澎湃快充，酷态科15号超级电能卡Air评测",
+    "description": "PB150S 的主副 C 口差别、米系与 PPS 兼容性、自充和输出测试；薄型与大容量之间如何取舍。",
+    "author": "充电头网 · 二姐",
+    "date": "2025-07-20",
+    "url": "https://www.chongdiantou.com/archives/1752836683508.html",
+    "kind": "review"
+  },
+  {
+    "id": "cdt-1750756730516",
+    "productIds": [
+      "30-desktop"
+    ],
+    "title": "300W笔记本供电+小米120W澎湃快充！酷态科30号电能站Ultra评测：“毕业级”的充电设备",
+    "description": "TA3005U 含 USB-C、USB-A 与 DC 输出；分别称量裸机、底座、全套配件，测试笔电与多口供电。",
+    "author": "充电头网 · 二姐",
+    "date": "2025-06-24",
+    "url": "https://www.chongdiantou.com/archives/1750756730516.html",
+    "kind": "review"
+  },
+  {
+    "id": "cdt-394106",
+    "productIds": [
+      "6-card"
+    ],
+    "title": "拆解报告：CUKTECH酷态科6号氮化镓电能卡片（充电器）",
+    "description": "AD652S 双 C 口卡片充拆解，核对约 82 g 重量、主口 PD 65 W 和副口 20 W。",
+    "author": "充电头网 · 五姐",
+    "date": "2024-11-22",
+    "url": "https://www.chongdiantou.com/archives/394106.html",
+    "kind": "teardown"
+  },
+  {
+    "id": "cdt-393677",
+    "productIds": [
+      "cp12-cable"
+    ],
+    "title": "无线有线全都要，酷态科磁吸电能块CP132ML评测",
+    "description": "原文标题沿用 CP132ML，正文型号为 WPB100L；测试自带 C 线、C 口及无线同时使用。",
+    "author": "充电头网 · CYX",
+    "date": "2024-11-21",
+    "url": "https://www.chongdiantou.com/archives/393677.html",
+    "kind": "review"
+  },
+  {
+    "id": "cdt-1745293402279",
+    "productIds": [
+      "10-mini"
+    ],
+    "title": "55W快充+提绳设计，出行必备神器，酷态科10号电能棒Mini移动电源评测",
+    "description": "PB1055 双 C 口、自充、机型兼容性与满载温度测试；仅代表该次测试样品和条件。",
+    "author": "充电头网 · 五姐",
+    "date": "2025-04-22",
+    "url": "https://www.chongdiantou.com/archives/1745293402279.html",
+    "kind": "review"
+  },
+  {
+    "id": "cdt-362857",
+    "productIds": [
+      "10-charger-se"
+    ],
+    "title": "酷态科CUKTECH 10号 120W 2C1A充电器评测",
+    "description": "正文型号 AD1003，对应本站 SE；记录小米 120 W、PD 100 W 与双口、三口分配。",
+    "author": "充电头网 · 五姐",
+    "date": "2024-08-07",
+    "url": "https://www.chongdiantou.com/archives/362857.html",
+    "kind": "review"
+  },
+  {
+    "id": "cdt-252486",
+    "productIds": [
+      "15-power"
+    ],
+    "title": "评测酷态科CUKTECH 15号电能柱：Xiaomi 120W 闪充，融合快充再助力",
+    "description": "PB200PS 的手机与笔记本协议、输出效率和自充测试；150 W 为多口标称总输出。",
+    "author": "充电头网 · 我爱开心呢",
+    "date": "2023-08-18",
+    "url": "https://www.chongdiantou.com/archives/252486.html",
+    "kind": "review"
+  },
+  {
+    "id": "cdt-232499",
+    "productIds": [
+      "30-power"
+    ],
+    "title": "评测 CUKTECH酷态科 30号超级电能仓：双向140W闪充，至高 300W 大功率输出",
+    "description": "P01CT 40000 mAh 电能仓的双向 PD 140 W、多口输出和扩展功能测试，适合桌面与长时间供电参考。",
+    "author": "充电头网 · 我爱开心呢",
+    "date": "2023-05-29",
+    "url": "https://www.chongdiantou.com/archives/232499.html",
+    "kind": "review"
+  },
+  {
+    "id": "cdt-244445",
+    "productIds": [
+      "20-power"
+    ],
+    "title": "拆解报告：CUKTECH酷态科20号超级电能柱P23",
+    "description": "P23 25000 mAh 电能柱拆解，核对接口功率、电池配置与单口 PD 140 W 档位。",
+    "author": "充电头网 · 捣蛋猫",
+    "date": "2023-07-17",
+    "url": "https://www.chongdiantou.com/archives/244445.html",
+    "kind": "teardown"
+  },
+  {
+    "id": "cdt-1787119967016",
+    "productIds": [
+      "10-base"
+    ],
+    "title": "拆解报告：CUKTECH酷态科10号电能基站TA1208",
+    "description": "TA1208 基站及可拆万象屏拆解；约 506 g 基站与约 616 g 含屏重量区分记录。",
+    "author": "充电头网 · yanhui",
+    "date": "2026-08-19",
+    "url": "https://www.chongdiantou.com/archives/1787119967016.html",
+    "kind": "teardown"
+  },
+  {
+    "id": "cdt-1787908162317",
+    "productIds": [
+      "car6"
+    ],
+    "title": "自带线与65W澎湃秒充双重加持，酷态科 6 号车充评测",
+    "description": "CC652 伸缩线约 69 cm，测试 PD / PPS 与 USB-A 输出；自带线和 A 口的用途差别明显。",
+    "author": "充电头网 · 刘",
+    "date": "2026-08-28",
+    "url": "https://www.chongdiantou.com/archives/1787908162317.html",
+    "kind": "review"
+  },
+  {
+    "id": "cdt-1787725133738",
+    "productIds": [
+      "car6",
+      "car10",
+      "car10-magnetic"
+    ],
+    "title": "同样自带伸缩线，酷态科三款车充区别在哪？",
+    "description": "并列三款伸缩线车充的接口、功率、无线充和使用定位，选购前先核对车辆电压与点烟器位置。",
+    "author": "充电头网 · 五姐",
+    "date": "2026-08-26",
+    "url": "https://www.chongdiantou.com/archives/1787725133738.html",
+    "kind": "guide"
+  },
+  {
+    "id": "cdt-1786011881989",
+    "productIds": [
+      "fan-outdoor"
+    ],
+    "title": "评测4款实用风嘴，酷态科 CP 户外风扇用户值得拥有！",
+    "description": "围绕 BF01 户外风扇的四款风嘴比较吹扫、充气和收纳场景，配件需另核对购买套装。",
+    "author": "充电头网 · 五姐",
+    "date": "2026-08-06",
+    "url": "https://www.chongdiantou.com/archives/1786011881989.html",
+    "kind": "review"
+  },
+  {
+    "id": "cdt-1779098200973",
+    "productIds": [
+      "fan-plus-clip",
+      "fan-plus-power"
+    ],
+    "title": "模块化接口生态破局，酷态科CP风扇Plus重构供电场景",
+    "description": "介绍模块风扇 Plus 的风扇主体、夹式延长线与 Power-Pin 供电生态，购买前核对套装所含组件。",
+    "author": "充电头网 · 小张在旅途中",
+    "date": "2026-05-18",
+    "url": "https://www.chongdiantou.com/archives/1779098200973.html",
+    "kind": "news"
+  },
+  {
+    "id": "cdt-1782298450505",
+    "productIds": [
+      "fan-desk",
+      "cp13-pin"
+    ],
+    "title": "酷态科CP桌面风扇正式亮相，可支持Power-Pin磁吸供电",
+    "description": "介绍 CP 桌面模块风扇的 USB-C 与 Power-Pin 供电方式，需区分裸风扇和含电源套装。",
+    "author": "充电头网 · 五姐",
+    "date": "2026-06-24",
+    "url": "https://www.chongdiantou.com/archives/1782298450505.html",
+    "kind": "news"
+  },
+  {
+    "id": "cdt-1773989381580",
+    "productIds": [
+      "cable-plus"
+    ],
+    "title": "突破协议壁垒，酷态科10号一分二智转线亮相",
+    "description": "一分二智转线 Plus 的协议转换与首发信息；兼容条件、端口功率和原装电源要求见原文。",
+    "author": "充电头网 · 小张在旅途中",
+    "date": "2026-03-20",
+    "url": "https://www.chongdiantou.com/archives/1773989381580.html",
+    "kind": "news"
+  },
+  {
+    "id": "cdt-1780387511343",
+    "productIds": [
+      "cp25-dual"
+    ],
+    "title": "55W全场景快充，酷态科CP25 双C线电能块新品官宣",
+    "description": "CP25 双 C 自带线款的容量、双向快充和两根 C 线设计，避免与 Lightning 双线款混淆。",
+    "author": "充电头网 · 小张在旅途中",
+    "date": "2026-06-02",
+    "url": "https://www.chongdiantou.com/archives/1780387511343.html",
+    "kind": "news"
+  },
+  {
+    "id": "cdt-1785504253995",
+    "productIds": [
+      "6-card",
+      "6-card-air"
+    ],
+    "title": "从65W到90W，酷态科电能卡片系列充电器怎么选",
+    "description": "按型号区分 65 W 卡片和 90 W Air，比较厚度、快充协议、主副口及交流输入条件。",
+    "author": "充电头网 · 五姐",
+    "date": "2026-08-01",
+    "url": "https://www.chongdiantou.com/archives/1785504253995.html",
+    "kind": "guide"
+  },
+  {
+    "id": "cdt-1762154967982",
+    "productIds": [
+      "charger-65",
+      "6-card",
+      "10-charger-mini",
+      "10-charger-se",
+      "10-charger-ultra",
+      "15-charger",
+      "30-desktop",
+      "10-fusion",
+      "cp16"
+    ],
+    "title": "告别选择困难！酷态科15款充电器横向对比介绍，从口袋便携到桌面全能一站搞定",
+    "description": "从口袋充、二合一到桌面充电站梳理产品线；原文为 2025 年版本，新增型号以本站档案为准。",
+    "author": "充电头网 · wuzhenfeng",
+    "date": "2025-10-31",
+    "url": "https://www.chongdiantou.com/archives/1762154967982.html",
+    "kind": "guide"
+  },
+  {
+    "id": "cdt-1792650420663",
+    "productIds": [
+      "cp26-cable"
+    ],
+    "title": "酷态科CP26新国标充电宝发布，寿命达2000次",
+    "description": "2026 年 10 月发布的 LPB150N，15000 mAh 磷酸铁锂电池、自带 C 线和最高 67 W 输出。",
+    "author": "充电头网 · wuzhenfeng",
+    "date": "2026-10-21",
+    "url": "https://www.chongdiantou.com/archives/1792650420663.html",
+    "kind": "news"
+  },
+  {
+    "id": "cdt-1788315220981",
+    "productIds": [
+      "cp26-cable"
+    ],
+    "title": "酷态科首款新国标充电宝曝光，自带线最高67W快充",
+    "description": "LPB150N 的认证报道，列明 48 Wh、45 W 输入与多口共享 20 W；文中的产品名预测已被正式发布替代。",
+    "author": "充电头网 · 五姐",
+    "date": "2026-09-02",
+    "url": "https://www.chongdiantou.com/archives/1788315220981.html",
+    "kind": "news"
+  },
+  {
+    "id": "cdt-1787306992444",
+    "productIds": [
+      "cp6-mini"
+    ],
+    "title": "酷态科推出新品充电器：67W双C口，还有莱茵放心充认证",
+    "description": "AC452 双 C 口充电器的档位、低压输入和双口分配；67 W 宣传值与固定 PD 档分开核对。",
+    "author": "充电头网 · 五姐",
+    "date": "2026-08-21",
+    "url": "https://www.chongdiantou.com/archives/1787306992444.html",
+    "kind": "news"
+  },
+  {
+    "id": "cdt-1785919089120",
+    "productIds": [
+      "energy600"
+    ],
+    "title": "CUKTECH酷态科首款户外电源开箱评测：米家APP智能控制，升维1000W AC驱动",
+    "description": "作者的电能仓 600 开箱视频入口，关注米家控制、USB-C 与 AC 输出；1000 W 升维不等于额定 AC 600 W。",
+    "author": "充电头网 · Jeremy",
+    "date": "2026-08-08",
+    "url": "https://www.chongdiantou.com/archives/1785919089120.html",
+    "kind": "video"
+  },
+  {
+    "id": "cdt-1751351966205",
+    "productIds": [
+      "30-desktop"
+    ],
+    "title": "超高功率，酷态科30号超级电能站Ultra 挑战百款终端设备兼容性，一个视频告诉你兼容性有多强",
+    "description": "充电头网提供的 B 站兼容性测试视频入口，重点比较 TA3005U 的 USB-C1 对不同设备的输出。",
+    "author": "充电头网 · 彭摆鱼",
+    "date": "2025-07-01",
+    "url": "https://www.chongdiantou.com/archives/1751351966205.html",
+    "kind": "video"
+  },
+  {
+    "id": "cdt-1751592295521",
+    "productIds": [
+      "10-charger-ultra"
+    ],
+    "title": "拆解报告：CUKTECH酷态科10号超级电能充Ultra",
+    "description": "AD1204U 三 C 一 A 拆解与协议读取，C1 / C2 固定 PD 100 W，C3 单独核对。",
+    "author": "充电头网 · 充电一姐",
+    "date": "2025-07-04",
+    "url": "https://www.chongdiantou.com/archives/1751592295521.html",
+    "kind": "teardown"
+  },
+  {
+    "id": "cdt-346029",
+    "productIds": [
+      "15-charger"
+    ],
+    "title": "拆解报告：CUKTECH酷态科15号140W 3C1A充电器AD1404U",
+    "description": "AD1404U 双主口 PD 140 W 档、辅助口及内部结构；单口档位不代表同时输出功率。",
+    "author": "充电头网 · 五姐",
+    "date": "2024-07-09",
+    "url": "https://www.chongdiantou.com/archives/346029.html",
+    "kind": "teardown"
+  },
+  {
+    "id": "cdt-1739151431713",
+    "productIds": [
+      "10-plus"
+    ],
+    "title": "拆解报告：酷态科10号超级电能棒Plus",
+    "description": "PB150P 15000 mAh 版本拆解，核对主口固定 PD 70 W、副口档位与电芯。",
+    "author": "充电头网 · 五姐",
+    "date": "2025-02-10",
+    "url": "https://www.chongdiantou.com/archives/1739151431713.html",
+    "kind": "teardown"
+  },
+  {
+    "id": "cdt-353465",
+    "productIds": [
+      "15-se"
+    ],
+    "title": "拆解报告：CUKTECH酷态科15号电能柱SE",
+    "description": "PB200 20000 mAh 版本的接口与电池拆解，主 C 口固定 PD 65 W，与其他 15 号版本区分。",
+    "author": "充电头网 · 五姐",
+    "date": "2024-07-18",
+    "url": "https://www.chongdiantou.com/archives/353465.html",
+    "kind": "teardown"
+  },
+  {
+    "id": "cdt-1744374649788",
+    "productIds": [
+      "10-mini"
+    ],
+    "title": "拆解报告：CUKTECH酷态科55W 10000mAh 10号超级电能棒Mini PB1055",
+    "description": "PB1055 拆解，核对两路 C 口和电池结构；具体协议档位按正文与规格图分别确认。",
+    "author": "充电头网 · 五姐",
+    "date": "2025-04-11",
+    "url": "https://www.chongdiantou.com/archives/1744374649788.html",
+    "kind": "teardown"
+  },
+  {
+    "id": "cdt-1782876281743",
+    "productIds": [
+      "energy600"
+    ],
+    "title": "户外充电生态新成员，酷态科电能仓600正式亮相",
+    "description": "PS600N 的发布信息、512 Wh 电池能量与首发报价；额定 AC 600 W 和升维 1000 W 分开记录。",
+    "author": "充电头网 · 五姐",
+    "date": "2026-07-01",
+    "url": "https://www.chongdiantou.com/archives/1782876281743.html",
+    "kind": "news"
   }
 ]

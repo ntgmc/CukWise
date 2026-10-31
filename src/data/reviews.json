@@ -1,1 +1,178 @@
-[]
+[
+  {
+    "id": "summary-6-screen",
+    "productId": "6-screen",
+    "nickname": "充电头网 · 刘",
+    "device": "USB-C 单口 / 充电头网测试设备",
+    "title": "百瓦宣传功率与 PD 固定档分开看",
+    "content": "原文读取的 PD 固定档最高为 20 V / 3.25 A，MacBook Pro 16 M4 Pro 单口约 63.10 W；小米 REDMI K80 Pro 约 93.42 W。屏显识别需打开相应模式。购买笔记本电源时按 PD 固定档判断，不能把小米或 PPS 的高功率结果直接套用。",
+    "createdAt": "2026-03-20",
+    "sourceUrl": "https://www.chongdiantou.com/archives/1774004237628.html",
+    "sourceLabel": "查看完整评测与测试条件"
+  },
+  {
+    "id": "summary-6-mini",
+    "productId": "6-mini",
+    "nickname": "充电头网 · 捣蛋猫",
+    "device": "AD653 裸机 / POWER-Z KM003C",
+    "title": "小米 90 W，笔记本按 PD 65 W 选",
+    "content": "拆解样品约 140 g；C1 和 C2 读取到的固定 PD 档最高为 20 V / 3.25 A，小米私有档另列。适合手机和 65 W 级轻薄本，双口同时使用需按分配表核对。",
+    "createdAt": "2026-01-29",
+    "sourceUrl": "https://www.chongdiantou.com/archives/1769649734024.html",
+    "sourceLabel": "查看完整评测与测试条件"
+  },
+  {
+    "id": "summary-6-card-air",
+    "productId": "6-card-air",
+    "nickname": "充电头网 · yanhui",
+    "device": "AD902S 裸机 / C1、C2",
+    "title": "薄型约 81 g，两个 C 口能力不同",
+    "content": "拆解样品约 81.0 g、厚度约 14.31 mm。C1 有 PD 65 W 固定档和更高的 PPS / 小米档；C2 固定档为 5 V / 3 A、9 V / 2.22 A。薄型便携是重点，不能将主口功率视为每口功率。",
+    "createdAt": "2026-08-11",
+    "sourceUrl": "https://www.chongdiantou.com/archives/1786432277862.html",
+    "sourceLabel": "查看完整评测与测试条件"
+  },
+  {
+    "id": "summary-10-charger-mini",
+    "productId": "10-charger-mini",
+    "nickname": "充电头网 · 充电一姐",
+    "device": "AD1203P / POWER-Z KM003C",
+    "title": "双 C 口均有 PD 100 W 固定档",
+    "content": "拆解样品约 182 g，C1 / C2 各自读取到最高 20 V / 5 A 固定 PD 档，小米 120 W 另列为私有档。两个接口单独使用的上限，不代表同时各输出 100 W。",
+    "createdAt": "2025-08-07",
+    "sourceUrl": "https://www.chongdiantou.com/archives/1754564028577.html",
+    "sourceLabel": "查看完整评测与测试条件"
+  },
+  {
+    "id": "summary-25-se",
+    "productId": "25-se",
+    "nickname": "充电头网 · 二姐",
+    "device": "自带线 / C1 / 充电头网测试设备",
+    "title": "大容量高功率，双口需要另看分配",
+    "content": "原文中自带线对华为 MateBook X Pro 约 96.17 W，红魔 9S Pro+ 约 87.9 W；搭配酷态科 120 W 充电器自充约 1 小时 40 分钟。多口测试出现明显降功率，适合优先给一台设备补能的场景。",
+    "createdAt": "2025-12-08",
+    "sourceUrl": "https://www.chongdiantou.com/archives/1765181729850.html",
+    "sourceLabel": "查看完整评测与测试条件"
+  },
+  {
+    "id": "summary-10-magnetic",
+    "productId": "10-magnetic",
+    "nickname": "充电头网 · 五姐",
+    "device": "有线接口 / 三星 S25+ 等",
+    "title": "有线快充与磁吸便利兼顾",
+    "content": "有线兼容性测试中，三星 S25+ 约 39.79 W、realme GT7 约 40.84 W；原文自充约 1 小时 48 分钟。有线功率不等于无线功率，磁吸位置、保护壳和手机支持的无线档位仍需核对。",
+    "createdAt": "2025-11-18",
+    "sourceUrl": "https://www.chongdiantou.com/archives/1763540675511.html",
+    "sourceLabel": "查看完整评测与测试条件"
+  },
+  {
+    "id": "summary-10-fusion",
+    "productId": "10-fusion",
+    "nickname": "充电头网 · 五姐",
+    "device": "BA652U / 充电器、移动电源与 Turbo",
+    "title": "三种模式，三套功率边界",
+    "content": "原文分别测试移动电源、普通充电器和 Turbo 模式。普通模式固定 PD 最高 65 W，Turbo 模式读取到 PD 100 W，且高功率依赖交流输入和模式设置；不能把 120 W 小米功率视为所有模式的输出。实测裸机约 334 g。",
+    "createdAt": "2025-11-04",
+    "sourceUrl": "https://www.chongdiantou.com/archives/1762328231041.html",
+    "sourceLabel": "查看完整评测与测试条件"
+  },
+  {
+    "id": "summary-15-station",
+    "productId": "15-station",
+    "nickname": "充电头网 · 二姐",
+    "device": "TA1406U / 自带线与 USB-C2",
+    "title": "140 W 笔记本优先用 C2",
+    "content": "原文 MacBook Pro 16 M4 Pro 接自带线约 93.75 W，接 C2 约 133.81 W。伸缩线和 C2 并非同一上限；六设备同充还需核对共享总功率。裸机约 510.5 g，套装约 582.9 g。",
+    "createdAt": "2025-11-04",
+    "sourceUrl": "https://www.chongdiantou.com/archives/1762251017143.html",
+    "sourceLabel": "查看完整评测与测试条件"
+  },
+  {
+    "id": "summary-cp6-retract",
+    "productId": "cp6-retract",
+    "nickname": "充电头网 · 刘",
+    "device": "AD653W / iPhone 16、MacBook Pro M4 Pro",
+    "title": "少带一根线，也要选对接口",
+    "content": "实测伸缩线约 67 cm、裸机约 167.5 g；两路 USB-C 对 MacBook Pro M4 Pro 均约 63 W，iPhone 16 约 24 W。USB-A 对小米 15 Pro 约 17.78 W，接口不同会影响快充结果。",
+    "createdAt": "2025-08-11",
+    "sourceUrl": "https://www.chongdiantou.com/archives/1754911338777.html",
+    "sourceLabel": "查看完整评测与测试条件"
+  },
+  {
+    "id": "summary-cp24-dual",
+    "productId": "cp24-dual",
+    "nickname": "充电头网 · 五姐",
+    "device": "USB-C 与 Lightning 自带线",
+    "title": "新旧 iPhone 混用更方便",
+    "content": "原文确认 LPB200NL 同时有 USB-C 与 Lightning 自带线；两根线同时使用时约各 10 W，不是单口 40 W 的简单叠加。实测裸机约 359.9 g，自充约 3 小时 32 分钟。",
+    "createdAt": "2025-07-23",
+    "sourceUrl": "https://www.chongdiantou.com/archives/1753233350544.html",
+    "sourceLabel": "查看完整评测与测试条件"
+  },
+  {
+    "id": "summary-15-air",
+    "productId": "15-air",
+    "nickname": "充电头网 · 二姐",
+    "device": "PB150S / USB-C1、USB-C2",
+    "title": "薄型 15000 mAh，主副口差别明显",
+    "content": "原文主口对 REDMI K70 至尊版约 80.63 W，红魔 9S Pro+ 约 75.7 W；笔记本固定 PD 在 65 W 档。副口对同一 REDMI 约 22.91 W。双口同充和轻薄笔电优先看具体插口。",
+    "createdAt": "2025-07-20",
+    "sourceUrl": "https://www.chongdiantou.com/archives/1752836683508.html",
+    "sourceLabel": "查看完整评测与测试条件"
+  },
+  {
+    "id": "summary-30-desktop",
+    "productId": "30-desktop",
+    "nickname": "充电头网 · 二姐",
+    "device": "TA3005U / USB-C、DC 与附带底座",
+    "title": "桌面能力充足，出行算整套重量",
+    "content": "原文 USB-C1 对 MacBook Pro 16 M4 Pro 约 132.23 W；三 C 口同时约 130.59 + 92.84 + 27.84 W。裸机约 636.7 g，配件全套约 1141 g；DC 转接头须核对笔记本型号与供电要求。",
+    "createdAt": "2025-06-24",
+    "sourceUrl": "https://www.chongdiantou.com/archives/1750756730516.html",
+    "sourceLabel": "查看完整评测与测试条件"
+  },
+  {
+    "id": "summary-cp12-cable",
+    "productId": "cp12-cable",
+    "nickname": "充电头网 · CYX",
+    "device": "WPB100L / iPhone 16 Pro Max",
+    "title": "磁吸与自带线方便，三路会分流",
+    "content": "原文对 iPhone 16 Pro Max 自带线约 19.61 W；双有线输出约各 7.3 W。收纳 C 头的位置仅用于收纳，不能充放电。标题沿用旧商品名，正文型号 WPB100L 与本站档案一致。",
+    "createdAt": "2024-11-21",
+    "sourceUrl": "https://www.chongdiantou.com/archives/393677.html",
+    "sourceLabel": "查看完整评测与测试条件"
+  },
+  {
+    "id": "summary-10-mini",
+    "productId": "10-mini",
+    "nickname": "充电头网 · 五姐",
+    "device": "PB1055 / 小米 15 Pro",
+    "title": "双 C 口紧凑型，温度取决于负载",
+    "content": "原文两路 C 口分别给小米 15 Pro 约 48 W，自充约 1 小时 30 分钟；最高档负载 20 分钟后正面约 53 ℃。这些数值只对应原文样品、环境与负载，不能视为日常恒定功率或温度。",
+    "createdAt": "2025-04-22",
+    "sourceUrl": "https://www.chongdiantou.com/archives/1745293402279.html",
+    "sourceLabel": "查看完整评测与测试条件"
+  },
+  {
+    "id": "summary-10-charger-se",
+    "productId": "10-charger-se",
+    "nickname": "充电头网 · 五姐",
+    "device": "AD1003 / 双 C 与三口",
+    "title": "笔记本加手机，注意第三口加入后的降功率",
+    "content": "原文 C1 + C2 约为 67 W + 33 W 分配；接入第三口后约为 45 W + 33 W + 18 W。适合桌面多设备，但要求笔记本持续 65 W 时需先核对三口策略。",
+    "createdAt": "2024-08-07",
+    "sourceUrl": "https://www.chongdiantou.com/archives/362857.html",
+    "sourceLabel": "查看完整评测与测试条件"
+  },
+  {
+    "id": "summary-car6",
+    "productId": "car6",
+    "nickname": "充电头网 · 刘",
+    "device": "CC652 / iPhone 17 Pro Max",
+    "title": "车上优先用伸缩 C 线",
+    "content": "原文伸缩线约 69 cm、整机约 72.1 g，C 线对 iPhone 17 Pro Max 约 38.75 W；USB-A 连接 iPhone 仅约 7.1 W。选购前还需核对车辆 12 / 24 V 输入和线材走线位置。",
+    "createdAt": "2026-08-28",
+    "sourceUrl": "https://www.chongdiantou.com/archives/1787908162317.html",
+    "sourceLabel": "查看完整评测与测试条件"
+  }
+]

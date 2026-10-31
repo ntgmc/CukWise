@@ -2,8 +2,10 @@ import productData from "./products.json";
 import priceData from "./prices.json";
 import readingData from "./readings.json";
 import reviewData from "./reviews.json";
+import purchaseData from "./purchase-links.json";
 import type { PublicReview, Reading, PriceRecord } from "../lib/domain";
-import { day, object, safeUrl, text, validatePrice, validateProduct } from "../lib/validation";
+import { readingKinds } from "../lib/domain";
+import { choice, day, object, safeUrl, text, validatePrice, validateProduct } from "../lib/validation";
 
 function uniqueIds<T extends { id: string }>(items: T[], label: string): T[] {
   if (new Set(items.map(item => item.id)).size !== items.length) throw new Error(`${label}存在重复标识。`);
@@ -21,6 +23,7 @@ for (const p of products) {
     if (p.baseProductId === p.id || products.find(base => base.id === p.baseProductId)?.baseProductId) throw new Error(`产品版本关联无效：${p.id}`);
   }
 }
+const purchaseLinks = new Map(Object.entries(purchaseData).map(([id, url]) => [requireProduct(id), safeUrl(url)]));
 const prices = uniqueIds(priceData.map(value => {
   const price = { ...validatePrice(value), id: text(value.id, "价格标识", 80) };
   if (price.productId !== null) requireProduct(price.productId);
@@ -30,7 +33,8 @@ const readings: Reading[] = uniqueIds(readingData.map(value => {
   const v = object(value);
   if (!Array.isArray(v.productIds)) throw new Error("文章关联产品必须为数组。");
   return { id: text(v.id, "文章标识", 80), productIds: v.productIds.map(id => requireProduct(text(id, "关联产品", 80))),
-    title: text(v.title, "文章标题", 160), description: text(v.description, "文章简介", 1000), author: text(v.author, "作者", 100), date: day(v.date, "文章日期"), url: safeUrl(v.url) };
+    title: text(v.title, "文章标题", 160), description: text(v.description, "文章简介", 1000), author: text(v.author, "作者", 100), date: day(v.date, "文章日期"), url: safeUrl(v.url),
+    kind: choice(v.kind ?? "guide", Object.keys(readingKinds) as (keyof typeof readingKinds)[], "资料类型") };
 }), "文章");
 const publicReviewKeys = new Set(["id", "productId", "nickname", "device", "title", "content", "createdAt", "sourceUrl", "sourceLabel"]);
 export function validatePublicReview(value: unknown): PublicReview {
@@ -44,5 +48,6 @@ const reviews = uniqueIds((reviewData as unknown[]).map(validatePublicReview), "
 export const getProducts = () => products.filter(p => p.status === "published");
 export const getProduct = (id: string) => getProducts().find(p => p.id === id);
 export const getPrices = (): PriceRecord[] => prices.filter(p => !p.archived && (p.productId === null || getProduct(p.productId))).sort((a,b) => b.recordedAt.localeCompare(a.recordedAt));
-export const getReadings = () => readings;
+export const getReadings = () => [...readings].sort((a, b) => b.date.localeCompare(a.date));
+export const getPurchaseUrl = (id: string) => purchaseLinks.get(id);
 export const getPublicReviews = (productId?: string) => reviews.filter(r => getProduct(r.productId) && (!productId || r.productId === productId));

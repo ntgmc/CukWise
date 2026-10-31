@@ -16,7 +16,8 @@ export type PriceRecord = {
   conditions: string; recordedAt: string; expiresAt: string | null;
   sourceUrl: string; sourceLabel: string; archived: boolean;
 };
-export type Reading = { id: string; productIds: string[]; title: string; description: string; author: string; date: string; url: string };
+export const readingKinds = { review: "深度评测", teardown: "拆解核对", video: "视频资料", guide: "横向选购", news: "新品资料" } as const;
+export type Reading = { id: string; productIds: string[]; title: string; description: string; author: string; date: string; url: string; kind: keyof typeof readingKinds };
 export type PublicReview = {
   id: string; productId: string; nickname: string; device: string;
   title: string; content: string; createdAt: string;
@@ -36,6 +37,11 @@ export function lowestPrice(prices: PriceRecord[], productId: string, eligibilit
 }
 export function currentPrice(prices: PriceRecord[], productId: string) {
   return prices.filter(p => p.productId === productId && p.eligibility === "public" && isCurrentDeal(p)).sort((a, b) => a.amountCents - b.amountCents)[0];
+}
+export function referencePrice(prices: PriceRecord[], productId: string) {
+  const today = new Date().toISOString().slice(0, 10);
+  return prices.filter(p => p.productId === productId && p.kind === "reference" && p.eligibility === "public" && !p.archived && p.recordedAt <= today)
+    .sort((a, b) => b.recordedAt.localeCompare(a.recordedAt) || a.amountCents - b.amountCents)[0];
 }
 export const baseSpecs = [
   ["model", "产品型号", "基本信息"], ["category", "产品分类", "基本信息"], ["series", "产品系列", "基本信息"],

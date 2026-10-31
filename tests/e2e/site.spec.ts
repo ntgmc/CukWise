@@ -30,7 +30,7 @@ test("all catalog photos decode locally and official specifications expand", asy
   page.on("request", request => { if (new URL(request.url()).hostname !== "127.0.0.1") external.push(request.url()); });
   await page.goto(route("products/"));
   await page.getByLabel("包含限定版本").check();
-  await expect(page.locator(".product-card .product-photo")).toHaveCount(87);
+  await expect(page.locator(".product-card .product-photo")).toHaveCount(88);
   const decoded = await page.locator(".product-card .product-photo").evaluateAll(async images => Promise.all(images.map(async element => {
     const image = element as HTMLImageElement;
     image.loading = "eager";
@@ -52,8 +52,8 @@ test("all catalog photos decode locally and official specifications expand", asy
 test("official catalog identifiers remain searchable after correcting model names", async ({ page }) => {
   await page.goto(route("products/"));
   await page.getByRole("textbox", { name: "搜索产品名称或型号" }).fill("PB062");
-  await expect(page.locator(".product-card")).toHaveCount(1);
-  await expect(page.locator(".product-card")).toContainText("PB060");
+  await expect(page.locator(".product-card")).toHaveCount(2);
+  await expect(page.locator(".product-card").first()).toContainText("PB060");
   await page.keyboard.press("Control+k");
   await page.getByRole("combobox", { name: "搜索产品", exact: true }).fill("AD652SNY");
   await expect(page.getByRole("option").first()).toContainText("新年版");
@@ -117,7 +117,7 @@ test("recommendations are local and deals without expiry stay separate from refe
   await expect(page.locator(".recommend-reasons").first()).toContainText("140 W");
   expect(requests).toEqual([]);
   await page.goto(route("deals/"));
-  await expect(page.locator(".deal-card")).toHaveCount(79);
+  await expect(page.locator(".deal-card")).toHaveCount(80);
   await expect(page.locator(".deal-card .badge").first()).toHaveText("好价");
   await expect(page.locator(".deal-card").first()).toContainText("拼多多 · 百亿补贴店铺");
   await page.getByRole("button", { name: "当前好价", exact: true }).click();
@@ -127,7 +127,7 @@ test("recommendations are local and deals without expiry stay separate from refe
   await page.getByRole("button", { name: "历史好价", exact: true }).click();
   await expect(page.locator(".deal-card")).toHaveCount(0);
   await page.getByRole("button", { name: "参考报价", exact: true }).click();
-  await expect(page.locator(".deal-card")).toHaveCount(50);
+  await expect(page.locator(".deal-card")).toHaveCount(51);
   await expect(page.locator(".deal-card .badge").first()).toHaveText("参考报价");
 });
 
@@ -135,9 +135,10 @@ test("screenshot quotes preserve unmapped names, coupon terms and local sources"
   const errors: string[] = [];
   page.on("pageerror", error => errors.push(error.message));
   await page.goto(route("deals/"));
-  const cp26 = page.locator(".deal-card").filter({has:page.getByRole("heading", {name:"CP26电能块", exact:true})});
+  const cp26 = page.locator(".deal-card").filter({has:page.getByRole("heading", {name:"CP26 电能块·自带线", exact:true})});
   await expect(cp26).toContainText("¥149");
-  await expect(cp26).toContainText("型号待确认");
+  await expect(cp26).not.toContainText("型号待确认");
+  await expect(cp26.getByRole("heading").getByRole("link")).toHaveAttribute("href",`${base}/products/cp26-cable/`);
   await expect(cp26).toContainText("7折减50或7.5折减50");
   const source = cp26.getByRole("link", {name:"查看来源"});
   await expect(source).toHaveAttribute("href", `${base}/images/prices/1025-discount-guide.webp`);
@@ -148,7 +149,7 @@ test("screenshot quotes preserve unmapped names, coupon terms and local sources"
   await expect(cp26).toHaveCount(0);
   await page.getByRole("combobox", {name:"产品分类", exact:true}).selectOption("all");
   await page.getByRole("button", {name:"参考报价", exact:true}).click();
-  await expect(page.locator(".deal-card")).toHaveCount(50);
+  await expect(page.locator(".deal-card")).toHaveCount(51);
   await page.goto(route("products/10-charger-se/"));
   await expect(page.locator(".price-record")).toHaveCount(2);
   await expect(page.locator(".detail-price")).toContainText("¥70");
@@ -167,13 +168,57 @@ test("screenshot quotes preserve unmapped names, coupon terms and local sources"
   expect(errors).toEqual([]);
 });
 
+test("catalog filters survive reload and model search finds limited editions", async ({ page }) => {
+  await page.goto(route("products/?category=charger&power=100&protocol=PD"));
+  await expect(page.getByRole("combobox",{name:"单口 PD 最低功率"})).toHaveValue("100");
+  await expect(page.locator(".product-card")).not.toHaveCount(0);
+  await expect(page.locator(".product-card").filter({has:page.getByRole("heading",{name:/6号充电器 Mini|6号屏显充 Ultra/})})).toHaveCount(0);
+  await page.getByRole("combobox",{name:"当前好价预算"}).selectOption("10000");
+  await expect(page).toHaveURL(/budget=10000/);
+  const count=await page.locator(".product-card").count();
+  await page.reload();
+  await expect(page.locator(".product-card")).toHaveCount(count);
+  await page.getByRole("button",{name:"清空筛选"}).click();
+  await page.getByRole("textbox",{name:"搜索产品名称或型号"}).fill("AD652SNY");
+  await expect(page.locator(".product-card")).toHaveCount(2);
+});
+test("skip link moves keyboard focus into main content", async ({ page }) => {
+  await page.goto(route("guides/laptop-pd/"));
+  await page.keyboard.press("Tab");
+  await expect(page.locator(":focus")).toHaveText("跳到内容");
+  await page.keyboard.press("Enter");
+  await expect(page.locator("#main")).toBeFocused();
+});
+
+test("buying guides, attributed summaries and official buying links are usable", async ({ page }) => {
+  const errors:string[]=[];page.on("pageerror",error=>errors.push(error.message));
+  await page.goto(route("insights/"));
+  await expect(page.locator(".guide-card")).toHaveCount(8);
+  await page.getByRole("textbox",{name:"搜索选购资料"}).fill("AD653");
+  await expect(page.locator("#sources .reading-card")).not.toHaveCount(0);
+  await page.getByRole("button",{name:"拆解核对",exact:true}).click();
+  await expect(page.locator("#sources .reading-card").first()).toContainText("拆解核对");
+  await page.goto(route("guides/laptop-pd/"));
+  await expect(page.locator(".guide-checklist")).toContainText("EPR");
+  await page.getByRole("link",{name:"对比文中型号"}).click();
+  await expect(page.locator(".compare-product-head")).toHaveCount(3);
+  await page.goto(route("products/6-mini/"));
+  await expect(page.locator(".detail-glance")).toContainText("65 W");
+  await expect(page.locator("#experiences")).toContainText("小米 90 W，笔记本按 PD 65 W 选");
+  await expect(page.getByRole("link",{name:"官网购买入口",exact:true})).toHaveAttribute("href",/^https:\/\/item\.jd\.com\//);
+  await page.goto(route("products/cable-240/"));
+  await expect(page.getByRole("link",{name:"查看选购要点"})).toHaveAttribute("href",`${base}/guides/usb-cables/`);
+  await expect(page.getByRole("link",{name:"适合我的设备吗"})).toHaveCount(0);
+  expect(errors).toEqual([]);
+});
+
 for (const width of [320, 375, 414, 768, 1440]) {
   test(`pages fit ${width}px without runtime or hydration errors`, async ({ page }) => {
     await page.setViewportSize({ width, height: 900 });
     const errors: string[] = [];
     page.on("pageerror", error => errors.push(error.message));
     page.on("console", message => { if (message.type() === "error") errors.push(message.text()); });
-    for (const url of ["", "products/", "products/15-ultra/", "compare/?ids=6-power,15-ultra", "deals/", "recommend/"]) {
+    for (const url of ["", "products/", "products/15-ultra/", "compare/?ids=6-power,15-ultra", "deals/", "recommend/", "insights/", "guides/laptop-pd/", "products/cp26-cable/", "products/cable-240/"]) {
       await page.goto(route(url));
       await page.locator("astro-island[ssr]").first().waitFor({ state: "detached" }).catch(() => {});
       await page.evaluate(() => document.fonts.ready);

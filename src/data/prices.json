@@ -1,5 +1,20 @@
 [
   {
+    "id": "ref-energy600-launch",
+    "productId": "energy600",
+    "amountCents": 129900,
+    "platform": "充电头网",
+    "store": "原文发布报价",
+    "kind": "reference",
+    "eligibility": "public",
+    "conditions": "2026年7月1日发布报道中的京东首发价，7月7日开售；原文日常价1399元。保留发布口径，不代表当前可买价格。",
+    "recordedAt": "2026-07-01",
+    "expiresAt": null,
+    "sourceUrl": "https://www.chongdiantou.com/archives/1782876281743.html",
+    "sourceLabel": "电能仓600发布与首发报价",
+    "archived": false
+  },
+  {
     "id": "ref-pocket",
     "productId": "cp13-pocket",
     "amountCents": 8900,
@@ -780,14 +795,14 @@
   },
   {
     "id": "shot-1025-r25-double11",
-    "productId": null,
+    "productId": "cp26-cable",
     "productName": "CP26电能块",
     "amountCents": 14900,
     "platform": "拼多多",
     "store": "百亿补贴店铺",
     "kind": "reference",
     "eligibility": "public",
-    "conditions": "2026年双十一参考价；购买用券：7折减50或7.5折减50（适合70–150元商品）；原表商品：CP26电能块；原表推荐：2/5星；现有产品库尚无可唯一对应的CP26档案。",
+    "conditions": "2026年双十一参考价；购买用券：7折减50或7.5折减50（适合70–150元商品）；原表商品：CP26电能块；原表推荐：2/5星；按2026年10月22日发布报道，关联CP26自带线款（LPB150N）；此条仍为双十一参考报价。",
     "recordedAt": "2026-10-31",
     "expiresAt": null,
     "sourceUrl": "images/prices/1025-discount-guide.webp",

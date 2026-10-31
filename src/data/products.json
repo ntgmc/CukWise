@@ -1119,7 +1119,7 @@
     "maxOutputW": 65.0,
     "pdOutputW": 65,
     "inputW": null,
-    "weightG": null,
+    "weightG": 121,
     "ports": "USB-C × 2 / USB-A × 1",
     "specs": {
       "产品尺寸": "53 × 28 × 53.9 mm",
@@ -1129,7 +1129,8 @@
       "USB-A 输出": "5 V / 3 A；9 V / 2 A；10 V / 2.25 A；12 V / 1.5 A；22.5 W MAX",
       "多口输出": "高压输入下 C1 + C2：45 W + 20 W；C2 + A：20 W；三口：45 W + 15 W",
       "使用温度": "0–35 ℃",
-      "尺寸说明": "不含折叠插脚"
+      "尺寸说明": "不含折叠插脚",
+      "重量口径": "充电头网实测约 121 g，裸机，不含另附线材；见本页关联资料"
     },
     "baseProductId": null,
     "status": "published",
@@ -1167,7 +1168,7 @@
     "maxOutputW": 90.0,
     "pdOutputW": 65,
     "inputW": null,
-    "weightG": null,
+    "weightG": 81,
     "ports": "USB-C × 2",
     "specs": {
       "快充技术": "ADC 2.0",
@@ -1176,7 +1177,8 @@
       "USB-C1 输出": "5 V / 3 A；9 V / 3 A；15 V / 3 A；20 V / 3.25 A；5–11 V / 5 A；5–20 V / 4.5 A；90 W MAX",
       "USB-C2 输出": "5 V / 3 A；9 V / 2.22 A；10 V / 2.25 A；22.5 W MAX",
       "多口输出": "200–240 V：45 W + 20 W；100–130 V：25 W + 20 W",
-      "低压输入输出上限": "100–130 V 输入时 C1 最高 45 W"
+      "低压输入输出上限": "100–130 V 输入时 C1 最高 45 W",
+      "重量口径": "充电头网实测约 81 g，裸机，不含另附线材；见本页关联资料"
     },
     "baseProductId": null,
     "status": "published",
@@ -1211,9 +1213,9 @@
     ],
     "capacityMah": null,
     "maxOutputW": 100.0,
-    "pdOutputW": 100,
+    "pdOutputW": 65,
     "inputW": null,
-    "weightG": null,
+    "weightG": 166,
     "ports": "USB-C × 2 / USB-A × 1",
     "specs": {
       "充电模式": "OPC 放心充 2.0",
@@ -1224,7 +1226,9 @@
       "USB-C 输出": "两口均支持 5 / 9 / 12 / 15 V，3 A；11 V / 5 A；20 V / 3.25 A；65 W；200–240 V 另支持 11 V / 6.1 A、20 V / 5 A，100 W MAX",
       "USB-A 输出": "5 V / 3 A；9 V / 2 A；12 V / 1.5 A；11 V / 3 A；33 W MAX",
       "多口输出": "200–240 V：C1 + C2 / A 为 67 W + 22 W；三口 67 W + 15 W；低压输入分别为 45 W + 22 W、45 W + 15 W",
-      "低压输入输出上限": "USB-C 单口最高 65 W"
+      "低压输入输出上限": "USB-C 单口最高 65 W",
+      "重量口径": "充电头网实测约 166 g，裸机，不含另附线材；见本页关联资料",
+      "PD 输出核对": "充电头网读取的单口 PD 固定档最高为 20 V / 3.25 A（65 W）；标称 100 W 包含小米私有或 PPS 高功率档，不作为笔记本固定 PD 档推荐依据。"
     },
     "baseProductId": null,
     "status": "published",
@@ -1308,9 +1312,9 @@
     ],
     "capacityMah": null,
     "maxOutputW": 90.0,
-    "pdOutputW": 90,
+    "pdOutputW": 65,
     "inputW": null,
-    "weightG": null,
+    "weightG": 140,
     "ports": "USB-C × 2 / USB-A × 1",
     "specs": {
       "快充技术": "ADC 2.0",
@@ -1319,7 +1323,9 @@
       "USB-C 输出": "两口均为 5 / 9 / 12 / 15 V，3 A；11 V / 5 A；20 V / 3.25 A；65 W；200–240 V 另支持 11 V / 6.1 A、20 V / 4.5 A，90 W MAX",
       "USB-A 输出": "5 V / 3 A；9 V / 2 A；12 V / 1.5 A；10 V / 2.25 A；22.5 W MAX",
       "多口输出": "C1 + C2：45 W + 20 W；C1 + A：45 W + 22.5 W；C2 + A：20 W；三口：45 W + 15 W",
-      "低压输入输出上限": "USB-C 单口最高 65 W"
+      "低压输入输出上限": "USB-C 单口最高 65 W",
+      "重量口径": "充电头网实测约 140 g，裸机，不含另附线材；见本页关联资料",
+      "PD 输出核对": "充电头网读取的单口 PD 固定档最高为 20 V / 3.25 A（65 W）；标称 90 W 包含小米私有或 PPS 高功率档，不作为笔记本固定 PD 档推荐依据。"
     },
     "baseProductId": null,
     "status": "published",
@@ -1357,7 +1363,7 @@
     "maxOutputW": 120.0,
     "pdOutputW": 100,
     "inputW": null,
-    "weightG": null,
+    "weightG": 182,
     "ports": "USB-C × 2 / USB-A × 1",
     "specs": {
       "快充技术": "ADC 2.1 全时动态功率分配",
@@ -1366,7 +1372,8 @@
       "USB-C 输出": "两口均为 5 / 9 / 12 / 15 V，3 A；11 V / 6.1 A；20 V / 5 A，100 W；200–240 V 另支持 20 V / 6 A，120 W MAX",
       "USB-A 输出": "5 V / 3 A；9 V / 2 A；12 V / 1.5 A；11 V / 3 A；33 W MAX",
       "多口输出": "200–240 V：C1 + C2 为 67 W + 55 W；C1 / C2 + A 为 90 W + 22.5 W；三口 45 W + 45 W + 22.5 W；低压输入分配见规格图",
-      "低压输入输出上限": "USB-C 单口最高 100 W"
+      "低压输入输出上限": "USB-C 单口最高 100 W",
+      "重量口径": "充电头网实测约 182 g，裸机，不含另附线材；见本页关联资料"
     },
     "baseProductId": null,
     "status": "published",
@@ -1588,7 +1595,7 @@
     "maxOutputW": 140,
     "pdOutputW": 140,
     "inputW": null,
-    "weightG": null,
+    "weightG": 510.5,
     "ports": "自带 USB-C 线 × 1 / USB-C × 2 / USB-A × 1 / 磁吸无线充 × 1 / 耳机无线充 × 1",
     "specs": {
       "同时连接": "最多 6 台设备",
@@ -1602,7 +1609,8 @@
       "产品尺寸": "130.5 × 67.9 × 91.5 mm",
       "无线感应距离": "≤ 4 mm",
       "屏幕尺寸": "1.83 英寸 TFT 屏",
-      "官网目录标识": "TA1406"
+      "官网目录标识": "TA1406",
+      "重量口径": "充电头网实测约 510.5 g，裸机，不含另附线材；见本页关联资料"
     },
     "baseProductId": null,
     "status": "published",
@@ -1637,7 +1645,7 @@
     "maxOutputW": 120,
     "pdOutputW": 100,
     "inputW": null,
-    "weightG": null,
+    "weightG": 616,
     "ports": "AC 插座 × 4 / USB-C × 3 / USB-A × 1 / POGO PIN 屏幕供电",
     "specs": {
       "输入规格": "USB 模块：200–240 V~ / 50–60 Hz / 2 A",
@@ -1649,7 +1657,8 @@
       "产品尺寸": "底座：95 × 119.1 × 36.5 mm；屏幕：84 × 55.7 × 66.5 mm",
       "电源线长度": "全长约 1.5 m",
       "屏幕尺寸": "2.8 英寸",
-      "连接功能": "米家 Wi-Fi / 蓝牙"
+      "连接功能": "米家 Wi-Fi / 蓝牙",
+      "重量口径": "充电头网实测约 616 g，含万象屏；见本页关联资料"
     },
     "baseProductId": null,
     "status": "published",
@@ -1782,7 +1791,7 @@
     "maxOutputW": 77,
     "pdOutputW": 65,
     "inputW": null,
-    "weightG": null,
+    "weightG": 72.1,
     "ports": "自带伸缩 USB-C 线 × 1 / USB-A × 1",
     "specs": {
       "双口总输出": "77 W MAX",
@@ -1794,7 +1803,8 @@
       "USB-C 伸缩线输出": "5 / 9 / 12 / 15 V，3 A；20 V / 3.25 A；5–11 V / 5 A；5–20 V / 3.25 A；65 W MAX",
       "USB-A 输出": "5 V / 2.4 A；12 W MAX",
       "多口总输出": "77 W（65 W + 12 W）",
-      "资料备注": "官网目录接口数量与详细规格图不同；本页按规格图记录为伸缩 USB-C 线 + USB-A。"
+      "资料备注": "官网目录接口数量与详细规格图不同；本页按规格图记录为伸缩 USB-C 线 + USB-A。",
+      "重量口径": "充电头网实测约 72.1 g，裸机，不含另附线材；见本页关联资料"
     },
     "baseProductId": null,
     "status": "published",
@@ -1832,7 +1842,7 @@
     "maxOutputW": 134,
     "pdOutputW": 65,
     "inputW": 45,
-    "weightG": null,
+    "weightG": 334,
     "ports": "USB-C × 2",
     "specs": {
       "多口总输出": "134 W MAX",
@@ -1845,7 +1855,8 @@
       "Turbo 模式输出": "单口 20 V / 6 A，120 W MAX；双口 65 W + 67 W 或 67 W + 67 W，需 200–240 V 输入",
       "电池能量": "32.2 / 33.3 Wh（额定 / 典型，11.1 V）",
       "额定容量": "5150 mAh（5 V / 3 A）",
-      "充电时间": "约 1.5 小时（充电器无输出时）"
+      "充电时间": "约 1.5 小时（充电器无输出时）",
+      "重量口径": "充电头网实测约 334 g，裸机，不含另附线材；见本页关联资料"
     },
     "baseProductId": null,
     "status": "published",
@@ -2010,7 +2021,7 @@
     "maxOutputW": 67.0,
     "pdOutputW": 65,
     "inputW": null,
-    "weightG": null,
+    "weightG": 167.5,
     "ports": "自带伸缩 USB-C 线 × 1 / USB-C × 1 / USB-A × 1",
     "specs": {
       "自带线长度": "约 0.7 m",
@@ -2019,7 +2030,8 @@
       "USB-C 伸缩线输出": "5 / 9 / 12 / 15 V，3 A；11 V / 5 A；20 V / 3.25 A；65 W MAX",
       "USB-C 输出": "5 / 9 / 12 / 15 V，3 A；11 V / 6.1 A；20 V / 3.25 A；67 W MAX",
       "USB-A 输出": "5 V / 3 A；9 V / 2 A；10 V / 2.25 A；12 V / 1.5 A；22.5 W MAX",
-      "多口输出": "伸缩线 + C：45 W + 20 W；伸缩线 + A：45 W + 18 W；C + A：20 W；三口：45 W + 15 W"
+      "多口输出": "伸缩线 + C：45 W + 20 W；伸缩线 + A：45 W + 18 W；C + A：20 W；三口：45 W + 15 W",
+      "重量口径": "充电头网实测约 167.5 g，裸机，不含另附线材；见本页关联资料"
     },
     "baseProductId": null,
     "status": "published",
@@ -3790,5 +3802,50 @@
       "images/products/specs/ea050525441e21c02e13.webp",
       "images/products/specs/3e1287a1e496f803f7ca.webp"
     ]
+  },
+  {
+    "id": "cp26-cable",
+    "name": "CP26 电能块·自带线",
+    "category": "powerbank",
+    "model": "LPB150N",
+    "summary": "15000 mAh 磷酸铁锂电池，自带 USB-C 线，最高 67 W 输出。",
+    "series": "CP 系列",
+    "tags": [
+      "自带线",
+      "磷酸铁锂",
+      "屏显"
+    ],
+    "protocols": [
+      "PD",
+      "PPS",
+      "UFCS",
+      "小米澎湃秒充",
+      "AVS"
+    ],
+    "capacityMah": 15000,
+    "maxOutputW": 67,
+    "pdOutputW": null,
+    "inputW": 45,
+    "weightG": null,
+    "ports": "自带 USB-C 线 × 1 / USB-C × 1 / USB-A × 1",
+    "specs": {
+      "电池能量": "48 Wh",
+      "电池种类": "磷酸铁锂",
+      "自带线长度": "约 13 cm",
+      "USB-C 与自带线": "最高 67 W 输出、45 W 输入；固定 PD 档上限尚待独立核对",
+      "USB-A 输出": "22.5 W MAX",
+      "多口输出": "5 V / 4 A，共享 20 W",
+      "配色": "月白 / 砚黑",
+      "循环寿命": "厂商标注：25±2 ℃、0.5C 充电 / 1C 放电条件下，2000 次循环后容量保持率不低于 80%",
+      "认证信息": "发布报道列出 CCC 证书号 2026010914892112；购买时核对实物与证书当前状态",
+      "资料备注": "依据 2026-10-22 发布报道和认证报道建档；官网产品目录暂未收录，尺寸、重量与固定 PD 档保留未知。"
+    },
+    "baseProductId": null,
+    "status": "published",
+    "updatedAt": "2026-10-31",
+    "sourceUrl": "https://www.chongdiantou.com/archives/1792650420663.html",
+    "sourceLabel": "充电头网 · CP26 发布报道",
+    "image": "images/products/lpb150n.webp",
+    "specImages": []
   }
 ]

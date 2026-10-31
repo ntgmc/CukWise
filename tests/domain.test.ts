@@ -1,7 +1,8 @@
 import { test } from "node:test";
 import assert from "node:assert/strict";
-import { getProducts, getPrices, validatePublicReview } from "../src/data/catalog";
-import { compareRows, currentPrice, isCurrentDeal, lowestPrice, specValue, type PriceRecord } from "../src/lib/domain";
+import { getProducts, getPrices, getReadings, getPublicReviews, getPurchaseUrl, validatePublicReview } from "../src/data/catalog";
+import { guides, guidesForCategory } from "../src/data/guides";
+import { compareRows, currentPrice, isCurrentDeal, lowestPrice, referencePrice, specValue, type PriceRecord } from "../src/lib/domain";
 import { recommend, validateRecommendation } from "../src/lib/recommend";
 import { centsFromInput, validatePrice, validateProduct } from "../src/lib/validation";
 import { withBase, withoutBase, sourceHref } from "../src/lib/paths";
@@ -44,7 +45,7 @@ test("screenshot import preserves both columns, variants and unmapped product na
   assert.equal(quote("r13-oct25").productId, "6-card");
   assert.equal(quote("r13-double11").productId, null);
   assert.equal(quote("r25-double11").productName, "CP26电能块");
-  assert.equal(quote("r25-double11").productId, null);
+  assert.equal(quote("r25-double11").productId, "cp26-cable");
   assert.equal(quote("r26-oct25").productId, "10-charger-se");
   assert(quote("r30-double11").conditions.includes("原表推荐：5/5星"));
   assert.equal(quote("r41-double11").productId, null);
@@ -61,7 +62,9 @@ test("screenshot import preserves both columns, variants and unmapped product na
   assert(quote("r41-oct25").conditions.includes("7.5折减80"));
   assert.equal(lowestPrice(imported,"10-power")?.amountCents, 10400);
   assert.equal(currentPrice(imported,"10-power")?.amountCents, 10400);
-  assert.equal(getPrices().filter(p => p.id.startsWith("ref-")).length, 5);
+  assert.equal(getPrices().filter(p => p.id.startsWith("ref-")).length, 6);
+  assert.equal(referencePrice(getPrices(),"energy600")?.amountCents,129900);
+  assert.equal(currentPrice(getPrices(),"energy600"),undefined);
 });
 test("unmapped quotes require a name and screenshot sources stay inside the price image directory", () => {
   const value = {...price(), productId:null, productName:"CP26电能块", sourceUrl:"images/prices/1025-discount-guide.webp"};
@@ -129,6 +132,35 @@ test("laptop recommendations use confirmed single-port PD power", () => {
   const real=products.find(p=>p.id==="15-ultra")!;
   const result=recommend([fake,unknown,real],[],input);
   assert.deepEqual(result.results.map(r=>r.product.id),["15-ultra"]);
+});
+test("recommendations reject incompatible phones and separate protocol support from device power", () => {
+  const input=validateRecommendation({category:"powerbank",device:"iphone",model:"",scenario:"commute",budgetCents:null,maxWeight:null,preferCable:false,multipleDevices:false});
+  const incompatible={...products[0],id:"no-pd",protocols:["QC"],pdOutputW:65};
+  const underpowered={...incompatible,id:"pd-15",protocols:["PD"],pdOutputW:15};
+  assert.equal(recommend([incompatible,underpowered],[],input).results.length,0);
+  const pps={...products[0],protocols:["PPS"],ports:"USB-C × 1"};
+  const samsung=recommend([pps],[],{...input,device:"samsung"}).results[0];
+  assert(samsung.notes.some(note=>note.includes("三星 45 W")));
+  assert(!samsung.match.includes("功率匹配"));
+  assert.equal(recommend([pps],[],{...input,device:"samsung",multipleDevices:true}).results.length,0);
+  const laptop100={...input,category:"charger" as const,device:"laptop100"};
+  assert.equal(recommend(products.filter(p=>["6-mini","6-screen"].includes(p.id)),[],laptop100).results.length,0);
+});
+test("guides and attributed research cover every category without converting reference prices into deals", () => {
+  for(const category of new Set(products.map(p=>p.category))) assert(guidesForCategory(category).length>0,category);
+  for(const guide of guides) for(const pick of guide.picks) assert(products.some(p=>p.id===pick.productId),pick.productId);
+  assert(getReadings().length>=43);
+  assert(getPublicReviews().length>=16);
+  assert.equal(getPurchaseUrl("10-charger-mini"),"https://item.jd.com/100280149890.html");
+  const cp26=products.find(p=>p.id==="cp26-cable")!;
+  assert.equal(cp26.model,"LPB150N");
+  assert.equal(cp26.pdOutputW,null);
+  assert.equal(referencePrice(getPrices(),cp26.id)?.amountCents,14900);
+  assert.equal(currentPrice(getPrices(),cp26.id),undefined);
+  const future=price({kind:"reference",recordedAt:"2099-01-01"});
+  assert.equal(referencePrice([future],products[0].id),undefined);
+  const member=price({kind:"reference",eligibility:"member"});
+  assert.equal(referencePrice([member],products[0].id),undefined);
 });
 test("budget excludes known over-budget offers and identifies unknown prices", () => {
   const input=validateRecommendation({category:"powerbank",device:"iphone",model:"iPhone 16",scenario:"commute",budgetCents:5000,maxWeight:null,preferCable:false,multipleDevices:false});
