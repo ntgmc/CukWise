@@ -132,6 +132,8 @@ test("recommendations are local and deals without expiry stay separate from refe
 });
 
 test("screenshot quotes preserve unmapped names, coupon terms and local sources", async ({ page }) => {
+  const errors: string[] = [];
+  page.on("pageerror", error => errors.push(error.message));
   await page.goto(route("deals/"));
   const cp26 = page.locator(".deal-card").filter({has:page.getByRole("heading", {name:"CP26电能块", exact:true})});
   await expect(cp26).toContainText("¥149");
@@ -158,9 +160,11 @@ test("screenshot quotes preserve unmapped names, coupon terms and local sources"
   await expect(page.locator(".price-record .badge").first()).toHaveText("好价");
   await expect(page.locator(".price-record").first()).toContainText("¥70");
   await expect(page.locator(".price-chart circle")).toHaveCount(1);
+  await expect(page.locator(".price-chart circle title")).toHaveText("2026.10.31 · ¥70 · 普通用户");
   await expect(page.locator(".price-record").last()).toContainText("2026年双十一参考价");
   await expect(page.locator(".price-record").last()).toContainText("¥71");
   await expect(page.locator(".price-record a").first()).toHaveAttribute("href", `${base}/images/prices/1025-discount-guide.webp`);
+  expect(errors).toEqual([]);
 });
 
 for (const width of [320, 375, 414, 768, 1440]) {
