@@ -3,9 +3,17 @@ import Layout from "../layouts/Layout.astro";
 import { PageHeading } from "../components/ui";
 import { CompareWorkbench } from "../components/compare-workbench";
 import { getProducts } from "../data/catalog";
+import { withBase } from "../lib/paths";
 ---
 <Layout title="参数对比">
   <PageHeading title="差别，放在一起看" description="自由选择产品和参数，隐藏相同项，也可以把这份对比分享出去。" />
+  <nav class="compare-presets" aria-label="常见型号对比">
+    <span>常见选择</span>
+    <a class="text-link" href={withBase("/compare?ids=10-power,10-mini")}>10号与 Mini ↗</a>
+    <a class="text-link" href={withBase("/compare?ids=10-plus,15-air")}>10号 Plus 与 15号 Air ↗</a>
+    <a class="text-link" href={withBase("/compare?ids=6-card-air,6-screen")}>6号卡片 Air 与屏显 Ultra ↗</a>
+    <a class="text-link" href={withBase("/compare?ids=cp24-cable,cp24-dual")}>CP24 单线与双线 ↗</a>
+  </nav>
   <CompareWorkbench products={getProducts()} client:load />
   <noscript><p class="inline-note">启用 JavaScript 后，可选择产品并自定义对比参数。</p></noscript>
 </Layout>

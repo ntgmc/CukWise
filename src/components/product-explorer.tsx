@@ -1,6 +1,7 @@
 import {useEffect,useMemo,useState} from "react";
 import {Search,SlidersHorizontal,X} from "lucide-react";
 import {categories,currentPrice,type Product,type PriceRecord} from "@/lib/domain";
+import {matchesProduct} from "@/lib/search";
 import {useSelection} from "./selection";
 import {ProductCard} from "./product-card";
 import {EmptyState} from "./ui";
@@ -26,7 +27,7 @@ export function ProductExplorer({products,prices}:{products:Product[];prices:Pri
     history.replaceState(null,"",url);
   },[ready,category,onlyFavorites,query,tag,editions,sort,power,budget,protocol]);
   const priceById=useMemo(()=>new Map(products.map(p=>[p.id,currentPrice(prices,p.id)?.amountCents])),[products,prices]);
-  const filtered=useMemo(()=>products.filter(p=>(category==="all"||p.category===category)&&(!onlyFavorites||favorites.includes(p.id))&&(!tag||p.tags.includes(tag))&&(editions||onlyFavorites||query.trim()||!p.baseProductId)&&(!power||(p.pdOutputW??0)>=Number(power))&&(!budget||(priceById.get(p.id)??Infinity)<=Number(budget))&&(!protocol||p.protocols.some(value=>value.startsWith(protocol)))&&`${p.name} ${p.model} ${p.specs["官网目录标识"]??""} ${p.tags.join(" ")} ${p.protocols.join(" ")}`.toLowerCase().includes(query.trim().toLowerCase())).sort((a,b)=>sort==="weight"?(a.weightG??Infinity)-(b.weightG??Infinity):sort==="power"?(b.maxOutputW??0)-(a.maxOutputW??0):sort==="price"?(priceById.get(a.id)??Infinity)-(priceById.get(b.id)??Infinity):0),[products,category,query,tag,editions,sort,favorites,onlyFavorites,power,budget,protocol,priceById]);
+  const filtered=useMemo(()=>products.filter(p=>(category==="all"||p.category===category)&&(!onlyFavorites||favorites.includes(p.id))&&(!tag||p.tags.includes(tag))&&(editions||onlyFavorites||query.trim()||!p.baseProductId)&&(!power||(p.pdOutputW??0)>=Number(power))&&(!budget||(priceById.get(p.id)??Infinity)<=Number(budget))&&(!protocol||p.protocols.some(value=>value.startsWith(protocol)))&&matchesProduct(p,query)).sort((a,b)=>sort==="weight"?(a.weightG??Infinity)-(b.weightG??Infinity):sort==="power"?(b.maxOutputW??0)-(a.maxOutputW??0):sort==="price"?(priceById.get(a.id)??Infinity)-(priceById.get(b.id)??Infinity):0),[products,category,query,tag,editions,sort,favorites,onlyFavorites,power,budget,protocol,priceById]);
   function reset(){setCategory("all");setOnlyFavorites(false);setQuery("");setTag("");setEditions(false);setSort("default");setPower("");setBudget("");setProtocol("");}
   const active=category!=="all"||onlyFavorites||query||tag||editions||power||budget||protocol||sort!=="default";
   return <><div className="catalog-toolbar"><label className="input-search"><Search size={18}/><input aria-label="搜索产品名称或型号" placeholder="搜索名称、型号、用途或协议" value={query} onChange={e=>setQuery(e.target.value)}/>{query&&<button className="icon-button" onClick={()=>setQuery("")} aria-label="清除搜索"><X size={16}/></button>}</label><label className="sort-field"><SlidersHorizontal size={16}/><select aria-label="产品排序" value={sort} onChange={e=>setSort(e.target.value)}><option value="default">默认排序</option><option value="weight">重量从轻到重</option><option value="power">标称输出从高到低</option><option value="price">当前好价从低到高</option></select></label></div>

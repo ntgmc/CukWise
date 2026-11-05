@@ -174,5 +174,49 @@
     "createdAt": "2026-08-28",
     "sourceUrl": "https://www.chongdiantou.com/archives/1787908162317.html",
     "sourceLabel": "查看完整评测与测试条件"
+  },
+  {
+    "id": "summary-pb060-ports",
+    "productId": "6-power",
+    "nickname": "充电头网评测室",
+    "device": "PB060 · POWER-Z KM003C · 小米13 Ultra / 双口同充",
+    "title": "两个 C 口都支持 PD，手机私有快充与同充功率有差别",
+    "content": "原文读取两口固定 PD 最高均为 15 V / 2.6 A（39 W）。同一台小米13 Ultra 接 C1 约 44.38 W、接 C2 约 25 W；双口同时输出的样例约各 5.7 W，不能把两口的单口峰值相加。原文还报告恒流负载下 12 V / 15 V 档触发温控降功率，39 W 档不代表全程恒定输出。",
+    "createdAt": "2024-07-15",
+    "sourceUrl": "https://post.smzdm.com/p/an97ddxp/",
+    "sourceLabel": "什么值得买 · 充电头网评测室原文"
+  },
+  {
+    "id": "summary-pb100p-pd",
+    "productId": "10-power",
+    "nickname": "充电头网 · 捣蛋猫",
+    "device": "PB100P · Type-C PDO / 1C1A 接口",
+    "title": "整机 150 W、C 口私有 120 W，笔记本按固定 PD 100 W 选",
+    "content": "拆解样品的 C 口 PDO 为 5 / 9 / 12 / 15 V 各 3 A，以及 20 V / 5 A，固定 PD 上限为 100 W；小米私有档另列。A 口最高 33 W，机身的 150 W 是整机标称输出，不能作为单台笔记本的输入功率。",
+    "createdAt": "2023-11-13",
+    "sourceUrl": "https://www.chongdiantou.com/archives/278994.html",
+    "sourceLabel": "充电头网原文"
+  },
+  {
+    "id": "summary-cc903p-input",
+    "productId": "car10",
+    "nickname": "充电头网 · 充电一姐",
+    "device": "CC903P · 模拟 14 V / 24 V 输入 · 伸缩 USB-C 线",
+    "title": "伸缩线固定 PD 65 W，另外两个插口另看档位",
+    "content": "原文在模拟 14 V 和 24 V 输入时，均读取到伸缩 C 线的 20 V / 3.25 A 固定档，以及独立的小米私有高功率档。独立 C 口和 A 口最高各 33 W。样品重量约 77 g；整机 100 W 总输出不等于独立 C 口能给笔记本 100 W。",
+    "createdAt": "2025-11-24",
+    "sourceUrl": "https://www.chongdiantou.com/archives/1763980855099.html",
+    "sourceLabel": "充电头网原文"
+  },
+  {
+    "id": "summary-ps600n-ac",
+    "productId": "energy600",
+    "nickname": "充电头网 · Jeremy",
+    "device": "PS600N · 600 W AC 恒定负载 / 原装 AC 线充电",
+    "title": "600 W 负载约 42 分钟；Wh、额定功率与实际续航分开看",
+    "content": "原文在 AC 600 W 恒定负载下约 42 分钟放尽电量；使用原装 AC 电源线自充，约 28 分钟到 50%、1 小时 7 分钟到 100%。在 25±2 ℃ 环境以 AC 600 W 输出 30 分钟后，出风口测得最高约 48.1 ℃。这些结果对应原文样品与条件，不能直接当成其他电器或环境下的续航。",
+    "createdAt": "2026-08-02",
+    "sourceUrl": "https://www.chongdiantou.com/archives/1785494605155.html",
+    "sourceLabel": "充电头网原文"
   }
 ]

@@ -10,6 +10,7 @@
     "preview": "astro preview --host 127.0.0.1",
     "typecheck": "astro check",
     "data:check": "tsx scripts/check-data.ts",
+    "data:audit": "tsx scripts/audit-data.ts",
     "sources:check": "tsx scripts/check-sources.ts",
     "test": "tsx --test tests/*.test.ts",
     "test:e2e": "playwright test",

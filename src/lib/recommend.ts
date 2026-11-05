@@ -54,11 +54,12 @@ export function recommend(products:Product[],prices:PriceRecord[],input:Recommen
     }
     if(product.specs["低压输入输出上限"]) notes.push(`低压交流输入：${product.specs["低压输入输出上限"]}`);
     if(product.tags.includes("二合一")) notes.push("插电、移动电源与 Turbo 模式的功率不同，按实际模式核对");
-    if(input.maxWeight && product.weightG===null) notes.push("重量待补充");
+    if(input.maxWeight && product.weightG===null) notes.push(`重量未公开，需确认是否在 ${input.maxWeight} g 上限内`);
     if(!price) notes.push(input.budgetCents?"购买前核对当前到手价是否在预算内":"当前到手价待补充");
     else {score+=2;reasons.push(`已记录普通用户到手价 ¥${(price.amountCents/100).toFixed(2)}`);}
     if(input.model) notes.push(`${input.model} 的具体握手功率需结合机型与线材确认`);
-    return [{product,price:price??null,score,reasons:reasons.length?reasons:[product.summary],notes,match:profile.protocol==="PD"?"协议与固定 PD 功率匹配":"支持协议 · 机型功率待核对"}];
-  }).sort((a,b)=>b.score-a.score || (a.product.weightG??Infinity)-(b.product.weightG??Infinity) || a.product.id.localeCompare(b.product.id));
+    const constraintsConfirmed=(!input.budgetCents||!!price)&&(!input.maxWeight||product.weightG!==null);
+    return [{product,price:price??null,score,reasons:reasons.length?reasons:[product.summary],notes,constraintsConfirmed,match:profile.protocol==="PD"?"协议与固定 PD 功率匹配":"支持协议 · 机型功率待核对"}];
+  }).sort((a,b)=>Number(b.constraintsConfirmed)-Number(a.constraintsConfirmed)||b.score-a.score || (a.product.weightG??Infinity)-(b.product.weightG??Infinity) || a.product.id.localeCompare(b.product.id));
   return {results:ranked.slice(0,3),profile:profile.name,considered:candidates.length};
 }

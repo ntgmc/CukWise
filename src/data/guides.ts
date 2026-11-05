@@ -137,7 +137,7 @@ export const guides: Guide[] = [
   {
     id: "modular-accessories", title: "风扇与小配件，先核对套装和供电",
     summary: "Power-Pin、USB-C 和夹式延长线解决不同使用场景，裸机与套装不能只按名字比较。",
-    categoryIds: ["fan", "accessory"], updatedAt: "2026-10-31",
+    categoryIds: ["fan", "accessory"], updatedAt: "2026-11-05",
     picks: [
       { productId: "fan-desk", reason: "固定桌面使用，核对 USB-C 和 Power-Pin 供电条件。" },
       { productId: "fan-plus-clip", reason: "需要夹在合适位置使用，先确认夹具尺寸、走线与独立电源。" },
@@ -145,11 +145,14 @@ export const guides: Guide[] = [
     ],
     sections: [
       { title: "先确认风扇主体与电源是否都包含", paragraphs: ["模块风扇 Plus 有夹式延长线套装和移动电源供电套装，配件不同，价格不能直接混为同一款。Power-Pin 接口也不能仅凭磁吸外观认定兼容。", "桌面模块风扇可在固定位置使用，户外风扇与风嘴配件偏向手持、吹扫等场景；根据实际用途选择，避免只比较最高转速。"] },
+      { title: "插口一样，也要核对电源档位", paragraphs: ["桌面模块风扇 BF03 的有线输入为 5 V / 2 A，包装含 A to C 电源线，Power-Pin 移动电源需要另购。官网的约 49 小时续航对应另接 10000 mAh 电源和最低档，不能理解为风扇自身带电池。", "BF02 夹式延长线套装建议搭配支持 9 V / 3 A 的移动电源或充电器。供电不足可能无法激活 BOOST 档；普通 USB 口能接上线，不代表能发挥最高档。"] },
       { title: "使用时间取决于档位和电源", paragraphs: ["续航要同时看风速档位、外接电源容量和转换损耗。未公开的固定档续航，不从电池容量直接推算为使用承诺。", "夹具安装要稳固，风口保持通畅。随身灯和转接头同样需要核对输入、接口及使用说明。"] },
       { title: "电池和转接头单独核对", paragraphs: ["AA、AAA 和 CR2032 是不同电池规格；按设备要求选择电压、尺寸和电池类型，不能因为同一品牌就互换。碱性或纽扣原电池不要放入充电器充电。", "Lightning 转接头用于特定接口转换，不能据此假设支持任意数据、视频或高功率功能；以其单独规格为准。"] },
     ],
     checklist: ["包装是否含电源、夹具和延长线", "接口是否为对应 Power-Pin 或 USB-C", "安装空间、风向与走线", "电池规格、极性和是否可充电"],
     sources: [
+      { label: "酷态科：BF03 桌面风扇完整参数", url: "https://www.cuktech.com.cn/products/bf03.html" },
+      { label: "酷态科：BF02 夹式延长线套装与 BOOST 条件", url: "https://www.cuktech.com.cn/products/bf02-2-1.html" },
       { label: "酷态科：BF02 供电套装", url: "https://www.cuktech.com.cn/products/bf02.html" },
       { label: "充电头网：模块风扇 Plus 套装介绍", url: "https://www.chongdiantou.com/archives/1779098200973.html" },
       { label: "充电头网：桌面模块风扇", url: "https://www.chongdiantou.com/archives/1782298450505.html" },
@@ -158,19 +161,21 @@ export const guides: Guide[] = [
   {
     id: "portable-station", title: "户外电源，分清 Wh、W 和升维模式",
     summary: "512 Wh 是储电量，600 W 是额定 AC 输出，升维 1000 W 还要核对负载类型。",
-    categoryIds: ["station"], updatedAt: "2026-10-31",
+    categoryIds: ["station"], updatedAt: "2026-11-05",
     picks: [
       { productId: "energy600", reason: "需要给 AC 电器或多台设备供电，接受约 6.5 kg 机身与 512 Wh 电池。" },
       { productId: "30-power", reason: "主要为 USB-C 设备补能时可比较的替代方向；没有 AC 插座，功能不等同。" },
     ],
     sections: [
       { title: "先列负载，再看电池能量", paragraphs: ["查电器持续功率、启动功率与供电形式，再核对电源支持的输出范围。Wh 是电池能量，W 是功率，二者不能互相替代。", "理论运行时间可用电池能量除以负载功率作粗略起点，但逆变器损耗、待机功耗、环境与保护策略会缩短实际时间，不宜直接作续航保证。"] },
+      { title: "用具体负载的实测作参照", paragraphs: ["充电头网的 PS600N 样品在 AC 600 W 恒定负载下约运行 42 分钟；使用原装 AC 电源线，约 28 分钟到 50%、1 小时 7 分钟充满。512 Wh 除以 600 W 的理论值不能代替这些实测。", "这组结果只对应原文的样品、充放电方式和环境。小功率设备的待机损耗占比、不同电器的实际功耗和环境温度都会改变续航，选购时尽量查找接近自己用途的负载测试。"] },
       { title: "额定输出和升维不是同一种能力", paragraphs: ["电能仓 600 的额定 AC 输出为 600 W，1000 W 升维需遵守产品对负载的限制。不能将升维参数视为对任意 1000 W 设备的持续额定供电。", "USB-C PD 140 W、AC 和车载接口有各自限制；多路同时使用还需查看整机总输出及保护条件。"] },
       { title: "补电方式与实际搬运", paragraphs: ["确认计划使用的交流、USB-C 或其他输入方式，分别核对最大输入与所需配件。APP 功能不应代替对物理接口、屏幕状态和使用说明的检查。", "约 6.5 kg 机身更适合有车辆或固定营地的场景。仅为手机或笔记本补电时，先比较更轻的移动电源是否已经满足需要。"] },
     ],
     checklist: ["电器持续与启动功率", "额定 AC 输出及升维适用负载", "补电接口、时间与所需配件", "搬运重量、通风及放置环境"],
     sources: [
       { label: "酷态科：PS600N 官方规格", url: "https://www.cuktech.com.cn/products/ps600n.html" },
+      { label: "充电头网：电能仓 600 充放电与温度实测", url: "https://www.chongdiantou.com/archives/1785494605155.html" },
       { label: "充电头网：电能仓 600 开箱视频入口", url: "https://www.chongdiantou.com/archives/1785919089120.html" },
     ],
   },

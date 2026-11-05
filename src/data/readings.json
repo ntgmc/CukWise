@@ -531,5 +531,225 @@
     "date": "2026-07-01",
     "url": "https://www.chongdiantou.com/archives/1782876281743.html",
     "kind": "news"
+  },
+  {
+    "id": "cdt-278994",
+    "productIds": ["10-power"],
+    "title": "拆解报告：CUKTECH酷态科10号超级电能棒PB100P",
+    "description": "PB100P 的端口协议、固定 PD 档与内部电池结构。C 口私有 120 W 与固定 PD 100 W 分开核对。",
+    "author": "充电头网 · 捣蛋猫",
+    "date": "2023-11-13",
+    "url": "https://www.chongdiantou.com/archives/278994.html",
+    "kind": "teardown"
+  },
+  {
+    "id": "cdt-1763980855099",
+    "productIds": ["car10"],
+    "title": "拆解报告：CUKTECH酷态科100W 2C1A拉拉线数显车充CC903P",
+    "description": "CC903P 约 77 g 样品重量，以及 14 V / 24 V 输入下伸缩 C 线的 PD 65 W 档和其他接口的差别。",
+    "author": "充电头网 · 充电一姐",
+    "date": "2025-11-24",
+    "url": "https://www.chongdiantou.com/archives/1763980855099.html",
+    "kind": "teardown"
+  },
+  {
+    "id": "cdt-1785226828156",
+    "productIds": ["energy600"],
+    "title": "拆解报告：CUKTECH酷态科电能仓600户外电源PS600N",
+    "description": "PS600N 的电池组、逆变与 USB 输出结构拆解；AC、DC 和 USB 的功率分别核对。",
+    "author": "充电头网 · yanhui",
+    "date": "2026-07-28",
+    "url": "https://www.chongdiantou.com/archives/1785226828156.html",
+    "kind": "teardown"
+  },
+  {
+    "id": "cdt-1769047694947",
+    "productIds": ["10-charger-ultra"],
+    "title": "酷态科10号充电器 Ultra 迎来OTA升级，新增多项智慧功能",
+    "description": "2026 年 1 月固件更新报道。功能取决于具体固件版本，购买后可通过米家查看更新。",
+    "author": "充电头网 · 小张在旅途中",
+    "date": "2026-01-22",
+    "url": "https://www.chongdiantou.com/archives/1769047694947.html",
+    "kind": "news"
+  },
+  {
+    "id": "cdt-1773129950463",
+    "productIds": ["6-screen"],
+    "title": "拆解报告：CUKTECH酷态科6号屏显充Ultra",
+    "description": "屏显充的 PDO、分压供电和屏幕结构拆解，配合性能评测核对各接口档位。",
+    "author": "充电头网 · 捣蛋猫",
+    "date": "2026-03-10",
+    "url": "https://www.chongdiantou.com/archives/1773129950463.html",
+    "kind": "teardown"
+  },
+  {
+    "id": "cdt-1765351438235",
+    "productIds": ["25-se"],
+    "title": "拆解报告：酷态科25号超级电能块SE",
+    "description": "LPB252N 自带线、C 口、A 口与五节电池的拆解资料。自带线和插口分别记录。",
+    "author": "充电头网 · 落尘",
+    "date": "2025-12-10",
+    "url": "https://www.chongdiantou.com/archives/1765351438235.html",
+    "kind": "teardown"
+  },
+  {
+    "id": "cdt-1763347400105",
+    "productIds": ["cp24-dual"],
+    "title": "拆解报告：酷态科CP24电能块（自带双线）移动电源",
+    "description": "USB-C 与 Lightning 双线版本的协议和电芯拆解，不能套用到单线 CP24。",
+    "author": "充电头网 · 落尘",
+    "date": "2025-11-17",
+    "url": "https://www.chongdiantou.com/archives/1763347400105.html",
+    "kind": "teardown"
+  },
+  {
+    "id": "cdt-1785494605155",
+    "productIds": ["energy600"],
+    "title": "酷态科首款入局储能开山之作！电能仓600“轻户外”体验",
+    "description": "含 C1 / C2 协议、AC 充放电全程与 25±2 ℃ 下的温度测试，保留样品批次和负载条件。",
+    "author": "充电头网 · Jeremy",
+    "date": "2026-08-02",
+    "url": "https://www.chongdiantou.com/archives/1785494605155.html",
+    "kind": "review"
+  },
+  {
+    "id": "cdt-1774929215329",
+    "productIds": ["cable-dual", "cable-plus"],
+    "title": "小米澎湃秒充新搭档，多款一拖二协议转换快充线盘点",
+    "description": "100 W 一分二与 140 W Plus 的长度、协议转换和数据功能差别；接入电源仍需满足对应输入档位。",
+    "author": "充电头网 · wuzhenfeng",
+    "date": "2026-03-27",
+    "url": "https://www.chongdiantou.com/archives/1774929215329.html",
+    "kind": "guide"
+  },
+  {
+    "id": "cdt-1762223396788",
+    "productIds": ["15-station"],
+    "title": "拆解报告：CUKTECH酷态科15号超级电能站TA1406U",
+    "description": "TA1406U 自带线、多口输出、无线位与内部供电结构，按具体端口核对。",
+    "author": "充电头网 · 充电一姐",
+    "date": "2025-11-04",
+    "url": "https://www.chongdiantou.com/archives/1762223396788.html",
+    "kind": "teardown"
+  },
+  {
+    "id": "smzdm-an97ddxp",
+    "productIds": ["6-power"],
+    "title": "高性能小钢炮，酷态科6号超级电能块评测",
+    "description": "PB060 两个 C 口的手机兼容性、固定 PD 39 W 档、多口分配和 25 ℃ 自充测试。",
+    "author": "充电头网评测室 · 什么值得买",
+    "date": "2024-07-15",
+    "url": "https://post.smzdm.com/p/an97ddxp/",
+    "kind": "review"
+  },
+  {
+    "id": "cdt-1770341683679",
+    "productIds": ["cp16", "cp12-stand", "cp12-cable", "cp13-pocket", "cp13-cable", "10-power", "10-mini", "10-fusion", "10-magnetic", "10-plus", "15-air", "15-power", "15-se", "15-ultra", "cp24-cable", "cp24-dual", "cp25-cable", "20-power", "25-se", "30-power"],
+    "title": "一图看完酷态科21款充电宝的差别",
+    "description": "2026 年 2 月按型号汇总容量、Wh、尺寸、重量和协议。只关联表中能明确对应的产品；参数有差异时以产品页注明的具体来源为准。",
+    "author": "充电头网 · 小张在旅途中",
+    "date": "2026-02-06",
+    "url": "https://www.chongdiantou.com/archives/1770341683679.html",
+    "kind": "guide"
+  },
+  {
+    "id": "cdt-1770368383512",
+    "productIds": ["30-desktop", "15-station", "15-charger", "10-fusion", "10-charger-ultra", "10-charger-se", "10-charger-mini", "6-mini", "cp16", "cp6-retract", "charger-65", "6-card", "cp3", "charger-30-ac", "charger-30-a18"],
+    "title": "一图看完酷态科16款充电器的差别",
+    "description": "2026 年 2 月按型号列出输入电压、接口、尺寸和重量，是 AC301、AC30S、A18C、BA651 重量的补充来源。表中单口宣传功率不等于固定 PD 档。",
+    "author": "充电头网 · 小张在旅途中",
+    "date": "2026-02-09",
+    "url": "https://www.chongdiantou.com/archives/1770368383512.html",
+    "kind": "guide"
+  },
+  {
+    "id": "bili-BV1Fw4m1C7Zt",
+    "productIds": ["15-ultra"],
+    "title": "再一次越级！酷态科15号Ultra充电宝首发详细评测",
+    "description": "15 号 Ultra 的视频评测入口。标题中的宣传语保留原文；具体测试请前往作者视频查看。",
+    "author": "B站 · 阿甘体验",
+    "date": "2024-08-20",
+    "url": "https://www.bilibili.com/video/BV1Fw4m1C7Zt/",
+    "kind": "video"
+  },
+  {
+    "id": "bili-BV1qm421T75Y",
+    "productIds": ["6-power"],
+    "title": "129元迷你小钢炮！首发评测酷态科6号充电宝",
+    "description": "6 号电能块的视频评测入口，标题金额为视频发布时口径。",
+    "author": "B站 · 阿甘体验",
+    "date": "2024-05-13",
+    "url": "https://www.bilibili.com/video/BV1qm421T75Y/",
+    "kind": "video"
+  },
+  {
+    "id": "bili-BV1rC4y1d7pX",
+    "productIds": ["10-power"],
+    "title": "100W性能小钢炮！酷态科10号充电宝首发详细评测",
+    "description": "10 号电能棒的视频评测入口，可结合站内 PB100P 参数和拆解资料查看。",
+    "author": "B站 · 阿甘体验",
+    "date": "2023-10-13",
+    "url": "https://www.bilibili.com/video/BV1rC4y1d7pX/",
+    "kind": "video"
+  },
+  {
+    "id": "bili-BV1iBE56EEd3",
+    "productIds": ["10-plus", "15-air"],
+    "title": "酷态科10plus和15air怎么选？8分钟对比视频",
+    "description": "10 号 Plus 与 15 号 Air 的视频对比入口，适合比较两款 15000 mAh 产品。",
+    "author": "B站 · 北昇充电站",
+    "date": "2026-06-09",
+    "url": "https://www.bilibili.com/video/BV1iBE56EEd3/",
+    "kind": "video"
+  },
+  {
+    "id": "bili-BV1yXju61EDX",
+    "productIds": ["6-screen", "10-charger-ultra"],
+    "title": "酷态科6号ultra，10号ultra：酷态科兄弟俩怎么选？",
+    "description": "6 号与 10 号 Ultra 屏显充电器的视频对比入口；功率与端口差别可在站内进一步比较。",
+    "author": "B站 · 测测君",
+    "date": "2026-06-16",
+    "url": "https://www.bilibili.com/video/BV1yXju61EDX/",
+    "kind": "video"
+  },
+  {
+    "id": "bili-BV1KiUrBSES9",
+    "productIds": ["25-se"],
+    "title": "179元真香！首发评测酷态科25号SE 25000mAh",
+    "description": "25 号 SE 的视频评测入口，标题中的首发金额不作为当前到手价。",
+    "author": "B站 · 阿甘体验",
+    "date": "2025-11-25",
+    "url": "https://www.bilibili.com/video/BV1KiUrBSES9/",
+    "kind": "video"
+  },
+  {
+    "id": "bili-BV1k577zmEU3",
+    "productIds": ["30-desktop"],
+    "title": "300W性能怪兽！首发评测酷态科30号超级电能站Ultra",
+    "description": "30 号 Ultra 桌面充电站的视频评测入口，USB 与 DC 供电条件请结合规格表核对。",
+    "author": "B站 · 阿甘体验",
+    "date": "2025-05-30",
+    "url": "https://www.bilibili.com/video/BV1k577zmEU3/",
+    "kind": "video"
+  },
+  {
+    "id": "bili-BV1ZSo2Y5EEs",
+    "productIds": ["10-mini"],
+    "title": "评测拆解酷态科10号Mini，159元是不是你的菜？",
+    "description": "10 号 Mini 移动电源的视频评测与拆解入口，区别于同名 Mini 充电器。",
+    "author": "B站 · 阿甘体验",
+    "date": "2025-03-25",
+    "url": "https://www.bilibili.com/video/BV1ZSo2Y5EEs/",
+    "kind": "video"
+  },
+  {
+    "id": "bili-BV12V8CztES2",
+    "productIds": ["10-charger-mini"],
+    "title": "不止于小！评测拆解酷态科10号Mini充电器",
+    "description": "10 号 Mini 充电器的视频评测与拆解入口，区别于同名 Mini 移动电源。",
+    "author": "B站 · 阿甘体验",
+    "date": "2025-07-31",
+    "url": "https://www.bilibili.com/video/BV12V8CztES2/",
+    "kind": "video"
   }
 ]

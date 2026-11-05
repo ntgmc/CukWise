@@ -35,6 +35,7 @@ export function useSelection() {
   return { ...current,
     toggle(id: string) { if (validIds.has(id)) save({ ...state, ids: state.ids.includes(id) ? state.ids.filter(v => v !== id) : state.ids.length < 4 ? [...state.ids, id] : state.ids }); },
     favorite(id: string) { if (validIds.has(id)) save({ ...state, favorites: state.favorites.includes(id) ? state.favorites.filter(v => v !== id) : [...state.favorites, id] }); },
+    replace(ids: string[]) { save({ ...state, ids: [...new Set(ids)].filter(id => validIds.has(id)).slice(0, 4) }); },
     clear() { save({ ...state, ids: [] }); }
   };
 }
