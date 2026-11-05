@@ -151,7 +151,6 @@ kbd { padding: 1px 5px; border: 1px solid var(--color-rule); border-radius: 3px;
 .reading-card h3 { display: flex; justify-content: space-between; align-items: start; gap: var(--space-lg); margin-top: var(--space-md); }
 .reading-card p { color: var(--color-muted); margin-top: var(--space-sm); font-size: var(--text-xs); }
 .reading-card > .text-link { margin-top: var(--space-md); font-size: var(--text-xs); }
-.contribution-line { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: var(--space-sm); padding-top: var(--space-lg); margin-top: var(--space-lg); color: var(--color-muted); font-size: var(--text-xs); }
 .page-heading { display: flex; justify-content: space-between; align-items: end; flex-wrap: wrap; gap: var(--space-lg); padding-block: var(--space-2xl); }
 .page-heading h1 { font-size: clamp(1.75rem, 3vw, 2.5rem); }
 .page-heading p { margin-top: var(--space-sm); color: var(--color-muted); max-width: 700px; }

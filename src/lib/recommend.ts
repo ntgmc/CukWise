@@ -34,7 +34,7 @@ export function recommend(products:Product[],prices:PriceRecord[],input:Recommen
     if(!protocolMatch || !powerMatch) return [];
     const reasons:string[]=[]; const notes:string[]=[]; let score=0;
     score+=10;reasons.push(`支持${profile.protocol.startsWith("PD")?" USB-C PD":` ${profile.protocol}`}协议`);
-    if(profile.protocol!=="PD") notes.push(profile.protocol==="PPS"?"PPS 电压、电流范围需与具体机型匹配，不能保证三星 45 W 等最高档":"小米 / REDMI 的最高快充档还取决于机型、接口和配套 6A 线");
+    if(profile.protocol!=="PD") notes.push(profile.protocol==="PPS"?"三星 45 W 等快充档需匹配机型的 PPS 电压和电流范围":"小米 / REDMI 高功率快充需搭配对应机型、接口和 6A 线");
     if(powerMatch && profile.power>=65) {score+=8;reasons.push(`单口 PD 输出满足 ${profile.power} W 需求`);}
     if(input.scenario==="commute" || input.scenario==="emergency") {
       if(product.capacityMah!==null && product.capacityMah<=15000) {score+=5;reasons.push("容量适合日常随身补能");}
@@ -50,14 +50,14 @@ export function recommend(products:Product[],prices:PriceRecord[],input:Recommen
     if(input.multipleDevices) {
       const portCount=[...product.ports.matchAll(/×\s*(\d+)/g)].reduce((total,match)=>total+Number(match[1]),0);
       if(portCount<2) return [];
-      score+=3;notes.push("多设备同时充电的接口与功率分配需逐项确认，单口功率不代表同充功率");
+      score+=3;notes.push("多设备同充按所用接口组合分配功率，详见规格表");
     }
     if(product.specs["低压输入输出上限"]) notes.push(`低压交流输入：${product.specs["低压输入输出上限"]}`);
-    if(product.tags.includes("二合一")) notes.push("插电、移动电源与 Turbo 模式的功率不同，按实际模式核对");
-    if(input.maxWeight && product.weightG===null) notes.push(`重量未公开，需确认是否在 ${input.maxWeight} g 上限内`);
-    if(!price) notes.push(input.budgetCents?"购买前核对当前到手价是否在预算内":"当前到手价待补充");
-    else {score+=2;reasons.push(`已记录普通用户到手价 ¥${(price.amountCents/100).toFixed(2)}`);}
-    if(input.model) notes.push(`${input.model} 的具体握手功率需结合机型与线材确认`);
+    if(product.tags.includes("二合一")) notes.push("插电、移动电源与 Turbo 模式各有输出档位");
+    if(input.maxWeight && product.weightG===null) notes.push(`重量未公开，${input.maxWeight} g 上限待确认`);
+    if(!price) notes.push(input.budgetCents?"暂无到手价，预算待确认":"暂无到手价");
+    else {score+=2;reasons.push(`普通用户到手价 ¥${(price.amountCents/100).toFixed(2)}`);}
+    if(input.model) notes.push(`${input.model} 的实际充电功率以对应机型与线材实测为准`);
     const constraintsConfirmed=(!input.budgetCents||!!price)&&(!input.maxWeight||product.weightG!==null);
     return [{product,price:price??null,score,reasons:reasons.length?reasons:[product.summary],notes,constraintsConfirmed,match:profile.protocol==="PD"?"协议与固定 PD 功率匹配":"支持协议 · 机型功率待核对"}];
   }).sort((a,b)=>Number(b.constraintsConfirmed)-Number(a.constraintsConfirmed)||b.score-a.score || (a.product.weightG??Infinity)-(b.product.weightG??Infinity) || a.product.id.localeCompare(b.product.id));
